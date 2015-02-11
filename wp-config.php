@@ -33,7 +33,12 @@ define('DB_CHARSET', 'utf8');
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
+/* copy direct */
 define('FS_METHOD', 'direct');
+
+/* Viet hoa woocommerce */
+define('WPLANG', 'vi_VN');
+define('WP_LANG_DIR', $_SERVER['DOCUMENT_ROOT'].'wp-content/woocommerce/languages');
 
 /**#@+
  * Authentication Unique Keys and Salts.
