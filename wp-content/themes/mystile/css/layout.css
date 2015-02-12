@@ -185,40 +185,24 @@ INDEX
   }
   #header #navigation ul.nav {
     float: right;
+	background-color:#eee;
     /* LEVEL 2 */
     /* LEVEL 3 */
   }
   #header #navigation ul.nav > li a {
-    border: 1px solid #fcfcfc;
-    background: #fcfcfc;
-    font-weight: bold;
     position: relative;
-    -webkit-border-radius: 0.236em;
-    border-radius: 0.236em;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
   }
   #header #navigation ul.nav > li a:hover {
-    border-color: #e8e4e3;
-    background: #fff;
+    background: #D60059;
+	color:#fff;
   }
   #header #navigation ul.nav > li:hover a {
-    border-color: #e8e4e3;
-    background: #fff;
   }
   #header #navigation ul.nav > li.current-menu-item > a,
   #header #navigation ul.nav > li.current_page_item > a {
     color: #ff4800;
   }
   #header #navigation ul.nav > li.parent a {
-    -webkit-border-bottom-left-radius: 0;
-    -webkit-border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
   }
   #header #navigation ul.nav > li.parent a:after {
     font-family: 'WebSymbolsRegular';
@@ -252,7 +236,7 @@ INDEX
     z-index: 99999;
   }
   #header #navigation ul.nav > li.parent:hover a:after {
-    color: #ff4800;
+    color: #fff;
   }
   #header #navigation ul.nav > li.parent ul li a:after {
     visibility: hidden;
@@ -297,7 +281,7 @@ INDEX
   }
   .homepage-banner {
     position: relative;
-    max-width: 95.949em;
+    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3.631em;
@@ -362,8 +346,6 @@ INDEX
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQIW2NkYGAwBuKzQAwGjDAGNgGwSgwVAFCGAgUGpiTrAAAAAElFTkSuQmCC);
   }
   .home #content.with-banner {
-    border-top: 4px double #e8e4e3;
-    padding-top: 3.631em;
   }
   .archive-header h1 {
     float: left;
