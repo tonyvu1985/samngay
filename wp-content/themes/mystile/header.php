@@ -54,8 +54,18 @@ global $woo_options, $woocommerce;
 			?>
 		</nav>
 	</div><!-- /#top -->
-
-
+	<div class="usp1">
+		Mien phi Giao hang chi tren 400000 d
+	</div>
+	<div class="usp2">
+		7 Ngay mien phi doi tra san pham	
+	</div>
+	<div class="usp1">
+		Thanh toan khi nhan tien	
+	</div>
+	<div class="usp1">
+		Hoan tra lai 100% neu khong hai long	
+	</div>
 
     <?php woo_header_before(); ?>
 
