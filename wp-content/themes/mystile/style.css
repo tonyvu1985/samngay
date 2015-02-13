@@ -1,3 +1,8 @@
+/* TonyVu - custom CSS */
+.usp{padding-top:80px;}
+.usp i{float:left; color:#}
+.usp .text{float:left; margin:0 20px}
+.usp .col-left{margin-right:40px;}
 /*
 Theme Name: Mystile
 Theme URI: http://www.woothemes.com/
@@ -588,6 +593,13 @@ ul.nav li a {
   float: left;
   margin-bottom: 1.618em;
 }
+#header .site-title{
+  font-size:50px;
+}
+#header .site-title a{
+  font-weight:bold;
+  color:#D60059;
+}
 #header .site-title,
 #header .site-description {
   display: none;
@@ -596,7 +608,6 @@ ul.nav li a {
 #header .site-title a,
 #header .site-description a {
   text-transform: none;
-  font-weight: normal;
   text-decoration: none;
 }
 #header hgroup {
@@ -689,7 +700,7 @@ ul.nav li a {
 }
 #footer-widgets {
   border-top: 1px solid #e8e4e3;
-  padding: 3.631em 0;
+  padding: 3.631em 0 0 0;
 }
 /* 2.7 Breadcrumbs */
 #breadcrumbs {
