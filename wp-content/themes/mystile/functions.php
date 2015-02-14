@@ -1,4 +1,18 @@
 <?php
+
+add_action( 'wp_enqueue_scripts', 'custom_frontend_scripts' );
+function custom_frontend_scripts() {
+
+global $post, $woocommerce;
+
+$suffix = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
+wp_deregister_script( 'jquery-cookie' );
+wp_register_script( 'jquery-cookie', $woocommerce->plugin_url() . '/assets/js/jquery-cookie/jquery_cookie' . $suffix . '.js', array( 'jquery' ), '1.3.1', true );
+
+}
+
+
+
 // File Security Check
 if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename( $_SERVER['SCRIPT_FILENAME'] ) ) {
     die ( 'You do not have sufficient permissions to access this page!' );
