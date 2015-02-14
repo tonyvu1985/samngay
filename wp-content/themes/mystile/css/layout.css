@@ -200,7 +200,7 @@ INDEX
   }
   #header #navigation ul.nav > li.current-menu-item > a,
   #header #navigation ul.nav > li.current_page_item > a {
-    color: #ff4800;
+    color: #000;
   }
   #header #navigation ul.nav > li.parent a {
   }
