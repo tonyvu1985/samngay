@@ -1,8 +1,11 @@
 /* TonyVu - custom CSS */
-.usp{padding-top:80px;}
 .usp i{float:left; color:#}
 .usp .text{float:left; margin:0 20px}
-.usp .col-left{margin-right:40px;}
+.usp .col-left{margin-right:40px; padding-top:30px;}
+@media (max-width: 767px) {
+.usp .block2, .usp .block3, .usp .block4{clear:both; }
+
+}
 /*
 Theme Name: Mystile
 Theme URI: http://www.woothemes.com/
