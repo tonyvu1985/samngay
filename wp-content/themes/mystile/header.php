@@ -57,11 +57,11 @@ global $woo_options, $woocommerce;
 	<div class ="col-full col-4 usp">
 		<div class="block1 col-left">
 			<i class="icon-truck icon-3x"></i> 
-			<div class="text">Miễn phí giao hàng<br/>chỉ trên 400000 đ</div>
+			<div class="text">Miễn phí giao hàng<br/>trên toàn quốc</div>
 		</div>
 		<div class="block2 col-left">
 			<i class="icon-calendar icon-3x"></i>
-			<div class="text">7 Ngày miễn phí <br/>đổi trả sản phẩm</div>
+			<div class="text">30 Ngày miễn phí <br/>đổi trả sản phẩm</div>
 		</div>
 		<div class="block3 col-left">
 			<i class="icon-credit-card icon-3x"></i>
