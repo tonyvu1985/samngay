@@ -843,7 +843,7 @@ INDEX
     margin-bottom: 0 !important;
   }
   table.cart td.actions .button {
-    margin-left: .618em;
+  /*  margin-left: .618em;*/
     float: none !important;
   }
   .cart-collaterals:after {

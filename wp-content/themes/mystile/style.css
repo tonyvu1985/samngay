@@ -819,8 +819,6 @@ ul.nav li a {
 }
 .post img,
 .type-page img {
-  padding: .53em;
-  border: 1px solid #e8e4e3;
   background: #fff;
   max-width: 100%;
   height: auto !important;
@@ -2799,7 +2797,7 @@ input[type=email] {
   font-family: inherit;
   /* Make inputs use the correct typeface instead of the browser default */
   outline: none;
-  margin: 0 .327em;
+/*  margin: 0 .327em;*/
   background: #f7f7f7;
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
