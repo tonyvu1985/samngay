@@ -29,7 +29,10 @@ INDEX
 7. IE Fixes
 
 */
-/*----------------------*/
+/*-- Tonyvu CSS --------------------*/
+.footer-widget-3{display:none}
+#menu-item-243 a{background:#ddd; }
+#menu-item-243 a:hover{background:#ddd !important;}
 /*----------------------*/
 @media only screen and (min-width: 768px) {
   html.boxed {
@@ -96,7 +99,7 @@ INDEX
   }
   /* 2. TOP NAVIGATION (Add top navigation presentational styles here) */
   #top {
-    background: #f7f7f7;
+    background: #f5f5f5;
     margin: 0 -3.631em;
     padding: 0 3.631em;
   }
@@ -636,7 +639,7 @@ INDEX
     margin: 0;
   }
   .footer-wrap {
-    background: #f7f7f7;
+    background: #f5f5f5;
     margin: 0 -3.631em;
     padding: 0 3.631em;
   }
@@ -923,6 +926,7 @@ INDEX
   }
   #footer-widgets.col-4 .footer-widget-4 {
     margin-right: 0;
+    width: 44.1%;
   }
   /* 7. IE FIXES */
   .ie7 #top-nav {
