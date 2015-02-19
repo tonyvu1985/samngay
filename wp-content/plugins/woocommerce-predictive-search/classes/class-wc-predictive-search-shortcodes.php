@@ -297,11 +297,11 @@ class WC_Predictive_Search_Shortcodes
 				.ajax-wait img{margin-top:14px;}
 				.p_data,.r_data,.q_data{display:none;}
 				.rs_date{color:#777;font-size:small;}
-				.rs_result_row{width:100%;float:left;margin:0px 0 10px;padding :0px 0 10px; 6px;border-bottom:1px solid #c2c2c2;}
+				.rs_result_row{width:100%;float:left;margin:0px 0 20px;padding :0px 0 10px; 6px;}
 				.rs_result_row:hover{opacity:1;}
 				.rs_rs_avatar{width:64px;margin-right:10px;overflow: hidden;float:left; text-align:center;}
 				.rs_rs_avatar img{width:100%;height:auto; padding:0 !important; margin:0 !important; border: none !important;}
-				.rs_rs_name{margin-left:0px;}
+				.rs_rs_name{margin-left:0px;color:#D60059}
 				.rs_content{margin-left:74px;}
 				.rs_more_result{display:none;width:240px;text-align:center;position:fixed;bottom:50%;left:50%;margin-left:-125px;background-color: black;opacity: .75;color: white;padding: 10px;border-radius:10px;-webkit-border-radius: 10px;-moz-border-radius: 10px}
 				.rs_rs_price .oldprice{text-decoration:line-through; font-size:80%;}
