@@ -536,7 +536,7 @@ ul.nav li a {
   display: none;
 }
 #top .wc-nav li.search {
-  width: 48%;
+  width: 100%;
   float: right;
 }
 #top .wc-nav li.search input {

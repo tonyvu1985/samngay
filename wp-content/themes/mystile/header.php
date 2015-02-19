@@ -47,8 +47,11 @@ global $woo_options, $woocommerce;
 				if ( class_exists( 'woocommerce' ) ) {
 					echo '<ul class="nav wc-nav">';
 					woocommerce_cart_link();
-					echo '<li class="checkout"><a href="'.esc_url($woocommerce->cart->get_checkout_url()).'">'.__('Checkout','woothemes').'</a></li>';
-					echo get_search_form();
+					echo '<li cliass="checkout"><a href="'.esc_url($woocommerce->cart->get_checkout_url()).'">'.__('Checkout','woothemes').'</a></li>';
+//					echo get_search_form();
+					// register WooCommerce Predictive Search
+					if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header Search Sidebar') ) : 
+					endif; 
 					echo '</ul>';
 				}
 			?>
