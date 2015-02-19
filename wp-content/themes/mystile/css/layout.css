@@ -130,7 +130,7 @@ INDEX
     padding: .53em 1em;
   }
   #top .wc-nav {
-    width: auto;
+    width: 50%;
     float: right;
   }
   #top .wc-nav li.checkout {
@@ -145,11 +145,11 @@ INDEX
     font-weight: normal;
   }
   #top .wc-nav li.search {
-    width: auto;
+    width: 55%;
   }
   #top .wc-nav li.search form {
     margin-bottom: 0;
-    padding-top: 1.1em;
+    padding-top: 5px;
   }
   #top .wc-nav li.search label {
     display: none;
