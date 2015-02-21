@@ -1,4 +1,11 @@
 <?php
+/* Remove zip/code Field in Woocommerce */
+add_filter( 'woocommerce_checkout_fields' , 'alter_woocommerce_checkout_fields' );
+function alter_woocommerce_checkout_fields( $fields ) {
+	unset($fields['billing']['billing_postcode']);
+	unset($fields['shipping']['shipping_postcode']);
+     return $fields;
+}
 
 /* Register a search widget */
 function search_widgets_init() {
