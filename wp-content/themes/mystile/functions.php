@@ -22,6 +22,20 @@ function search_widgets_init() {
 add_action( 'widgets_init', 'search_widgets_init' );
 /* end search widget */
 
+/* Register a footer widget */
+function long_footer_widget_init(){
+        register_sidebar( array(
+                'name' => 'Long Footer Widget',
+                'id' => 'long_footer__sidebar',
+                'before_widget' => '<div class="long-footer-widget"><div class="col-full">',
+                'after_widget' => '</div></div>',
+                'before_title' => '<h2>',
+                'after_title' => '</h2>',
+        ) );
+}
+add_action( 'widgets_init', 'long_footer_widget_init' );
+/* end footer widget */
+
 add_action( 'wp_enqueue_scripts', 'custom_frontend_scripts' );
 function custom_frontend_scripts() {
 

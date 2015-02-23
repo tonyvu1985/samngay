@@ -13,9 +13,15 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
  * @package WooFramework
  * @subpackage Template
  */
+	// register WooCommerce Predictive Search
+	if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Long Footer Widget') ) :
+	endif;
+
 	global $woo_options;
+
 	
 	echo '<div class="footer-wrap">';
+
 
 	$total = 4;
 	if ( isset( $woo_options['woo_footer_sidebars'] ) && ( $woo_options['woo_footer_sidebars'] != '' ) ) {
