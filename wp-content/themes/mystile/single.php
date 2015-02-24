@@ -45,7 +45,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
         		while ( have_posts() ) { the_post(); $count++;
         ?>
 			<article <?php post_class(); ?>>
-				<aside class="meta">
+			<!--	<aside class="meta">
 					<a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>">
 						<?php echo get_avatar( get_the_author_meta('email'), '128' ); ?>
 					</a>
@@ -53,7 +53,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 					<span class="day"><?php the_time( 'd' ); ?></span>
 					<span class="year"><?php the_time( 'o' ); ?></span>
 				</aside>
-				
+			-->	
 				<section class="post-content">
 
 					<?php echo woo_embed( 'width=787' ); ?>
@@ -62,7 +62,6 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 	                <header>
 	                
 		                <h1><?php the_title(); ?></h1>
-		                
 	                	<?php woo_post_meta(); ?>
 	                	
 	                </header>
@@ -76,7 +75,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
                                 
             </article><!-- .post -->
 
-				<?php woo_subscribe_connect(); ?>
+				<?php // woo_subscribe_connect(); ?>
 
 	        <nav id="post-entries" class="fix">
 	            <div class="nav-prev fl"><?php previous_post_link( '%link', '<span class="meta-nav">&larr;</span> %title' ); ?></div>
