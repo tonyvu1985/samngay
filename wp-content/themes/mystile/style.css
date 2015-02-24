@@ -650,7 +650,7 @@ ul.nav li a {
 #header .site-description {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
-  color: #9f9693;
+  color: #ff8cbc;
 }
 #header #topad {
   float: right;
@@ -915,7 +915,7 @@ ul.nav li a {
   background: #fff;
 }
 .woo-pagination .page-numbers.current {
-  background: #ff4800;
+  background: #D60059;
   color: #fff;
   padding: .382em .857em;
 }
