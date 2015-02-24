@@ -948,7 +948,8 @@ ul.nav li a {
   clear: both;
 }
 #connect .newsletter-form .email {
-  width: 140px;
+  width: 100%;
+  margin-bottom:10px;
 }
 #connect .social a {
   opacity: 0.8;

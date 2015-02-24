@@ -30,8 +30,8 @@ INDEX
 
 */
 /*-- Tonyvu CSS --------------------*/
-#menu-item-243 a{background:#ddd; }
-#menu-item-243 a:hover{background:#ddd !important;}
+#menu-item-322 a{background:#ddd; }
+#menu-item-322 a:hover{background:#ddd !important;}
 /*----------------------*/
 @media only screen and (min-width: 768px) {
   html.boxed {
@@ -926,7 +926,7 @@ INDEX
   }
   #footer-widgets.col-4 .footer-widget-4 {
     margin-right: 0;
-    width: 44.1%;
+   /* width: 44.1%;*/
   }
   /* 7. IE FIXES */
   .ie7 #top-nav {
