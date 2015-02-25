@@ -367,8 +367,7 @@ h6 a {
   font-weight: normal;
 }
 h1 {
-  font-size: 1.5em;
-  line-height: 1.387em;
+  font: bold 1.3em/1em Arial, sans-serif;
   text-transform:uppercase;
 }
 h2 {
@@ -654,6 +653,8 @@ ul.nav li a {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
 /*  color: #ff8cbc;*/
+  margin-top:10px;
+  font-style:italic;
 }
 #header #topad {
   float: right;
