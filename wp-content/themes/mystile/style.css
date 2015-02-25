@@ -1,9 +1,12 @@
 /* TonyVu - custom CSS */
 .usp i{float:left; color:#}
 .usp .text{float:left; margin:0 20px}
-.usp .col-left{margin-right:40px; padding-top:30px;}
+.usp .col-left{margin-right:40px; padding-top:30px; float:left}
 @media (max-width: 767px) {
-.usp .block2, .usp .block3, .usp .block4{clear:both; }
+.usp .block3 {clear:both; }
+.usp .col-left{width:50%; margin-right:0}
+.usp .icon-truck, .usp .icon-calendar, .usp .icon-credit-card , .usp .icon-exchange{font-size:30px; }
+.usp .text{ margin:0 10px}
 
 }
 /*
@@ -650,7 +653,7 @@ ul.nav li a {
 #header .site-description {
   font-family: "Open Sans", sans-serif;
   font-size: 1em;
-  color: #ff8cbc;
+/*  color: #ff8cbc;*/
 }
 #header #topad {
   float: right;

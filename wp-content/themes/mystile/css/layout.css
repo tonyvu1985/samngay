@@ -98,7 +98,7 @@ INDEX
   }
   /* 2. TOP NAVIGATION (Add top navigation presentational styles here) */
   #top {
-    background: #f5f5f5;
+    background: #3E3E3E;
     margin: 0 -3.631em;
     padding: 0 3.631em;
   }
@@ -112,7 +112,8 @@ INDEX
   }
   #top ul.nav > li a {
     padding: 1.387em 1em;
-    color: #444;
+    color: #fff;
+    text-transform:uppercase;
   }
   #top ul.nav > li a:hover {
     background: #f7f7f7;
@@ -171,7 +172,7 @@ INDEX
   }
   #top .wc-nav li.cart a .contents {
     padding: .2em .618em;
-    background: #fff;
+  /*  background: #fff;*/
     -webkit-border-radius: 1em;
     border-radius: 1em;
     -moz-background-clip: padding;
