@@ -651,7 +651,11 @@ INDEX
   /* 7.2 Products */
   ul.products li.product {
     position: relative;
-    width: 22.05%;
+    width: 22%;
+	border: 1px solid #fff;
+  }
+  ul.products li.product:hover {
+	border-color: #ccc;
   }
   ul.products li.product:nth-child(2n) {
     margin-right: 3.8%;

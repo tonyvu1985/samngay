@@ -1948,7 +1948,7 @@ ul.products li.product {
   position: relative;
   float: left;
   width: 48%;
-  margin-right: 3.8%;
+  margin-right: 3.2%;
   margin-bottom: 1.618em;
   text-align: center;
 }
@@ -1959,9 +1959,11 @@ ul.products li.product a:hover h3 {
   color: #CC0066;
 }
 ul.products li.product .price {
-  display: block;
-  color: #333;
+  display: inline-block;
+  color: #444;
+  background:#ddd;
   margin-bottom: 1em;
+  padding: 0 5px;
 }
 ul.products li.product img {
   width: 70%;
