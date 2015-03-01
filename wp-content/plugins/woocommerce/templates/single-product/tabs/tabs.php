@@ -32,9 +32,23 @@ if ( ! empty( $tabs ) ) : ?>
 			<?php endforeach; ?>
 		</ul>
 		<?php foreach ( $tabs as $key => $tab ) : ?>
-
+			
 			<div class="panel entry-content" id="tab-<?php echo $key ?>">
-				<?php call_user_func( $tab['callback'], $key, $tab ) ?>
+				<?php 
+					call_user_func( $tab['callback'], $key, $tab ) ;
+
+					// get attribute noi-san-xuat
+					global $product;
+					$noi_san_xuat = $product->get_attribute('noi-san-xuat');
+					if (isset($noi_san_xuat)){
+						echo "<p class='noi_san_xuat'>*Nhà sản xuất: Nhập khẩu trực tiếp từ " . $noi_san_xuat . ".</p>";
+					}
+
+					/* nha phan phoi */
+					if ($key == "description") {
+						echo "*Nhà nhập khẩu và phân phối: Công ty cổ phần Đại Nam Phát, A16-2, tòa nhà Morning Star, 57 quốc lộ 13, Phường 26, quận Bình Thạnh, Tp.Hồ Chí Minh, điện thoại: (08)38544046 – (08)38544047 – (08) 6675 8708.";
+					}
+				?>
 			</div>
 
 		<?php endforeach; ?>
