@@ -1,12 +1,16 @@
 /* TonyVu - custom CSS */
-.usp i{float:left; color:#}
-.usp .text{float:left; margin:0 20px}
-.usp .col-left{margin-right:40px; padding-top:30px; float:left}
+.usp{float:right}
+.usp i{float:left; color:#999}
+.usp .text{float:left; margin:0 10px;}
+.usp .col-left{margin-right:15px; float:left; padding:10px 0}
+#header .search{float:left; width:35%}
 @media (max-width: 767px) {
+#header .search, .usp{width:100%}
 .usp .block3 {clear:both; }
 .usp .col-left{width:50%; margin-right:0}
 .usp .icon-truck, .usp .icon-calendar, .usp .icon-credit-card , .usp .icon-exchange{font-size:30px; }
 .usp .text{ margin:0 10px}
+/*.usp{display:none}*/
 
 }
 /*
@@ -493,8 +497,8 @@ ul.nav li a {
 /* Optional Styling */
 #navigation {
   border: 1px solid #ddd7d5;
-  -webkit-border-radius: 0.327em;
-  border-radius: 0.327em;
+/*  -webkit-border-radius: 0.327em;
+  border-radius: 0.327em;*/
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -588,8 +592,8 @@ ul.nav li a {
 }
 /* 2.3 Header */
 #header {
-  padding: 1.618em 0 0;
- /* margin-bottom: 3.631em;
+ /* padding: 1.618em 0 0;
+  margin-bottom: 3.631em;
   border-bottom: 4px double #e8e4e3;*/
   clear: both;
   position: relative;

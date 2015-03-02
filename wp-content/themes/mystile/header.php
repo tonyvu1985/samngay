@@ -49,38 +49,39 @@ global $woo_options, $woocommerce;
 					woocommerce_cart_link();
 					echo '<li cliass="checkout"><a href="'.esc_url($woocommerce->cart->get_checkout_url()).'">'.__('Checkout','woothemes').'</a></li>';
 //					echo get_search_form();
-					// register WooCommerce Predictive Search
-					if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header Search Sidebar') ) : 
-					endif; 
 					echo '</ul>';
 				}
 			?>
 		</nav>
 	</div><!-- /#top -->
-	<div class ="col-full col-4 usp">
-		<div class="block1 col-left">
-			<i class="icon-truck icon-3x"></i> 
-			<div class="text">Miễn phí giao hàng<br/>trên toàn quốc</div>
-		</div>
-		<div class="block2 col-left">
-			<i class="icon-calendar icon-3x"></i>
-			<div class="text">30 Ngày miễn phí <br/>đổi trả sản phẩm</div>
-		</div>
-		<div class="block3 col-left">
-			<i class="icon-credit-card icon-3x"></i>
-			<div class="text">Thanh toán<br/>lúc nhận hàng</div>	
-		</div>
-		<div class="block4 col-left">
-			<i class="icon-exchange icon-3x"></i>
-			<div class="text">Hoàn trả lại 100%<br/>nếu không hài lòng</div>	
-		</div>
-	</div>
     <?php woo_header_before(); ?>
 
 	<header id="header" class="col-full">
+		<?
+		// register WooCommerce Predictive Search
+		if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header Search Sidebar') ) : 
+		endif; 
+		?>
 
-
-
+	       <div class ="usp">
+			<div class="block1 col-left">
+				<i class="icon-truck icon-3x"></i>
+				<div class="text">Miễn phí<br/>giao hàng</div>
+			</div>
+			<div class="block2 col-left">
+				<i class="icon-calendar icon-3x"></i>
+				<div class="text">30 Ngày đổi trả<br/>sản phẩm</div>
+			</div>
+			<div class="block3 col-left">
+				<i class="icon-credit-card icon-3x"></i>
+				<div class="text">Thanh toán<br/>lúc nhận hàng</div>    
+			</div>
+			<div class="block4 col-left">
+				<i class="icon-exchange icon-3x"></i>
+				<div class="text">Hoàn trả lại 100%<br/>nếu không hài lòng</div>        
+			</div>
+		</div>
+		<div style="clear:both"></div>
 	    <hgroup>
 
 	    	 <?php
@@ -99,6 +100,7 @@ global $woo_options, $woocommerce;
 			<h3 class="nav-toggle"><a href="#navigation"><mark class="websymbols">&#178;</mark> <span><?php _e('Navigation', 'woothemes'); ?></span></a></h3>
 
 		</hgroup>
+
 
         <?php woo_nav_before(); ?>
 

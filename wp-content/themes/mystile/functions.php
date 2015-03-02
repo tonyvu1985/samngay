@@ -13,8 +13,8 @@ function search_widgets_init() {
 	register_sidebar( array(
 		'name' => 'Header Search Sidebar',
 		'id' => 'header_search__sidebar',
-		'before_widget' => '<li class="search">',
-		'after_widget' => '</li>',
+		'before_widget' => '<div class="search">',
+		'after_widget' => '</div>',
 		'before_title' => '<h2 class="rounded">',
 		'after_title' => '</h2>',
 	) );

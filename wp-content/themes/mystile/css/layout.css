@@ -30,8 +30,8 @@ INDEX
 
 */
 /*-- Tonyvu CSS --------------------*/
-#menu-item-322 a{background:#ff8cbc; }
-#menu-item-322 a:hover{background:#D60059 !important; color:#fff !important;}
+#menu-item-362 a{background:#ff8cbc; }
+#menu-item-362 a:hover{background:#D60059 !important; color:#fff !important;}
 .noi_san_xuat{font-weight:bold}
 
 /*----------------------*/
@@ -113,7 +113,7 @@ INDEX
     /* LEVEL 3 */
   }
   #top ul.nav > li a {
-    padding: 1.387em 1em;
+    padding: 19px 1em;
     color: #fff;
     text-transform:uppercase;
   }
@@ -132,7 +132,7 @@ INDEX
     padding: .53em 1em;
   }
   #top .wc-nav {
-    width: 60%;
+  /*  width: 60%;*/
     float: right;
   }
   #top .wc-nav li.checkout {
@@ -189,7 +189,7 @@ INDEX
     margin-top: .382em;
   }
   #header #navigation ul.nav {
-    float: right;
+  /*  float: right;*/
 	background-color:#eee;
     /* LEVEL 2 */
     /* LEVEL 3 */
@@ -572,14 +572,15 @@ INDEX
   }
   #header hgroup {
     float: left;
+    margin-top:10px;
   }
   #header #navigation {
-    float: right;
+   /* float: right;
     clear: none;
     border: 0;
     background: 0;
     -webkit-box-shadow: none;
-    box-shadow: none;
+    box-shadow: none;*/
     width: auto;
   }
   #main.fullwidth,
