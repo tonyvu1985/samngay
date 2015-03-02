@@ -35,8 +35,8 @@ global $woo_options, $woocommerce;
 <?php woo_top(); ?>
 
 <div id="wrapper">
-
-
+	<!-- call scroll up template -->
+	<?php include_once('scroll-up.php'); ?>
 
 	<div id="top">
 		<nav class="col-full" role="navigation">

@@ -4,6 +4,8 @@
 .usp .text{float:left; margin:0 10px;}
 .usp .col-left{margin-right:15px; float:left; padding:10px 0}
 #header .search{float:left; width:35%}
+#scroll-div {display: none; position: fixed; bottom: 20px; right: 5%; z-index: 100;}
+#scroll-div a:hover {color: #000; cursor: pointer;}
 @media (max-width: 767px) {
 #header .search, .usp{width:100%}
 .usp .block3 {clear:both; }
