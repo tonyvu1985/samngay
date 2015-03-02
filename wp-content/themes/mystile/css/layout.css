@@ -29,10 +29,11 @@ INDEX
 7. IE Fixes
 
 */
-/*-- Tonyvu CSS --------------------*/
+/*-- Tonyvu CSS --------------------
 #menu-item-362 a{background:#ff8cbc; }
-#menu-item-362 a:hover{background:#D60059 !important; color:#fff !important;}
+#menu-item-362 a:hover{background:#D60059 !important; color:#fff !important;}*/
 .noi_san_xuat{font-weight:bold}
+.long-footer-widget h2{color:#4a413e}
 
 /*----------------------*/
 @media only screen and (min-width: 768px) {
@@ -118,12 +119,12 @@ INDEX
     text-transform:uppercase;
   }
   #top ul.nav > li a:hover {
-    background: #f7f7f7;
+    background: #D60059;
     text-decoration: none;
-    color: #6c6360;
+    color: #fff;
   }
   #top ul.nav > li:hover {
-    background: #f7f7f7;
+    background: #D60059;
   }
   #top ul.nav ul {
     background: #f7f7f7;
@@ -658,7 +659,7 @@ INDEX
 	border: 1px solid #fff;
   }
   ul.products li.product:hover {
-	border-color: #ccc;
+	border-color: #D60059;
   }
   ul.products li.product:nth-child(2n) {
     margin-right: 3.8%;
