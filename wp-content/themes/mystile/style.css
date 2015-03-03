@@ -5,8 +5,8 @@
 .usp .col-left{margin-right:15px; float:left; padding:10px 0}
 #header .search{float:left; width:35%}
 #scroll-div {display: none; position: fixed; bottom: 20px; right: 5%; z-index: 100;}
-#scroll-div .icon-chevron-up, #scroll-div .icon-question{background: #eee; width: 35px; height: 35px; display: inline-block; text-align: center; margin-bottom: 4px; border:1px solid #ccc;}
-#scroll-div a:hover {color: #D60059; cursor: pointer;}
+#scroll-div .icon-chevron-up, #scroll-div .icon-question{background: #eee; width: 35px; height: 35px; display: inline-block; text-align: center; margin-bottom: 4px; border:1px solid #ddd; color:#bbb;}
+#scroll-div .icon-chevron-up:hover, #scroll-div .icon-question:hover {color: #D60059; cursor: pointer;}
 .page-title{margin-top:10px;}
 @media (max-width: 767px) {
 #header .search, .usp{width:100%}

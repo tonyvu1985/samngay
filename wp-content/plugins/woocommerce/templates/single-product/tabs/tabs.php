@@ -41,7 +41,7 @@ if ( ! empty( $tabs ) ) : ?>
 					global $product;
 					$noi_san_xuat = $product->get_attribute('noi-san-xuat');
 					if (isset($noi_san_xuat)){
-						echo "<p class='noi_san_xuat'>*Nhà sản xuất: Nhập khẩu trực tiếp từ " . $noi_san_xuat . ".</p>";
+						echo "<p class='noi_san_xuat'>*Nhà sản xuất: " . $noi_san_xuat . ".</p>";
 					}
 
 					/* nha phan phoi */
