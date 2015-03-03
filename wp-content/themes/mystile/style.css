@@ -1646,6 +1646,7 @@ h3.archive_year {
 }
 .page-template-template-contact-php .location-twitter .contact-social #connect .social {
   float: none;
+  clear:both;
 }
 /* 6.3 Image Gallery */
 .image-gallery-item img {

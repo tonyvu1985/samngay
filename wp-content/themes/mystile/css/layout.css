@@ -634,6 +634,7 @@ INDEX
   .page-template-template-contact-php .location-twitter #office-location {
     width: 48%;
     margin: 0;
+    float:left;
   }
   .page-template-template-contact-php .location-twitter .contact-social {
     float: right;
