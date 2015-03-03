@@ -5,7 +5,10 @@
  * Description  Scroll to top of website 
  */
 ?>
-<div id='scroll-div'><a id='scroll'><i class="icon-chevron-up icon-2x"></i></a></div>
+<div id='scroll-div'>
+	<a id='scroll'><i class="icon-chevron-up icon-2x"></i></a><br/>
+	<a href="<?php echo get_site_url() . '/lien-he' ; ?>"><i class="icon-question icon-2x"></i></a>
+</div>
 
 <script type='text/javascript' defer>
     
