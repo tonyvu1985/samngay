@@ -40,7 +40,7 @@ if ( ! empty( $tabs ) ) : ?>
 					// get attribute noi-san-xuat
 					global $product;
 					$noi_san_xuat = $product->get_attribute('noi-san-xuat');
-					if (isset($noi_san_xuat)){
+					if (isset($noi_san_xuat) && $noi_san_xuat !=''){
 						echo "<p class='noi_san_xuat'>*Nhà sản xuất: " . $noi_san_xuat . ".</p>";
 					}
 

@@ -2,11 +2,14 @@
 .usp{float:right}
 .usp i{float:left; color:#999}
 .usp .text{float:left; margin:0 10px;}
-.usp .col-left{margin-right:15px; float:left; padding:10px 0}
+.usp .col-left{margin-right:15px; float:left; padding:10px 0; cursor:pointer;}
 #header .search{float:left; width:35%}
 #scroll-div {display: none; position: fixed; bottom: 20px; right: 5%; z-index: 100;}
 #scroll-div .icon-chevron-up, #scroll-div .icon-question{background: #eee; width: 35px; height: 35px; display: inline-block; text-align: center; margin-bottom: 4px; border:1px solid #ddd; color:#bbb;}
 #scroll-div .icon-chevron-up:hover, #scroll-div .icon-question:hover {color: #D60059; cursor: pointer;}
+.block1.col-left:hover > .icon-truck, .block2.col-left:hover > .icon-calendar, .block3.col-left:hover > .icon-credit-card, .block4.col-left:hover > .icon-exchange{color:#D60059;}
+.block1.col-left:hover > .text, .block2.col-left:hover > .text, .block3.col-left:hover > .text, .block4.col-left:hover > .text{color:#D60059;}
+
 .page-title{margin-top:10px;}
 @media (max-width: 767px) {
 #header .search, .usp{width:100%}
