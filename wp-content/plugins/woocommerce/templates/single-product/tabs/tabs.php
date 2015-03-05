@@ -46,7 +46,9 @@ if ( ! empty( $tabs ) ) : ?>
 
 					/* nha phan phoi */
 					if ($key == "description") {
-						echo "*Nhà nhập khẩu và phân phối: Công ty cổ phần Đại Nam Phát, A16-2, tòa nhà Morning Star, 57 quốc lộ 13, Phường 26, quận Bình Thạnh, Tp.Hồ Chí Minh, điện thoại: (08)38544046 – (08)38544047 – (08) 6675 8708.";
+						echo "<span style='font-weight:bold'>*Liên hệ</span><br/>";
+						echo "<span style='color:#D60059'>Công ty cổ phần Đại Nam Phát</span><br/>";
+						echo "<p>A16-2, tòa nhà Morning Star, 57 quốc lộ 13, Phường 26, quận Bình Thạnh, Tp.Hồ Chí Minh<br/> Tel: (08) 6258 5840 – (08) 6675 8708.";
 					}
 				?>
 			</div>
