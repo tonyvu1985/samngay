@@ -77,7 +77,7 @@ global $woo_options, $woocommerce;
 				<div class="text">Thanh toán<br/>lúc nhận hàng</div>    
 			</div>
 			<div class="block4 col-left" title="Sắm Ngay sẽ hoàn lại 100% tiền, nếu bạn không hài lòng với sản phẩm.">
-				<i class="icon-exchange icon-3x"></i>
+				<i class="icon-money icon-3x"></i>
 				<div class="text">Hoàn trả lại 100%<br/>nếu không hài lòng</div>        
 			</div>
 		</div>
