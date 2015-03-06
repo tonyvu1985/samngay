@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce v2.3.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-02-23 03:25:21+0000\n"
+"PO-Revision-Date: 2015-02-25 23:48:45+0000\n"
 "Last-Translator: admin <vuductrung2003@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -14646,7 +14646,7 @@ msgstr ""
 #: includes/class-wc-form-handler.php:85
 #@ woocommerce
 msgid "is a required field."
-msgstr ""
+msgstr "là ô bắt buộc"
 
 #: includes/class-wc-checkout.php:459
 #: includes/class-wc-form-handler.php:98
@@ -14659,23 +14659,23 @@ msgstr ""
 #: includes/class-wc-form-handler.php:107
 #@ woocommerce
 msgid "is not a valid phone number."
-msgstr ""
+msgstr "không phải là số điện thoại hợp lệ."
 
 #: includes/class-wc-checkout.php:474
 #: includes/class-wc-form-handler.php:114
 #@ woocommerce
 msgid "is not a valid email address."
-msgstr ""
+msgstr "không phải là địa chỉ email hợp lệ."
 
 #: includes/class-wc-checkout.php:492
 #@ woocommerce
 msgid "is not valid. Please enter one of the following:"
-msgstr ""
+msgstr "không hợp lệ. Vui lòng nhập một trong số sau:"
 
 #: includes/class-wc-checkout.php:548
 #@ woocommerce
 msgid "You must accept our Terms &amp; Conditions."
-msgstr ""
+msgstr "Bạn phải đồng ý với các Điều khoản &amp; Quy định."
 
 #: includes/class-wc-checkout.php:554
 #, php-format
@@ -14686,17 +14686,17 @@ msgstr ""
 #: includes/class-wc-checkout.php:563
 #@ woocommerce
 msgid "Invalid shipping method."
-msgstr ""
+msgstr "Phương thức giao hàng không hợp lệ."
 
 #: includes/class-wc-checkout.php:575
 #@ woocommerce
 msgid "Invalid payment method."
-msgstr ""
+msgstr "Phương thức thanh toán không hợp lệ."
 
 #: includes/class-wc-comments.php:184
 #@ woocommerce
 msgid "Please rate the product."
-msgstr ""
+msgstr "Vui lòng chấm điểm sản phẩm này."
 
 #: includes/class-wc-countries.php:263
 #@ woocommerce
