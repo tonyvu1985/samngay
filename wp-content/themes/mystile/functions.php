@@ -1,4 +1,8 @@
 <?php
+
+//Display 24 products on archive pages
+add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 400;' ), 20 );
+
 /* Remove zip/code Field in Woocommerce */
 add_filter( 'woocommerce_checkout_fields' , 'alter_woocommerce_checkout_fields' );
 function alter_woocommerce_checkout_fields( $fields ) {
