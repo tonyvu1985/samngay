@@ -25,8 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 2. Vietinbank, chi nhánh 6, Hồ Chí Minh. Số tài khoản: <span class="sotaikhoan">1010 1000 4721 216</span><br/><br/>
 3. BIDV, Chợ Lớn, Hồ Chí Minh. Số tài khoản: <span class="sotaikhoan">1411 00000 77852</span><br/><br/>
 4. Sacombank, Chợ Lớn, Hồ Chí Minh. Số tài khoản: <span class="sotaikhoan">0600 6316 9776</span><br/><br/>
-Sau khi chuyển tiền, bạn vui lòng xác nhận việc thanh toán bằng việc gửi mail đến địa chỉ <a href="mailto:samngay@gmail.com">samngay@gmail.com</a> hoặc nhắn tin đến số điện thoại 0963 514 535. Chúng tôi sẽ liên lạc với bạn để xác nhận giao dịch.<br/><br/>
-Chân thành cảm ơn bạn đã tin tưởng và hợp tác!	
+Sau khi chuyển tiền, bạn vui lòng xác nhận việc thanh toán bằng việc gửi mail đến địa chỉ <a href="mailto:samngay@gmail.com">samngay@gmail.com</a> hoặc nhắn tin đến số điện thoại 0963 514 535. Chúng tôi sẽ liên lạc với bạn để xác nhận giao dịch.
 			<?php endif; ?>
 		</div>
 	<?php endif; ?>
