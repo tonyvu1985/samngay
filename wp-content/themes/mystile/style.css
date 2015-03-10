@@ -5,8 +5,11 @@
 .usp .col-left{margin-right:15px; float:left; padding:10px 0; cursor:pointer;}
 #header .search{float:left; width:35%}
 #scroll-div {display: none; position: fixed; bottom: 20px; right: 5%; z-index: 100;}
-#scroll-div .icon-chevron-up, #scroll-div .icon-question, #scroll-div .icon-shopping-cart{background: #eee; width: 35px; height: 35px; display: inline-block; text-align: center; margin-bottom: 4px; border:1px solid #ddd; color:#bbb;}
-#scroll-div .icon-chevron-up:hover, #scroll-div .icon-question:hover, #scroll-div .icon-shopping-cart:hover {color: #D60059; cursor: pointer;}
+#scroll-div .icon-chevron-up, #scroll-div .icon-question, #scroll-div .icon-shopping-cart, #scroll-div .icon-user{background: #eee; width: 35px; height: 35px; display: inline-block; text-align: center; margin-bottom: 4px; border:1px solid #ddd; color:#bbb;}
+#scroll-div .icon-shopping-cart{position:absolute;}
+#scroll-div .icon-user{margin-left:28px}
+#scroll-div .icon-chevron-up:hover, #scroll-div .icon-question:hover, #scroll-div .icon-shopping-cart:hover, #scroll-div .icon-user:hover {color: #D60059; cursor: pointer;}
+#scroll-div .cartitems{display: inline-block; padding-left: 2px; font-size: 12px; font-weight: 700; color: #ff4800; position:relative; bottom:-2px;}
 .block1.col-left:hover > .icon-truck, .block2.col-left:hover > .icon-calendar, .block3.col-left:hover > .icon-credit-card, .block4.col-left:hover > .icon-money{color:#D60059;}
 .block1.col-left:hover > .text, .block2.col-left:hover > .text, .block3.col-left:hover > .text, .block4.col-left:hover > .text{color:#D60059;}
 
@@ -1937,6 +1940,7 @@ dl.variation dd ul {
   opacity: 0.5;
   filter: alpha(opacity=@opacity * 100);
   font-size:13px;
+  font-weight:normal;
 }
 .price ins {
   text-decoration: none;
