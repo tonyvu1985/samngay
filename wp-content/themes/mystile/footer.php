@@ -79,5 +79,40 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 </div><!-- /#wrapper -->
 <?php wp_footer(); ?>
 <?php woo_foot(); ?>
+
+<!-- Google Code dành cho Thẻ tiếp thị lại -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 964197219;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/964197219/?value=0&amp;guid=ON&amp;script=0"/>
+</div>                  
+</noscript>             
+                        
+<!-- Google Code for samngay.com-mua hang Conversion Page -->
+<script type="text/javascript">         
+/* <![CDATA[ */                         
+var google_conversion_id = 964197219;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "duMMCL-JnFoQ4_bhywM";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/964197219/?label=duMMCL-JnFoQ4_bhywM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
 </body>
 </html>
