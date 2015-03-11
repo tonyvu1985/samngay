@@ -31,7 +31,12 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
     	</div>
     	
     <?php } ?>
-    
+   
+	<div class="iwatch">
+		<h1 style="margin:50px 0 20px 0">Apple Watch - Có hàng từ 24.04.2015</h1>
+		<p style="padding-bottom:20px;"><strong>Samngay</strong> sẽ có hàng Apple Watch, sản phẩm công nghệ mới nhất của Apple từ ngày <strong>24.04.2015</strong>. Hãy đặt hàng ngay bây giờ. Liên hệ với chúng tôi qua (08) 6258 5840 - (08) 6675 8708 để biết thêm chi tiết </p>
+		<a href="http://www.samngay.com/product-category/dien-tu/dong-ho/"><img src="http://www.samngay.com/wp-content/uploads/2015/03/iwach.png" /></a> 
+	</div>
     <div id="content" class="col-full <?php if ( $woo_options[ 'woo_homepage_banner' ] == "true" ) echo 'with-banner'; ?> <?php if ( $woo_options[ 'woo_homepage_sidebar' ] == "false" ) echo 'no-sidebar'; ?>">
     
     	<?php woo_main_before(); ?>
