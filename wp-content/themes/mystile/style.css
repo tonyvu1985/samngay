@@ -1,4 +1,8 @@
 /* TonyVu - custom CSS */
+/* bootstrap carousel */
+.carousel-caption{background: #000; opacity: 0.5;}
+.carousel-caption h3{font-size:20px;}
+#carousel-samngay{margin: 0px auto 30px auto; max-width:1140px;}
 .usp{float:right}
 .usp i{float:left; color:#999}
 .usp .text{float:left; margin:0 10px;}
@@ -16,7 +20,7 @@
 #header .search, .usp{width:100%}
 .usp .block3 {clear:both; }
 .usp .col-left{width:50%; margin-right:0}
-.usp .icon-truck, .usp .icon-calendar, .usp .icon-credit-card , .usp .icon-exchange{font-size:30px; }
+.usp .icon-truck, .usp .icon-calendar, .usp .icon-credit-card , .usp .icon-exchange, .usp .icon-money{font-size:30px; }
 .usp .text{ margin:0 10px}
 }
 /*
@@ -494,7 +498,7 @@ ul.nav li a {
 }
 #navigation {
   clear: both;
-  margin-bottom: 2.618em;
+  margin-bottom: 20px;
   display: none;
 }
 #navigation ul {
@@ -640,8 +644,8 @@ ul.nav li a {
   position: absolute;
   top: .53em;
   right: 0;
-  width: 1.618em;
-  height: 1.618em;
+  width: 31px;
+  height: 27px;
   cursor: pointer;
   font-family: sans-serif;
   background-color: #D60059;

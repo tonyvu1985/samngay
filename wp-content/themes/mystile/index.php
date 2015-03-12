@@ -31,6 +31,12 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
     	</div>
     	
     <?php } ?>
+
+
+	<?php
+		// bootstrap carousel
+		include_once('carousel.php');
+	?>
    
     <div id="content" class="col-full <?php if ( $woo_options[ 'woo_homepage_banner' ] == "true" ) echo 'with-banner'; ?> <?php if ( $woo_options[ 'woo_homepage_sidebar' ] == "false" ) echo 'no-sidebar'; ?>">
     
