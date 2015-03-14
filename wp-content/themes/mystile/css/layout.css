@@ -203,6 +203,7 @@ INDEX
 	color:#fff;
   }
   #header #navigation ul.nav > li:hover a {
+	text-decoration:none;
   }
   #header #navigation ul.nav > li.current-menu-item > a,
   #header #navigation ul.nav > li.current_page_item > a {
