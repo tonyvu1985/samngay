@@ -356,12 +356,12 @@ hr {
 }
 /* 1.2 Hyperlinks */
 a {
-  color: #4a413e;
+  color: #D60059;
   text-decoration: none;
 }
 a:hover {
+  text-decoration: underline;
   color: #D60059;
-  text-decoration: none;
 }
 .clear {
   clear: both;
