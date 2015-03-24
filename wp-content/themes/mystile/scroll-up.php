@@ -5,6 +5,14 @@
  * Description  Scroll to top of website 
  */
 ?>
+
+<!-- lien he -->
+<div id='lienhe'>
+<p style="color:#999">Xin Liên hệ hỏi đáp - tư vấn tại đây</p>
+<i class="bgicon icon-phone"></i>&nbsp; (08) 6258 5840 - (08) 6675 8708<br/><br/>
+<i class="bgicon icon-envelope"></i>&nbsp; <a href="mailto:samngay@gmail.com">samngay@gmail.com
+</div>
+
 <div id='scroll-div'>
 	<a id='scroll'><i class="icon-chevron-up icon-2x" alt="To the top"></i></a><br/>
 <!--	<a href="<?php echo get_site_url() . '/lien-he' ; ?>" alt="Liên hệ"><i class="icon-question icon-2x"></i></a><br/>-->
