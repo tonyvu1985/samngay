@@ -7,10 +7,15 @@
 ?>
 
 <!-- lien he -->
-<div id='lienhe'>
-<p style="color:#999">Xin Liên hệ hỏi đáp - tư vấn tại đây</p>
-<i class="bgicon icon-phone"></i>&nbsp; (08) 6258 5840 - (08) 6675 8708<br/><br/>
-<i class="bgicon icon-envelope"></i>&nbsp; <a href="mailto:samngay@gmail.com">samngay@gmail.com
+<div id="lienhe">
+	<div class="info">
+		<p style="color:#999">Xin Liên hệ hỏi đáp - tư vấn tại đây</p>
+		<i class="bgicon icon-phone"></i>&nbsp; (08) 6258 5840 - (08) 6675 8708<br/><br/>
+		<i class="bgicon icon-envelope"></i>&nbsp; <a href="mailto:samngay@gmail.com">samngay@gmail.com</a>
+	</div>
+	<div class="tro-giup">
+		<p><a class="lnkhelp">Trợ giúp mua hàng</a></p>	
+	</div>
 </div>
 
 <div id='scroll-div'>
@@ -34,5 +39,16 @@
        jQuery("html, body").animate({ scrollTop: 0 }, "slow");
        return false;
    });
+
+	/* slide tro giup */
+	jQuery(".lnkhelp").click(function(e){
+		e.preventDefault();
+		if(parseInt(jQuery("#lienhe").css("margin-left")) == 0){
+			jQuery("#lienhe").animate({"margin-left": '-275px'});
+		}else{
+			jQuery("#lienhe").animate({"margin-left": '0px'});
+		}
+		return;
+	})
 </script>
 

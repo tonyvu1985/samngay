@@ -22,7 +22,10 @@
 .usp .col-left{margin-right:15px; float:left; padding:10px 0; cursor:pointer;}
 #header .search{float:left; width:35%}
 .bgicon{padding: 10px; background: #D60059; border-radius: 18px; color: #fff;}
-#lienhe{display: inline-block; position: fixed; top: 30%; left: 0; z-index: 100; background: #eee; padding: 10px 10px 15px 10px; border:1px solid #ddd}
+#lienhe{display: inline-block; position: fixed; top: 30%; left: 0; z-index: 100; margin-left: -275px;}
+#lienhe .info{float:left; background: #eee; padding: 10px 10px 15px 10px; border:1px solid #ddd}
+#lienhe .tro-giup{float:left; width:40px; height:139px; background: #ddd; border-bottom:1px solid #ddd; border-top: 1px solid #ddd; border-right:1px solid #ddd;}
+#lienhe .tro-giup p{transform: rotate(-90deg); -webkit-transform: rotate(-90deg); white-space: nowrap; margin: 100px 0 0 0; cursor:pointer;}
 #scroll-div {display: none; position: fixed; bottom: 5%; right: 1%; z-index: 100;}
 #scroll-div .icon-chevron-up, #scroll-div .icon-question, #scroll-div .icon-shopping-cart, #scroll-div .icon-user{background: #eee; width: 40px; height: 40px; display: inline-block; text-align: center; border:1px solid #ddd; color:#bbb;}
 #scroll-div .icon-shopping-cart{position:absolute;}
