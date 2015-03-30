@@ -887,7 +887,7 @@ INDEX
   }
   /* 7.4 Checkout */
   .checkout #order_review {
-    padding: 1.618em;
+    padding: .7em;
   }
   .checkout #shiptobilling {
     float: right;

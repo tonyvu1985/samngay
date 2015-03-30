@@ -1,7 +1,20 @@
 /* TonyVu - custom CSS */
+.woocommerce fieldset{clear:both}
+.woocommerce #customer_details .col-1{width:98%;}
+.woocommerce #customer_details .col-2{display:none;}
+.woocommerce label{margin-top:7px;}
+.woocommerce-billing-fields h3{font-size: 18px; color: #3E3E3E; margin-top:20px;}
+.woocommerce-billing-fields h3::before{content: "1"; background: #d60059; color:#fff; border-radius: 50% 50%; padding:3px 10px; margin-right:7px;}
+
+.woocommerce #order_review_heading:before{content: "2"; background: #d60059; color:#fff; border-radius: 50% 50%; padding:3px 10px; margin-right:7px;}
+.woocommerce #order_review_heading{font-size: 18px; color: #3E3E3E;}
+.woocommerce .wc-proceed-to-checkout .checkout-button{font-size:20px}
+
 .woocommerce-info .showlogin{color:#D60059}
 .woocommerce-info .showlogin:hover{text-decoration:underline;}
-.create-account label{margin: 0px 0px 0px 0px; padding: 0px 0px 0px 10px; display: inline-block;}
+.myaccount_user a{color:#D60059}
+.myaccount_user a:hover{text-decoration:underline;}
+.create-account label{margin: 0px 0px 0px 0px; padding: 0px 0px 0px 10px !important; display: inline-block !important;}
 /* bootstrap carousel */
 #carousel-samngay{margin: 0px auto 30px auto; max-width:1140px;}
 .carousel-caption{left: 40%; top: 20%; text-shadow:0 0 0; color:#3E3E3E}
@@ -499,7 +512,7 @@ table td {
   text-align: left;
 }
 table th {
-  text-transform: uppercase;
+ /* text-transform: uppercase;*/
 }
 table tr th:first-child,
 table tr td:first-child {
@@ -2398,13 +2411,8 @@ ul#shipping_method {
   margin-right: 1em;
 }
 .checkout #order_review {
-  background: #f7f7f7;
+  background: #f5f5f5;
   padding: .618em;
-  -webkit-border-radius: 0.382em;
-  border-radius: 0.382em;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
 }
 .checkout #order_review table {
   background: #fcfcfc;

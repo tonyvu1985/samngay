@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce v2.3.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-03-15 05:25:42+0000\n"
+"PO-Revision-Date: 2015-03-29 09:56:26+0000\n"
 "Last-Translator: admin <vuductrung2003@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -6089,7 +6089,7 @@ msgstr ""
 #: includes/class-wc-product-variation.php:198
 #@ woocommerce
 msgid "Add to cart"
-msgstr "Thêm vào giỏ hàng"
+msgstr "MUA NGAY"
 
 #: includes/abstracts/abstract-wc-product.php:544
 #@ woocommerce
