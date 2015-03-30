@@ -502,6 +502,7 @@ INDEX
   .form-row label {
     display: block;
     padding: .206em 0;
+    font-weight:normal;
   }
   .form-row .input-text,
   .form-row select {

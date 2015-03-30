@@ -44,7 +44,7 @@
 	jQuery(".lnkhelp").click(function(e){
 		e.preventDefault();
 		if(parseInt(jQuery("#lienhe").css("margin-left")) == 0){
-			jQuery("#lienhe").animate({"margin-left": '-275px'});
+			jQuery("#lienhe").animate({"margin-left": '-280px'});
 		}else{
 			jQuery("#lienhe").animate({"margin-left": '0px'});
 		}
