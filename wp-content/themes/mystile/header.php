@@ -38,6 +38,14 @@ global $woo_options, $woocommerce;
 	<!-- call scroll up template -->
 	<?php include_once('scroll-up.php'); ?>
 
+	<!-- load script when it is product page --!>
+	<?php if (is_product()):?>
+		<script defer>
+			jQuery(document).ready(function(){
+				jQuery('.single_add_to_cart_button').after("<p class='huong-dan-mua-hang'><i class='icon-bookmark-empty'></i>&nbsp; <a href='http://www.samngay.local/huong-dan-mua-hang/' target='_blank'>Hướng dẫn mua hàng</a></p>");
+			})
+		</script>
+	<?php endif; ?>
 	<div id="top">
 		<nav class="col-full" role="navigation">
 			<?php if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'top-menu' ) ) { ?>

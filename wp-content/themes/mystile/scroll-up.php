@@ -11,7 +11,8 @@
 	<div class="info">
 		<p style="color:#999">Xin Liên hệ hỏi đáp - tư vấn tại đây</p>
 		<i class="bgicon icon-phone"></i>&nbsp; (08) 6258 5840 - (08) 6675 8708<br/><br/>
-		<i class="bgicon icon-envelope"></i>&nbsp; <a href="mailto:samngay@gmail.com">samngay@gmail.com</a>
+		<i class="bgicon icon-envelope"></i>&nbsp; <a href="mailto:samngay@gmail.com">samngay@gmail.com</a><br/><br/>
+		<i class="bgicon icon-question"></i>&nbsp; <a href="<?php echo get_site_url() . '/huong-dan-mua-hang/';?>" target="_blank">Hướng dẫn mua hàng</a>
 	</div>
 	<div class="tro-giup">
 		<p><a class="lnkhelp">Trợ giúp mua hàng</a></p>	
@@ -44,7 +45,7 @@
 	jQuery(".lnkhelp").click(function(e){
 		e.preventDefault();
 		if(parseInt(jQuery("#lienhe").css("margin-left")) == 0){
-			jQuery("#lienhe").animate({"margin-left": '-280px'});
+			jQuery("#lienhe").animate({"margin-left": '-255px'});
 		}else{
 			jQuery("#lienhe").animate({"margin-left": '0px'});
 		}

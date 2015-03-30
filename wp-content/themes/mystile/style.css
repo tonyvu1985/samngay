@@ -1,4 +1,7 @@
 /* TonyVu - custom CSS */
+.huong-dan-mua-hang{clear:both; margin:6px 0 0 10px; color:#999;}
+.huong-dan-mua-hang a{color:#999;}
+.huong-dan-mua-hang a:hover{color:#3E3E3E;}
 .woocommerce fieldset{clear:both}
 .woocommerce #customer_details .col-1{width:98%;}
 .woocommerce #customer_details .col-2{display:none;}
@@ -37,12 +40,12 @@
 .usp .text{float:left; margin:0 10px;}
 .usp .col-left{margin-right:15px; float:left; padding:10px 0; cursor:pointer;}
 #header .search{float:left; width:35%}
-.bgicon{padding: 10px; background: #D60059; border-radius: 18px; color: #fff;}
-#lienhe{display: inline-block; position: fixed; top: 30%; left: 0; z-index: 100; margin-left: -280px;}
+.bgicon{padding: 0px; color: #D60059;}
+#lienhe{display: inline-block; position: fixed; top: 30%; left: 0; z-index: 100; margin-left: -255px;}
 #lienhe .info{float:left; background: #eee; padding: 10px 10px 15px 10px; border:1px solid #ddd}
-#lienhe .tro-giup{float:left; width:40px; height:139px; background: #ddd; border-bottom:1px solid #ddd; border-top: 1px solid #ddd; border-right:1px solid #ddd;}
-#lienhe .tro-giup p{transform: rotate(-90deg); -webkit-transform: rotate(-90deg); white-space: nowrap; margin: 100px 0 0 0; cursor:pointer;}
-#scroll-div {display: none; position: fixed; bottom: 5%; right: 1%; z-index: 100;}
+#lienhe .tro-giup{float:left; width:40px; height:183px; background: #ddd; border-bottom:1px solid #ddd; border-top: 1px solid #ddd; border-right:1px solid #ddd; opacity:.6; filter: alpha(opacity=60);}
+#lienhe .tro-giup p{transform: rotate(-90deg); -webkit-transform: rotate(-90deg); white-space: nowrap; margin: 125px 0 0 0; cursor:pointer;}
+#scroll-div {display: none; position: fixed; bottom: 5%; right: 0; z-index: 100; opacity:.6; filter: alpha(opacity=60);}
 #scroll-div .icon-chevron-up, #scroll-div .icon-question, #scroll-div .icon-shopping-cart, #scroll-div .icon-user{background: #eee; width: 40px; height: 40px; display: inline-block; text-align: center; border:1px solid #ddd; color:#bbb;}
 #scroll-div .icon-shopping-cart{position:absolute;}
 #scroll-div .icon-chevron-up:hover, #scroll-div .icon-question:hover, #scroll-div .icon-shopping-cart:hover, #scroll-div .icon-user:hover {color: #D60059; cursor: pointer;}
@@ -51,7 +54,7 @@
 .block1.col-left:hover > .text, .block2.col-left:hover > .text, .block3.col-left:hover > .text, .block4.col-left:hover > .text{color:#D60059;}
 .page-title{margin-top:10px;}
 @media (max-width: 767px) {
-#lienhe{display:none}
+/*#lienhe{display:none}*/
 #header .search, .usp{width:100%}
 .usp .block3 {clear:both; }
 .usp .col-left{width:50%; margin-right:0}
