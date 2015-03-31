@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce v2.3.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-03-29 09:56:26+0000\n"
+"PO-Revision-Date: 2015-03-31 00:14:15+0000\n"
 "Last-Translator: admin <vuductrung2003@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -13211,7 +13211,7 @@ msgstr ""
 #@ woocommerce
 msgctxt "Page setting"
 msgid "Checkout"
-msgstr "Thanh toán"
+msgstr "TIẾP TỤC"
 
 #: includes/admin/views/html-admin-page-status-report.php:456
 #@ woocommerce
@@ -17925,7 +17925,7 @@ msgstr ""
 #: includes/wc-template-functions.php:1132
 #@ woocommerce
 msgid "Proceed to Checkout"
-msgstr "Thanh toán"
+msgstr "TIẾP TỤC"
 
 #: includes/wc-template-functions.php:1206
 #@ woocommerce
@@ -17936,7 +17936,7 @@ msgstr ""
 #: includes/wc-template-functions.php:1251
 #@ woocommerce
 msgid "Place order"
-msgstr "Đặt hàng"
+msgstr "HOÀN TẤT ĐẶT HÀNG"
 
 #: includes/wc-template-functions.php:1631
 #@ woocommerce
@@ -18418,7 +18418,7 @@ msgstr "Tạm tính"
 #: templates/cart/mini-cart.php:69
 #@ woocommerce
 msgid "Checkout"
-msgstr "Thanh toán"
+msgstr "TIẾP TỤC"
 
 #: templates/cart/shipping-calculator.php:24
 #@ woocommerce
@@ -18495,7 +18495,7 @@ msgstr "Ấn vào đây để đăng nhập"
 #: templates/checkout/form-login.php:26
 #@ woocommerce
 msgid "If you have shopped with us before, please enter your details in the boxes below. If you are a new customer please proceed to the Billing &amp; Shipping section."
-msgstr ""
+msgstr "Nhập tài khoản của bạn rồi ấn 'Đăng nhập', còn không hãy nhập thông tin của bạn ở mục 'Chi tiết đơn hàng'."
 
 #: templates/checkout/form-pay.php:55
 #@ woocommerce
@@ -18743,7 +18743,7 @@ msgstr ""
 #: templates/myaccount/form-lost-password.php:24
 #@ woocommerce
 msgid "Username or email"
-msgstr ""
+msgstr "Tên tài khoản hoặc địa chỉ email"
 
 #: templates/global/form-login.php:30
 #: templates/myaccount/form-login.php:39

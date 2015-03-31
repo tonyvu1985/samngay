@@ -1,7 +1,10 @@
 /* TonyVu - custom CSS */
 .huong-dan-mua-hang{clear:both; margin:6px 0 0 10px; color:#999;}
 .huong-dan-mua-hang a{color:#999;}
-.huong-dan-mua-hang a:hover{color:#3E3E3E;}
+
+.woocommerce-message a{color:#d60059}
+.woocommerce-message a:hover{text-decoration:underline;}
+
 .woocommerce fieldset{clear:both}
 .woocommerce #customer_details .col-1{width:98%;}
 .woocommerce #customer_details .col-2{display:none;}
@@ -11,8 +14,8 @@
 
 .woocommerce #order_review_heading:before{content: "2"; background: #d60059; color:#fff; border-radius: 50% 50%; padding:3px 10px; margin-right:7px;}
 .woocommerce #order_review_heading{font-size: 18px; color: #3E3E3E;}
-.woocommerce .wc-proceed-to-checkout .checkout-button{font-size:20px}
-
+.single_add_to_cart_button, .wc-proceed-to-checkout a, #place_order{background-color:#ff4800 !important;}
+.single_add_to_cart_button:hover, .wc-proceed-to-checkout a:hover, #place_order:hover{background-color:#ff0000 !important;}
 .woocommerce-info .showlogin{color:#D60059}
 .woocommerce-info .showlogin:hover{text-decoration:underline;}
 .myaccount_user a{color:#D60059}
@@ -1933,7 +1936,7 @@ dl.variation dd ul {
   border: 1px solid #4d65a4;
   border-left-width: .382em ;
   position: relative;
-  font-weight: bold;
+/*  font-weight: bold;*/
 }
 .woocommerce_message:before,
 .woocommerce_info:before,
@@ -2479,7 +2482,7 @@ ul#shipping_method {
   clear: both;
 }
 .checkout #order_review .form-row.place-order .button {
-  font-size: 1.387em;
+  font-size: 1em;
   margin-bottom: .618em;
   float: left;
 }
@@ -2502,7 +2505,7 @@ ul#shipping_method {
   border: 1px solid #4d65a4;
   border-left-width: .382em ;
   position: relative;
-  font-weight: bold;
+/*  font-weight: bold;*/
 }
 .checkout .create-account p:first-child:before {
   font-family: 'WebSymbolsRegular';
