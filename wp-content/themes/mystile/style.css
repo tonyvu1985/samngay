@@ -12,10 +12,16 @@
 .woocommerce #customer_details .col-2{display:none;}*/
 .woocommerce label{margin-top:7px;}
 .woocommerce-billing-fields h3{font-size: 18px; color: #3E3E3E; margin-top:20px;}
-.woocommerce-billing-fields h3::before{content: "1"; background: #d60059; color:#fff; border-radius: 50% 50%; padding:3px 10px; margin-right:7px;}
+.woocommerce-billing-fields h3::before{content: "1"; background: #d60059; color:#fff; padding:3px 10px; margin-right:7px;}
 
-.woocommerce #order_review_heading:before{content: "2"; background: #d60059; color:#fff; border-radius: 50% 50%; padding:3px 10px; margin-right:7px;}
+.woocommerce #order_review_heading:before{content: "2"; background: #d60059; color:#fff; padding:3px 10px; margin-right:7px;}
 .woocommerce #order_review_heading{font-size: 18px; color: #3E3E3E;}
+
+#ship-to-different-address{margin:8px 0 0 0}
+label[for="ship-to-different-address-checkbox"] {background-color: #eee; color:#3e3e3e; font-weight:normal; padding:4px; display:inline-block}
+
+label[for="billing_company"]::after, label[for="shipping_company"]:after, label[for="order_comments"]::after{content:"(không bắt buộc)"; display: block; font-size: 12px; color: #999;}
+
 .single_add_to_cart_button, .wc-proceed-to-checkout a, #place_order{background-color:#ff4800 !important;}
 .single_add_to_cart_button:hover, .wc-proceed-to-checkout a:hover, #place_order:hover{background-color:#ff0000 !important;}
 .woocommerce-info .showlogin{color:#D60059}
@@ -2408,7 +2414,7 @@ ul#shipping_method {
 }
 .required {
   border: 0;
-  color: #b85f56;
+  color: #ff0000;
 }
 .checkout #shiptobilling {
   float: none;
