@@ -8,7 +8,7 @@ add_filter( 'woocommerce_checkout_fields' , 'alter_woocommerce_checkout_fields' 
 function alter_woocommerce_checkout_fields( $fields ) {
 	unset($fields['billing']['billing_postcode']);
 	unset($fields['shipping']['shipping_postcode']);
-	unset($fields['order']['order_comments']);
+//	unset($fields['order']['order_comments']);
      return $fields;
 }
 

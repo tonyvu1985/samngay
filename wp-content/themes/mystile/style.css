@@ -1,4 +1,6 @@
 /* TonyVu - custom CSS */
+.wc-proceed-to-checkout .checkout-button{display:block;}
+.wc-proceed-to-checkout::after{content: "Nhập thông tin khách hàng và đia chỉ nhận hàng"; clear:both; color:#999; margin-top:7px; display:block;}
 .huong-dan-mua-hang{clear:both; margin:6px 0 0 10px; color:#999;}
 .huong-dan-mua-hang a{color:#999;}
 
@@ -6,8 +8,8 @@
 .woocommerce-message a:hover{text-decoration:underline;}
 
 .woocommerce fieldset{clear:both}
-.woocommerce #customer_details .col-1{width:98%;}
-.woocommerce #customer_details .col-2{display:none;}
+/*.woocommerce #customer_details .col-1{width:98%;}
+.woocommerce #customer_details .col-2{display:none;}*/
 .woocommerce label{margin-top:7px;}
 .woocommerce-billing-fields h3{font-size: 18px; color: #3E3E3E; margin-top:20px;}
 .woocommerce-billing-fields h3::before{content: "1"; background: #d60059; color:#fff; border-radius: 50% 50%; padding:3px 10px; margin-right:7px;}
@@ -423,7 +425,7 @@ h6 a {
 }
 h1 {
   font: bold 1.3em/1em Arial, sans-serif;
-  text-transform:uppercase;
+/*  text-transform:uppercase;*/
 }
 h2 {
   font-size: 1.618em;

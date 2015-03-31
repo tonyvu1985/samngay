@@ -52,6 +52,13 @@ if (!function_exists( 'woo_display_breadcrumbs')) {
 	} // End woo_display_breadcrumbs()
 } // End IF Statement
 
+add_action('woo_main_before','bookingProcess',13);
+function bookingProcess(){
+	if (is_product() || is_cart() || is_checkout()){
+        include_once('booking-process.php');
+	}
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 /* Page navigation */
