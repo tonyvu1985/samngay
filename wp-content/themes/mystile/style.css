@@ -747,11 +747,11 @@ ul.nav li a {
 /* 2.7 Breadcrumbs */
 #breadcrumbs {
   display: none;
-  margin-bottom: 1.618em;
-  padding-bottom: 1.618em;
   color: #c1b8b5;
+  /*margin-bottom: 1.618em;
+  padding-bottom: 1.618em;
   font-size: .857em;
-  font-weight: bold;
+  font-weight: bold;*/
 }
 #breadcrumbs .sep {
   color: #e3dad7;
