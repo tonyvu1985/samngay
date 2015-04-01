@@ -37,6 +37,7 @@ INDEX
 .sotaikhoan{color:#D60059}
 /*----------------------*/
 @media only screen and (min-width: 768px) {
+.user-info.account{background:#333;}
   html.boxed {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQIW2NkYGAwBuKzQAwGjDAGNgGwSgwVAFCGAgUGpiTrAAAAAElFTkSuQmCC) #e6e6e6;
   }
@@ -114,9 +115,9 @@ INDEX
     /* LEVEL 3 */
   }
   #top ul.nav > li a {
-    padding: 19px 1em;
+    padding: 10px;
     color: #fff;
-    text-transform:uppercase;
+  /*  text-transform:uppercase;*/
   }
   #top ul.nav > li a:hover {
     background: #D60059;
@@ -170,7 +171,7 @@ INDEX
     text-align: right;
   }
   #top .wc-nav li.cart a {
-    padding-top: 1.387em;
+  /*  padding-top: 1.387em;*/
     padding-left: 1em;
   }
   #top .wc-nav li.cart a .contents {

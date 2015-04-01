@@ -1,4 +1,6 @@
 /* TonyVu - custom CSS */
+
+.user-info{color:#fff;}
 .wc-proceed-to-checkout .checkout-button{display:block;}
 .wc-proceed-to-checkout::after{content: "Nhập thông tin khách hàng và đia chỉ nhận hàng"; clear:both; color:#999; margin-top:7px; display:block;}
 .huong-dan-mua-hang{clear:both; margin:6px 0 0 10px; color:#999;}
@@ -65,7 +67,6 @@ label[for="billing_company"]::after, label[for="shipping_company"]:after, label[
 .block1.col-left:hover > .text, .block2.col-left:hover > .text, .block3.col-left:hover > .text, .block4.col-left:hover > .text{color:#D60059;}
 .page-title{margin-top:10px;}
 @media (max-width: 767px) {
-/*#lienhe{display:none}*/
 #header .search, .usp{width:100%}
 .usp .block3 {clear:both; }
 .usp .col-left{width:50%; margin-right:0}
@@ -616,12 +617,12 @@ ul.nav li a {
   display: none;
 }
 #top .wc-nav li.cart {
-  width: 48%;
+/*  width: 48%;*/
   float: left;
   text-align: left;
 }
 #top .wc-nav li.cart a {
-  padding-top: .25em;
+/*  padding-top: .25em;*/
   padding-left: 0;
 }
 #top .wc-nav li.cart a:before {

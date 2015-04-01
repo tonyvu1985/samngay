@@ -57,6 +57,15 @@ global $woo_options, $woocommerce;
 					woocommerce_cart_link();
 					echo '<li cliass="checkout"><a href="'.esc_url($woocommerce->cart->get_checkout_url()).'">'.__('Checkout','woothemes').'</a></li>';
 //					echo get_search_form();
+
+					// get the user detail after login
+					if ( is_user_logged_in() ) {
+						$current_user = wp_get_current_user();
+						echo '<li class="user-info account"><a href="' . get_site_url() . '/tai-khoan/' . '">' . $current_user->user_firstname . ' tài khoản</a></li>';
+						echo '<li><a href="' . get_site_url() . '/tai-khoan/customer-logout/' . '" title="Đăng xuất"><i class="icon-off"></i></a></li>';
+					}else{
+						echo '<li class="user-info"><a href="' . get_site_url() . '/tai-khoan/' . '" title="Đăng nhập / Đăng ký"><i class="icon-user"></i></a></li>';
+					}
 					echo '</ul>';
 				}
 			?>
