@@ -12,10 +12,24 @@ function alter_woocommerce_checkout_fields( $fields ) {
 }
 
 // add default email: samngay@gmail.com
-add_filter('woocommerce_billing_fields', 'default_email_for_checkout_step', 10, 1);
-function default_email_for_checkout_step($fields){
+add_filter('woocommerce_billing_fields', 'default_value_billing_fields', 10, 1);
+function default_value_billing_fields($fields){
 	$fields['billing_email']['required'] = false; 
+	$fields['billing_first_name']['placeholder'] = 'VD: Vũ'; 
+	$fields['billing_last_name']['placeholder'] = 'VD: Đức Trung'; 
+	$fields['billing_company']['placeholder'] = 'VD: Shop Mỹ phẩm Thanh Bình'; 
+	$fields['billing_email']['placeholder'] = 'VD: abc@gmail.com'; 
+	$fields['billing_phone']['placeholder'] = 'VD: 09123485358'; 
 	return $fields;
+}
+
+add_filter('woocommerce_shipping_fields', 'default_value_shipping_fields', 10, 1);
+function default_value_shipping_fields($fields){
+	$fields['shipping_first_name']['placeholder'] = 'VD: Nguyễn';
+	$fields['shipping_last_name']['placeholder'] = 'VD: Thị Ngọc Tuyền';
+	$fields['shipping_company']['placeholder'] = 'VD: Shop Mỹ phẩm Thanh Bình'; 
+	return $fields;
+
 }
 /*
 add_action('woocommerce_review_order_after_submit', 'add_default_email');
