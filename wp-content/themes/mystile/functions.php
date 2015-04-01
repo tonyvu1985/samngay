@@ -8,8 +8,20 @@ add_filter( 'woocommerce_checkout_fields' , 'alter_woocommerce_checkout_fields' 
 function alter_woocommerce_checkout_fields( $fields ) {
 	unset($fields['billing']['billing_postcode']);
 	unset($fields['shipping']['shipping_postcode']);
-//	unset($fields['order']['order_comments']);
-     return $fields;
+	return $fields;
+}
+
+// add default email: samngay@gmail.com
+add_filter('woocommerce_billing_fields', 'default_email_for_checkout_step', 10, 1);
+function default_email_for_checkout_step($fields){
+	$fields['billing_email']['required'] = false; 
+	return $fields;
+}
+/*
+add_action('woocommerce_review_order_after_submit', 'add_default_email');
+function add_default_email($fields){
+	$fields['billing_email']['default']='vuductrung2003@gmail.com';
+	return $fields;
 }
 
 /* Register a search widget */

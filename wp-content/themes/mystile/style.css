@@ -22,7 +22,7 @@
 #ship-to-different-address{margin:8px 0 0 0}
 label[for="ship-to-different-address-checkbox"] {background-color: #eee; color:#3e3e3e; font-weight:normal; padding:4px; display:inline-block}
 
-label[for="billing_company"]::after, label[for="shipping_company"]:after, label[for="order_comments"]::after{content:"(không bắt buộc)"; display: block; font-size: 12px; color: #999;}
+/*label[for="billing_company"]::after, label[for="shipping_company"]:after, label[for="order_comments"]::after{content:"(không bắt buộc)"; display: block; font-size: 12px; color: #999;}*/
 
 .single_add_to_cart_button, .wc-proceed-to-checkout a, #place_order{background-color:#ff4800 !important;}
 .single_add_to_cart_button:hover, .wc-proceed-to-checkout a:hover, #place_order:hover{background-color:#ff0000 !important;}
