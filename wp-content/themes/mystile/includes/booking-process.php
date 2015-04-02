@@ -1,28 +1,38 @@
 <?php 
-	// define steps in current page
-	if (is_product()){
-		$step2 ="disabled";
-		$step3 ="disabled";
-		$step4 ="disabled";
-		$status_step2="process_status_hide";
-		$status_step3="process_status_hide";
-		$status_step4="process_status_hide";
-	}
-	else if(is_cart()){
-		$step2 ="active";
-		$step3 ="disabled";
-		$step4 ="disabled";
-		$status_step1="process_status_hide";
-		$status_step3="process_status_hide";
-		$status_step4="process_status_hide";
-	}
-	else if(is_checkout()){
+	if(is_order_received_page()){
 		$step2 ="complete";
-		$step3 ="active";
-		$step4 ="disabled";
+		$step3 ="complete";
+		$step4 ="active";
 		$status_step1="process_status_hide";
 		$status_step2="process_status_hide";
-		$status_step4="process_status_hide";
+		$status_step3="process_status_hide";
+
+	}else{
+		// define steps in current page
+		if (is_product()){
+			$step2 ="disabled";
+			$step3 ="disabled";
+			$step4 ="disabled";
+			$status_step2="process_status_hide";
+			$status_step3="process_status_hide";
+			$status_step4="process_status_hide";
+		}
+		else if(is_cart()){
+			$step2 ="active";
+			$step3 ="disabled";
+			$step4 ="disabled";
+			$status_step1="process_status_hide";
+			$status_step3="process_status_hide";
+			$status_step4="process_status_hide";
+		}
+		else if(is_checkout()){
+			$step2 ="complete";
+			$step3 ="active";
+			$step4 ="disabled";
+			$status_step1="process_status_hide";
+			$status_step2="process_status_hide";
+			$status_step4="process_status_hide";
+		}
 	}
 
 ?>
@@ -69,7 +79,12 @@
                 <div class="progress-bar"></div>
             </div>
             <a class="smpl-step-icon" style="font-size: 30px; padding-left: 15px; padding-top: 12px;">4</a>
-            <div class="smpl-step-info text-center <?php echo $status_step4; ?>"><span style="color:#D60059">"Hoàn tất"</span></div>
+            <div class="smpl-step-info text-left <?php echo $status_step4; ?>">
+		<p style="color:#D60059">"Hoàn tất"</p>
+		<p>Chúng tôi sẽ gọi bạn trong vòng 30p để xác thực đơn hàng.</p>
+		<p style="font-weight:bold">Cảm ơn quý khách đã mua hàng tại Sắm Ngay!</p>
+		<p></p>
+	   </div>
         </div>
     </div>
 </div>
@@ -93,4 +108,7 @@
 .smpl-step > .smpl-step-step:first-child > .progress {left: 50%; width: 50%;}
 .smpl-step > .smpl-step-step:last-child > .progress {width: 50%;}
 .smpl-step > .smpl-step-step.disabled a.smpl-step-icon {pointer-events: none;}
+@media (max-width: 767px) {
+	.smpl-step-info{display:none;}
+}
 </style>
