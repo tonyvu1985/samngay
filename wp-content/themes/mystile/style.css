@@ -1,5 +1,6 @@
 /* TonyVu - custom CSS */
 
+.highlight-number{background: #d60059; color:#fff; padding:3px 10px; margin-right:7px;}
 .user-info{color:#fff;}
 .wc-proceed-to-checkout .checkout-button{display:block;}
 .wc-proceed-to-checkout::after{content: "Nhập thông tin khách hàng và đia chỉ nhận hàng"; clear:both; color:#999; margin-top:7px; display:block;}
@@ -380,7 +381,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   padding: 0 1.618em;
-  background: #fcfcfc;
+  background: #fff;
 }
 img {
   vertical-align: bottom;
