@@ -40,6 +40,10 @@ define('FS_METHOD', 'direct');
 define('WPLANG', 'vi_VN');
 define('WP_LANG_DIR', $_SERVER['DOCUMENT_ROOT'].'wp-content/woocommerce/languages');
 
+/* SSL certificate */
+define('FORCE_SSL_ADMIN', true);
+
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
