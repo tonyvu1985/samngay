@@ -41,7 +41,7 @@ define('WPLANG', 'vi_VN');
 define('WP_LANG_DIR', $_SERVER['DOCUMENT_ROOT'].'wp-content/woocommerce/languages');
 
 /* SSL certificate */
-define('FORCE_SSL_ADMIN', true);
+#define('FORCE_SSL_ADMIN', true);
 
 
 /**#@+
