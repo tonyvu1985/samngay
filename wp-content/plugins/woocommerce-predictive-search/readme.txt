@@ -3,8 +3,8 @@
 Contributors: a3rev, A3 Revolution Software Development team
 Tags: WooCommerce Predictive Search, WooCommerce, Predictive Search, Live Search, e-commerce,  wordpress ecommerce
 Requires at least: 3.7
-Tested up to: 4.1
-Stable tag: 2.2.5
+Tested up to: 4.1.1
+Stable tag: 2.2.7
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -199,6 +199,15 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 
 
 == Changelog ==
+
+= 2.2.7 - 2015/04/03 =
+* Tweak - Made the product thumbnail a clickable link to the product on All Results Search pages. Before only the product title was linked
+* Tweak - add_filter to 'pre_get_posts' to set the post type again to 'product' search from Products if have 3rd party plugin set query post type wpshock_search_filter on 'post' or 'page'
+* Fix - Changed 'p' argument name to 'psp' argument name inside legacy api url to fix conflict with WordPress 'p' Post ID argument
+
+= 2.2.6 - 2015/03/19 =
+* Tweak - Tested and Tweaked for full compatibility with WooCommerce Version 2.3.7
+* Tweak - Tested and Tweaked for full compatibility with WordPress Version 4.1.1
 
 = 2.2.5 - 2015/02/13 =
 * Tweak - Maintenance update for full compatibility with WooCommerce major version release 2.3.0 with backward compatibility to WC 2.2.0
@@ -418,6 +427,12 @@ You can use this plugin only when you have installed the WooCommerce plugin.
 
 
 == Upgrade Notice ==
+
+= 2.2.7 =
+Major Maintenance Upgrade - 2 Code Tweaks, 2 Dev enhancements and 1 bug fix. Important! Must clear Cache Plugin Caches after running this update.
+
+= 2.2.6 =
+Upgrade now for full compatibility with WooCommerce Version 2.3.7 and WordPress version 4.1.1
 
 = 2.2.5 =
 Upgrade now for full compatibility with WooCommerce major version release 2.3.0 with backward compatibility to WooCommerce v 2.2.0
