@@ -47,7 +47,8 @@ label[for="ship-to-different-address-checkbox"] {background-color: #eee; color:#
 .carousel-fade .carousel-inner .next.left, .carousel-inner .prev.right {opacity: 1;}
 .carousel-fade .carousel-control {z-index: 2;}
 
-.reset_variations{display:none;}
+.reset_variations, #variations_clear, #pa_mau_label{display:none !important;}
+.variations-table tr td:first-child{width:30px;}
 .variations label{color:#D60059; font-size: 14px; margin-top: 17px;}
 .usp{float:right}
 .usp i{float:left; color:#999}
