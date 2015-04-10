@@ -4,11 +4,20 @@
     <li data-target="#carousel-samngay" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-samngay" data-slide-to="1"></li>
     <li data-target="#carousel-samngay" data-slide-to="2"></li>
+    <li data-target="#carousel-samngay" data-slide-to="3"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
+      <img src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/04/apple.png' ?>" alt="Apple Watch">
+       <div class="carousel-caption">
+            <h3>Apple Watch & Macbook pro 2015</h3>
+            <p>Sản phẩm công nghệ mới nhất của Apple<br/><span style="color:#ff4800;">Có hàng từ 24.04.2015</span></p>
+		<a href="<?php echo get_bloginfo('url') . '/product-category/cham-soc-da/?filter_nhan-hieu=63' ?>" class="btn btn-info">Xem chi tiết</a>
+      </div>
+    </div>
+    <div class="item">
       <img src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/03/bnSukin.png' ?>" alt="Sukin">
        <div class="carousel-caption">
             <h3>Sukin</h3>

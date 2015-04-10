@@ -33,28 +33,23 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
     <?php } ?>
 
 
-	<?php
-		// bootstrap carousel
+	<?php	// bootstrap carousel
 		include_once('carousel.php');
 	?>
-   
+  
+ 
     <div id="content" class="col-full <?php if ( $woo_options[ 'woo_homepage_banner' ] == "true" ) echo 'with-banner'; ?> <?php if ( $woo_options[ 'woo_homepage_sidebar' ] == "false" ) echo 'no-sidebar'; ?>">
     
     	<?php woo_main_before(); ?>
     
 		<section id="main" class="col-left">  
 		
+		<?php	// phone 
+			include_once('phone.php');
+		?>
+
 		<?php mystile_homepage_content(); ?>		
 	
-	<div class="iwatch">
-		<h1>Apple Watch - Có hàng từ 24.04.2015</h1>
-		<p><strong>Samngay</strong> sẽ nhập Apple Watch và Macbook pro phiên bản 2015, sản phẩm công nghệ mới nhất của Apple năm 2015. Hãy đặt hàng ngay bây giờ hoặc liên hệ với chúng tôi qua (08) 6258 5840 - (08) 6675 8708 để biết thêm chi tiết.</p>
-	</div>
-		<?php 
-			// show only the apple product
-			echo do_shortcode('[product_category category="dien-tu"]');
-		?>	
-
 		<?php woo_loop_before(); ?>
 		
 		<?php if ( $woo_options[ 'woo_homepage_blog' ] == "true" ) { 
