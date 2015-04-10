@@ -56,9 +56,10 @@
             </div>
             <a class="smpl-step-icon" style="font-size: 30px; padding-left: 16px; padding-top: 12px;">2</a>
             <div class="smpl-step-info text-left <?php echo $status_step2; ?>">
-		<p>2.1. Sửa số lượng của từng sản phẩm và ấn <span style="color:#D60059">"Cập nhật giỏ hàng"</span></p>
-		<p>2.2. Ấn <i class="icon-remove-sign"></i> bên trái của sản phẩm để loại sản phẩm ra khỏi giỏ hàng</p>  
-		2.3. Ấn <span style="color:#D60059">"Tiếp tục"</span> để nhập thông tin chi tiết về khách hàng
+		<p>2.1. <span style="color:#D60059">"Thêm sản phẩm khác vào giỏ hàng"</span> để thêm những sản phẩm khác mà bạn muốn mua</p>
+		<p>2.2. Sửa số lượng của từng sản phẩm và ấn <span style="color:#D60059">"Cập nhật giỏ hàng"</span></p>
+		<p>2.3. Ấn <i class="icon-remove-sign"></i> bên trái của sản phẩm để loại sản phẩm ra khỏi giỏ hàng</p>  
+		 2.4. Ấn <span style="color:#D60059">"Tiếp tục"</span> để nhập thông tin chi tiết về khách hàng
 		</div>
         </div>
         <div class="col-xs-3 smpl-step-step <?php echo $step3; ?>">          
