@@ -1,5 +1,7 @@
 /* TonyVu - custom CSS */
-
+.preOrder{float:right;}
+#frmPreOrder input{margin:3px 0}
+#myModalPreOrder h4.modal-title{text-transform:uppercase;}
 .highlight-number{background: #d60059; color:#fff; padding:3px 10px; margin-right:7px;}
 .user-info{color:#fff;}
 .wc-proceed-to-checkout .checkout-button{display:block;}
