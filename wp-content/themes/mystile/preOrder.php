@@ -1,12 +1,6 @@
-<div class="preOrder" style="width:600px;">
-		<div class="pull-right">
-			<p>Nếu bạn không tìm thấy sản phẩm mình cần mua, Email cho chúng tôi chi tiết sản phẩm và đường link sản phẩm ở website bạn mua. Chúng tôi sẽ giảm giá 5% giá của sản phẩm</p>
-		</div>
-		<div class="pull-right">
-			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalPreOrder">
-				<span class="glyphicon glyphicon-shopping-cart"></span> Đặt hàng trước 
-			</button>
-		</div>
+<div class="preOrder" style="float:right; text-align:center;">
+	<span>5% OFF cho sản phẩm không có trên Sắm Ngay</span><br/>
+	<button itype="button" class="btn btn-primary" data-toggle="modal" data-target="#myModalPreOrder">Đặt hàng trước</button>
 </div>
 
 
@@ -16,7 +10,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h4 class="modal-title" id="myModalLabel">Đặt hàng trước</h4>
-	Nếu bạn không tìm thấy sản phẩm mình cần mua, Email cho chúng tôi chi tiết sản phẩm và đường link sản phẩm ở website bạn mua. Chúng tôi sẽ giảm giá 5% giá của sản phẩm
+	<p class="loigiaithich">Nếu bạn không tìm thấy sản phẩm mình cần mua trên Sắm Ngay, email chi tiết sản phẩm và đường link sản phẩm ở website bạn mua. Sắm Ngay sẽ giảm giá 5% so với giá bạn mua.</p>
       </div>
       <div class="modal-body">
 		<form action="<?php echo get_bloginfo('url'); ?>" id="frmPreOrder" method="post">
@@ -42,7 +36,14 @@
 		<input type="text" class="form-control" name="link" placeholder="Bạn mua sản phẩm từ trang web nào?" />
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-primary">Đặt hàng</button>
+		<div class="row">
+			<div class="col-md-6 text-left">
+				<i class="icon icon-spinner icon-2x icon-spin"></i>
+			</div>
+			<div class="col-md-6 text-right">
+				<button type="button" class="btn btn-primary">Đặt hàng</button>
+			</div>
+		</div>
       </div>
     </div>
   </div>
@@ -52,7 +53,6 @@
         var becomeProviderForm = jQuery("#frmbecomeProvider");
         var formBecomeProvider = new VarienForm('frmbecomeProvider');
         jQuery(".btn-submitdetail").bind('click', function(event){
-                alert();
              event.preventDefault();
                 if(formBecomeProvider.validator.validate())  {
                      jQuery.ajax({
