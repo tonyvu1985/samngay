@@ -17,7 +17,7 @@
 		<h4>Thông tin khách hàng</h4>
 		<div class="row">
 			<div class="col-md-6">
-				<input type="text" class="form-control" name="name" placeholder="Họ Tên" />
+				<input type="text" class="form-control required" name="name" placeholder="Họ Tên" />
 			</div>
 			<div class="col-md-6">
 				<input type="text" class="form-control" name="phone" placeholder="Điện thoại" />
@@ -51,12 +51,8 @@
 <script type="text/javascript" defer>
     document.getElementById("frmPreOrder").action += "wp-content/themes/mystile/preOrderPost.php";
         var PreOrderForm = jQuery("#frmPreOrder");
-        var formPreOrder = new VarienForm('frmPreOrder');
-        jQuery(".btn-dathang").bind('click', function(event){
-		alert();
-             event.preventDefault();
-                if(formPreOrder.validator.validate())  {
-                     jQuery.ajax({
+                jQuery('#frmPreOrder').validate({
+           /*          jQuery.ajax({
                              type: "POST",
                              url: PreOrderForm.attr('action'),
                              dataType: 'json',
@@ -74,8 +70,7 @@
                                         }, 3000); // <-- time in milliseconds
                                      }
                              },
-                     });
-        }
+                     });*/
         });
 
 </script>

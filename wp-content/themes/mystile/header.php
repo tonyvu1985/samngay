@@ -29,7 +29,7 @@ global $woo_options, $woocommerce;
 	woo_head();
 
 	// Register script
-	wp_register_script('jquery-validation-plugin', '/wp-content/themes/mystitle/js/jquery.validate.min.js');
+	wp_register_script('jquery-validation-plugin', '/wp-content/themes/mystile/js/jquery.validate.min.js');
 
 	// Enqueueing Scripts to the head section
 	wp_enqueue_script('jquery-validation-plugin');
