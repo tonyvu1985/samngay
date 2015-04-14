@@ -49,17 +49,20 @@
   </div>
 </div>
 <script type="text/javascript" defer>
-    document.getElementById("frmPreOrder").action += "/preOrderPost/";
-        var becomeProviderForm = jQuery("#frmbecomeProvider");
-        var formBecomeProvider = new VarienForm('frmbecomeProvider');
+    document.getElementById("frmPreOrder").action += "wp-content/themes/mystitle/preOrderPost.php";
+        var PreOrderForm = jQuery("#frmPreOrder");
+        var formPreOrder = new VarienForm('frmPreOrder');
         jQuery(".btn-submitdetail").bind('click', function(event){
              event.preventDefault();
-                if(formBecomeProvider.validator.validate())  {
+                if(formPreOrder.validator.validate())  {
                      jQuery.ajax({
                              type: "POST",
-                             url: becomeProviderForm.attr('action'),
+                             url: PreOrderForm.attr('action'),
                              dataType: 'json',
-                             data: becomeProviderForm.serialize(),
+                             data: PreOrderForm.serialize(),
+			     beforeSend: function () {
+					jQuery('#myModalPreOrder .icon-spinner').show();       
+			     },
                              success: function(data, textStatus, jqXHR) {
                                      if(data['isSentEmail'] == 1) {
                                        jQuery('#frmbecomeProvider #dialog-box').text(data['text']);
