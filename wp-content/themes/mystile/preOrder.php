@@ -41,7 +41,7 @@
 				<i class="icon icon-spinner icon-2x icon-spin"></i>
 			</div>
 			<div class="col-md-6 text-right">
-				<button type="button" class="btn btn-primary">Đặt hàng</button>
+				<button type="button" class="btn btn-primary btn-dathang">Đặt hàng</button>
 			</div>
 		</div>
       </div>
@@ -49,10 +49,11 @@
   </div>
 </div>
 <script type="text/javascript" defer>
-    document.getElementById("frmPreOrder").action += "wp-content/themes/mystitle/preOrderPost.php";
+    document.getElementById("frmPreOrder").action += "wp-content/themes/mystile/preOrderPost.php";
         var PreOrderForm = jQuery("#frmPreOrder");
         var formPreOrder = new VarienForm('frmPreOrder');
-        jQuery(".btn-submitdetail").bind('click', function(event){
+        jQuery(".btn-dathang").bind('click', function(event){
+		alert();
              event.preventDefault();
                 if(formPreOrder.validator.validate())  {
                      jQuery.ajax({
@@ -63,7 +64,8 @@
 			     beforeSend: function () {
 					jQuery('#myModalPreOrder .icon-spinner').show();       
 			     },
-                             success: function(data, textStatus, jqXHR) {
+                             success: function(data) {
+					alert(data);
                                      if(data['isSentEmail'] == 1) {
                                        jQuery('#frmbecomeProvider #dialog-box').text(data['text']);
                                         setTimeout(function() {

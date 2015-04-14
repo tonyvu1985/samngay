@@ -1,5 +1,8 @@
 <?php
 
+// add jquery validation 
+add_action( 'wp_enqueue_scripts', 'add_jQuery_libraries' );
+
 //Display 24 products on archive pages
 add_filter( 'loop_shop_per_page', create_function( '$cols', 'return 400;' ), 20 );
 

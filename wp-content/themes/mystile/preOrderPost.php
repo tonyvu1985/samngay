@@ -6,7 +6,12 @@ $subject = "Đặt hàng trước: " . $_POST['product'];
 $message = "Họ tên khách hàng: " . $_POST['product'] . '<br/>' . 'Địa chỉ: ' . $_POST['address'] . 'Điện thoại ' . $_POST['phone'];
 $headers = "From:" $_POST['email'];
 
-
-mail($to,$subject,$message,$headers);
+try{
+	mail($to,$subject,$message,$headers);
+	echo 'success';
+}
+catch(Exception $e){
+	echo 'fails';
+}
 
 ?>
