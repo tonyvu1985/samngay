@@ -11,7 +11,7 @@
 	<div class="info">
 		<p style="color:#999">Xin Liên hệ hỏi đáp - tư vấn tại đây</p>
 		<i class="bgicon icon-phone"></i>&nbsp; (08) 6258 5840 - (08) 6675 8708<br/><br/>
-		<i class="bgicon icon-envelope"></i>&nbsp; <a href="mailto:samngay@gmail.com">samngay@gmail.com</a><br/><br/>
+		<i class="bgicon icon-envelope"></i>&nbsp; <a href="<?php echo get_site_url() . '/lien-he/';?>">Liên hệ</a><br/><br/>
 		<i class="bgicon icon-question"></i>&nbsp; <a href="<?php echo get_site_url() . '/huong-dan-mua-hang/';?>" target="_blank">Hướng dẫn mua hàng</a>
 	</div>
 	<div class="tro-giup">
@@ -19,11 +19,17 @@
 	</div>
 </div>
 
+<!-- Pre Order -->
+<div id="preOrder">
+	<div class="text">
+		<span class="discount">5% OFF</span>
+		<p><a data-toggle="modal" data-target="#myModalPreOrder">Đặt hàng trước</a></p>
+	</div>
+</div>
+
+
 <div id='scroll-div'>
 	<a id='scroll'><i class="icon-chevron-up icon-2x" alt="To the top"></i></a><br/>
-<!--	<a href="<?php echo get_site_url() . '/lien-he' ; ?>" alt="Liên hệ"><i class="icon-question icon-2x"></i></a><br/>
-	<a href="<?php echo get_site_url() . '/dang-nhap' ; ?>"><i class="icon-user icon-2x"></i></a><br/>-->
-	<a href="<?php echo get_site_url() . '/cart' ; ?>"><i class="icon-shopping-cart icon-2x"></i><span class="cartitems"><?php echo $woocommerce->cart->cart_contents_count; ?></span></a>
 </div>
 
 <script type='text/javascript' defer>
