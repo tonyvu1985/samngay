@@ -105,6 +105,10 @@ INDEX
     background: #3E3E3E;
     margin: 0 -3.631em;
     padding: 0 3.631em;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:100
   }
   #top #top-nav {
     display: block;
@@ -566,6 +570,7 @@ INDEX
     content: "S";
   }
   #header {
+	margin-top:40px;
   }
   #header:after {
     content: "\0020";
@@ -584,8 +589,10 @@ INDEX
     border: 0;
     background: 0;
     -webkit-box-shadow: none;
-    box-shadow: none;*/
-    width: auto;
+    box-shadow: none;
+    width: auto;*/
+    width: 100%;
+
   }
   #main.fullwidth,
   .layout-full #main,

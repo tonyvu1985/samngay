@@ -1,6 +1,7 @@
 /* TonyVu - custom CSS */
+.fixed { position:fixed; top: 32px; z-index: 100;}
 #myModalPreOrder h4.modal-title{text-transform:uppercase;}
-#preOrder{display: inline-block; position: fixed; top: 30%; right: 0; z-index: 100;}
+#preOrder{display: inline-block; position: fixed; top: 40%; right: 0; z-index: 100;}
 #preOrder .text{float: right; width: 40px; height: 183px; background: #D60059; border-bottom: 1px solid #ddd; border-top: 1px solid #ddd; border-right: 1px solid #ddd; opacity: .6; filter: alpha(opacity=60);}
 #preOrder .text .discount{color: #fff; display: inline-block; text-align: center; background: #000;}
 #preOrder .text p{transform: rotate(90deg); -webkit-transform: rotate(90deg); white-space: nowrap; margin: 20px 0 0 0; cursor: pointer; letter-spacing:1px; }
@@ -62,14 +63,10 @@ label[for="ship-to-different-address-checkbox"] {background-color: #eee; color:#
 .usp .col-left{margin-right:15px; float:left; padding:10px 0; cursor:pointer;}
 #header .search{float:left; width:35%}
 .bgicon{padding: 0px; color: #D60059;}
-#lienhe{display: inline-block; position: fixed; top: 30%; left: 0; z-index: 100; margin-left: -255px;}
+#lienhe{display: inline-block; position: fixed; top: 40%; left: 0; z-index: 100; margin-left: -255px;}
 #lienhe .info{float:left; background: #eee; padding: 10px 10px 15px 10px; border:1px solid #ddd}
 #lienhe .tro-giup{float:left; width:40px; height:183px; background: #ddd; border-bottom:1px solid #ddd; border-top: 1px solid #ddd; border-right:1px solid #ddd; opacity:.6; filter: alpha(opacity=60);}
 #lienhe .tro-giup p{transform: rotate(-90deg); -webkit-transform: rotate(-90deg); white-space: nowrap; margin: 125px 0 0 0; cursor:pointer;}
-#scroll-div {display: none; position: fixed; bottom: 5%; right: 0; z-index: 100; opacity:.6; filter: alpha(opacity=60);}
-#scroll-div .icon-chevron-up{background: #eee; width: 40px; height: 40px; display: inline-block; text-align: center; border:1px solid #ddd; color:#bbb;}
-#scroll-div .icon-chevron-up:hover {color: #D60059; cursor: pointer;}
-#scroll-div .cartitems{display: inline-block; padding-left: 2px; font-size: 12px; font-weight: 700; color: #ff4800; position:relative; bottom:-13px;}
 .block1.col-left:hover > .icon-truck, .block2.col-left:hover > .icon-calendar, .block3.col-left:hover > .icon-credit-card, .block4.col-left:hover > .icon-money{color:#D60059;}
 .block1.col-left:hover > .text, .block2.col-left:hover > .text, .block3.col-left:hover > .text, .block4.col-left:hover > .text{color:#D60059;}
 .page-title{margin-top:10px;}

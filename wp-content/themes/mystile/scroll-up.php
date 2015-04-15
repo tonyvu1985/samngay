@@ -27,26 +27,8 @@
 	</div>
 </div>
 
-
-<div id='scroll-div'>
-	<a id='scroll'><i class="icon-chevron-up icon-2x" alt="To the top"></i></a><br/>
-</div>
-
 <script type='text/javascript' defer>
-    
-    jQuery(window).scroll(function(){
-        if(jQuery(document).scrollTop() == 0){
-            jQuery('#scroll-div').hide();
-        }else{
-            jQuery('#scroll-div').show();
-        }
-    });
-    
-    jQuery("#scroll").click(function() {
-       jQuery("html, body").animate({ scrollTop: 0 }, "slow");
-       return false;
-   });
-
+jQuery(document).ready(function() {
 	/* slide tro giup */
 	jQuery(".lnkhelp").click(function(e){
 		e.preventDefault();
@@ -57,5 +39,16 @@
 		}
 		return;
 	})
-</script>
 
+	/* Navigation Menu Fixed */    
+	var aboveHeight = 200;
+
+	jQuery(window).scroll(function(){
+		if (jQuery(window).scrollTop() > aboveHeight){
+			jQuery('#navigation').addClass('fixed');
+		} else {
+			jQuery('#navigation').removeClass('fixed').next().css('padding-top','0');
+		}
+	});
+});
+</script>
