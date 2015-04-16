@@ -1,7 +1,7 @@
 /* TonyVu - custom CSS */
 .fr_search_widget{margin:0 !important}
 #top .search{float:left; width:100%;}
-h1.cat{color: #fff; padding: 10px 0 0 0; background: #D60059; padding:10px 30px 10px 10px; display:inline-block; font-weight:normal}
+h1.cati, .home h1{color: #fff; padding: 10px 0 0 0; background: #D60059; padding:10px 30px 10px 10px; display:inline-block; font-weight:normal}
 .fixed { position:fixed; top: 37px; z-index: 100;}
 #myModalPreOrder .modal-header{background:#D60059; color:#ffcde2}
 #myModalPreOrder h4.modal-title{text-transform:uppercase; color:#fff; font-weight: bold; font-size: 20px;}
