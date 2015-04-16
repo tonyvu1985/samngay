@@ -1,7 +1,9 @@
 /* TonyVu - custom CSS */
 .fr_search_widget{margin:0 !important}
 #top .search{float:left; width:100%;}
-h1.cat {color: #fff; padding: 10px 0 0 0; background: #D60059; padding:10px 30px 10px 10px; display:inline-block; font-weight:normal}
+h1.cat, .homepage h1 {color: #fff; float:left; background: #D60059; padding:10px 30px 10px 10px; display:inline-block; font-weight:normal; font-size:16px;}
+.danhmuc{float: left; background: #333; color: #fff; padding: 2px;}
+.btn-xemtatca{border-radius:0;}
 .fixed { position:fixed; top: 37px; z-index: 100;}
 #myModalPreOrder .modal-header{background:#D60059; color:#ffcde2}
 #myModalPreOrder h4.modal-title{text-transform:uppercase; color:#fff; font-weight: bold; font-size: 20px;}
@@ -72,7 +74,7 @@ label[for="ship-to-different-address-checkbox"] {background-color: #eee; color:#
 #lienhe .tro-giup{float:left; width:40px; height:183px; background: #ddd; border-bottom:1px solid #ddd; border-top: 1px solid #ddd; border-right:1px solid #ddd; opacity:.6; filter: alpha(opacity=60);}
 #lienhe .tro-giup p{transform: rotate(-90deg); -webkit-transform: rotate(-90deg); white-space: nowrap; margin: 125px 0 0 0; cursor:pointer;}
 .block1.col-left:hover > .icon-truck, .block2.col-left:hover > .icon-calendar, .block3.col-left:hover > .icon-credit-card, .block4.col-left:hover > .icon-money, .block5.col-left:hover > .icon-thumbs-up-alt, .block6.col-left:hover > .icon-smile{color:#D60059;}
-.block1.col-left:hover > .text, .block2.col-left:hover > .text, .block3.col-left:hover > .text, .block4.col-left:hover > .text{color:#D60059;}
+.block1.col-left:hover > .text, .block2.col-left:hover > .text, .block3.col-left:hover > .text, .block4.col-left:hover > .text, .block5.col-left:hover >  .text, .blocki6.col-left:hover > .text{color:#D60059;}
 .page-title{margin-top:10px;}
 @media (max-width: 767px) {
 #header .search, .usp{width:100%}

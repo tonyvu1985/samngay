@@ -15,7 +15,7 @@
 		<i class="icon-money icon-3x"></i>
 		<div class="text">Hoàn trả lại 100%<br/>nếu không hài lòng</div>        
 	</div>
-	<div class="block5 col-left" title="Nhà bán hàng uy tín">
+	<div class="block5 col-left" title="Nhà bán hàng uy tín, sản phẩm nhập ngoại chất lượng">
 		<i class="icon-thumbs-up-alt icon-3x"></i>
 		<div class="text">Nhà bán hàng<br/>uy tín</div>        
 	</div>
