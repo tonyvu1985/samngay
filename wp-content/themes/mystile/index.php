@@ -44,9 +44,6 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
     
 		<section id="main" class="col-left">  
 		
-		<?php	// phone 
-			include_once('phone.php');
-		?>
 
 		<?php mystile_homepage_content(); ?>		
 	
@@ -97,7 +94,9 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
 		</section><!-- /#main -->
 		
 		<?php woo_main_after(); ?>
-
+		<?php	// show 8 product per category 
+			include_once('product.php');
+		?>
         <?php if ( $woo_options[ 'woo_homepage_sidebar' ] == "true" ) get_sidebar(); ?>
 
     </div><!-- /#content -->
