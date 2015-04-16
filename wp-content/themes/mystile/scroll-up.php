@@ -41,7 +41,7 @@ jQuery(document).ready(function() {
 	})
 
 	/* Navigation Menu Fixed */    
-	var aboveHeight = 200;
+	var aboveHeight = 210;
 
 	jQuery(window).scroll(function(){
 		if (jQuery(window).scrollTop() > aboveHeight){

@@ -15,5 +15,13 @@
 		<i class="icon-money icon-3x"></i>
 		<div class="text">Hoàn trả lại 100%<br/>nếu không hài lòng</div>        
 	</div>
+	<div class="block5 col-left" title="Nhà bán hàng uy tín">
+		<i class="icon-thumbs-up-alt icon-3x"></i>
+		<div class="text">Nhà bán hàng<br/>uy tín</div>        
+	</div>
+	<div class="block6 col-left" title="Dịch vụ chăm sóc khách hàng chu đáo">
+		<i class="icon-smile icon-3x"></i>
+		<div class="text">Dịch vụ CSKH<br/>chu đáo</div>        
+	</div>
 </div>
 <div style="clear:both"></div>

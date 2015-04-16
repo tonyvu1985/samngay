@@ -47,6 +47,12 @@ global $woo_options, $woocommerce;
 	<?php endif; ?>
 	<div id="top">
 		<nav class="col-full" role="navigation">
+
+		<?php
+		// register WooCommerce Predictive Search
+		if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header Search Sidebar') ) : 
+		endif; 
+		?>
 			<?php if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'top-menu' ) ) { ?>
 			<?php wp_nav_menu( array( 'depth' => 6, 'sort_column' => 'menu_order', 'container' => 'ul', 'menu_id' => 'top-nav', 'menu_class' => 'nav fl', 'theme_location' => 'top-menu' ) ); ?>
 			<?php } ?>
@@ -73,11 +79,6 @@ global $woo_options, $woocommerce;
     <?php woo_header_before(); ?>
 
 	<header id="header" class="col-full">
-		<?
-		// register WooCommerce Predictive Search
-		if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Header Search Sidebar') ) : 
-		endif; 
-		?>
 		<!-- usp -->
 		<?php include_once('usp.php'); ?>
 		<hgroup>

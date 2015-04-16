@@ -37,7 +37,10 @@ INDEX
 .sotaikhoan{color:#D60059}
 /*----------------------*/
 @media only screen and (min-width: 768px) {
+#top .search{width:500px;}
+.usp{display:block}
 .user-info.account{background:#333;}
+.user-info.account a{color:#fff;}
   html.boxed {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAG0lEQVQIW2NkYGAwBuKzQAwGjDAGNgGwSgwVAFCGAgUGpiTrAAAAAElFTkSuQmCC) #e6e6e6;
   }
@@ -102,7 +105,7 @@ INDEX
   }
   /* 2. TOP NAVIGATION (Add top navigation presentational styles here) */
   #top {
-    background: #3E3E3E;
+  /*  background: #3E3E3E;*/
     margin: 0 -3.631em;
     padding: 0 3.631em;
     position:fixed;
@@ -119,9 +122,9 @@ INDEX
     /* LEVEL 3 */
   }
   #top ul.nav > li a {
-    padding: 10px;
-    color: #fff;
-  /*  text-transform:uppercase;*/
+    padding: 13px 10px;
+  /*  color: #fff;
+    text-transform:uppercase;*/
   }
   #top ul.nav > li a:hover {
     background: #D60059;
@@ -196,15 +199,16 @@ INDEX
   }
   #header #navigation ul.nav {
   /*  float: right;*/
-	background-color:#eee;
+	background-color:#333;
     /* LEVEL 2 */
     /* LEVEL 3 */
   }
   #header #navigation ul.nav > li a {
     position: relative;
+    color:#fff;
   }
   #header #navigation ul.nav > li a:hover {
-    background: #D60059;
+	background: #D60059;
 	color:#fff;
   }
   #header #navigation ul.nav > li:hover a {
@@ -221,7 +225,7 @@ INDEX
     display: inline-block;
     font-size: .857em;
     margin-left: .618em;
-    content: ";";
+    content: "{";
     color: #e3dad7;
     font-weight: normal;
   }
@@ -239,12 +243,12 @@ INDEX
   #header #navigation ul.nav > li.parent:hover a:before {
     content: "";
     display: block;
-    height: 2px;
+    height: 1px;
     position: absolute;
     bottom: -1px;
     left: 0;
     right: 0;
-    background: #fff;
+    background: #343434;
     z-index: 99999;
   }
   #header #navigation ul.nav > li.parent:hover a:after {
@@ -269,16 +273,13 @@ INDEX
     visibility: hidden;
   }
   #header #navigation ul.nav ul {
-    border: 1px solid #e8e4e3;
-    margin-top: -1px;
+  /*  border: 1px solid #e8e4e3;
+    margin-top: -1px;*/
     padding: .372em 0;
-    box-shadow: 0 0.202em 0 0 rgba(232, 228, 227, 0.4);
-    -webkit-box-shadow: 0 0.202em 0 0 rgba(232, 228, 227, 0.4);
-    background: #fff;
+    background: #444;
   }
   #header #navigation ul.nav ul li a {
     border: 0;
-    background: #fff;
   }
   #header #navigation ul.nav ul ul {
     left: 100%;
