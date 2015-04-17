@@ -37,6 +37,7 @@ INDEX
 .sotaikhoan{color:#D60059}
 /*----------------------*/
 @media only screen and (min-width: 768px) {
+.xemtatca{display:block}
 #top .search{width:500px;}
 .usp{display:block}
 .user-info.account{background:#333;}

@@ -1,9 +1,10 @@
 /* TonyVu - custom CSS */
 .fr_search_widget{margin:0 !important}
 #top .search{float:left; width:100%;}
-h1.cat, .homepage h1 {color: #fff; float:left; background: #D60059; padding:10px 30px 10px 10px; display:inline-block; font-weight:normal; font-size:16px;}
+h1.cat, .homepage h1 {color: #fff; float:left; background: #D60059; padding:10px 15px 10px 10px; display:inline-block; font-weight:normal; font-size:16px; border-left: 5px solid #333}
 .danhmuc{float: left; background: #333; color: #fff; padding: 2px;}
-.btn-xemtatca{border-radius:0;}
+.xemtatca{display:none}
+.xemtatca a{border-radius:0;}
 .fixed { position:fixed; top: 37px; z-index: 100;}
 #myModalPreOrder .modal-header{background:#D60059; color:#ffcde2}
 #myModalPreOrder h4.modal-title{text-transform:uppercase; color:#fff; font-weight: bold; font-size: 20px;}
