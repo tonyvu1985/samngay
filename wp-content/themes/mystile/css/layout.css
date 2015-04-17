@@ -668,7 +668,7 @@ INDEX
   ul.products li.product {
     position: relative;
     width: 22%;
-	border: 1px solid #fff;
+	border: 1px solid #ddd;
   }
   ul.products li.product:hover {
 	border-color: #D60059;

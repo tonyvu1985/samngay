@@ -40,15 +40,16 @@ jQuery(document).ready(function() {
 		return;
 	})
 
-	/* Navigation Menu Fixed */    
-	var aboveHeight = 210;
-
-	jQuery(window).scroll(function(){
-		if (jQuery(window).scrollTop() > aboveHeight){
-			jQuery('#navigation').addClass('fixed');
-		} else {
-			jQuery('#navigation').removeClass('fixed').next().css('padding-top','0');
-		}
-	});
+	/* Navigation Menu Fixed on Desktop (not on mobile)	*/    
+	if (jQuery(window).width() > 768) {  
+		var aboveHeight = 210;
+		jQuery(window).scroll(function(){
+			if (jQuery(window).scrollTop() > aboveHeight){
+				jQuery('#navigation').addClass('fixed');
+			} else {
+				jQuery('#navigation').removeClass('fixed').next().css('padding-top','0');
+			}
+		});
+	}
 });
 </script>
