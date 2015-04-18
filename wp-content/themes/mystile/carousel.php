@@ -14,7 +14,7 @@
        <div class="carousel-caption">
             <h3>Apple Watch & Macbook pro 2015</h3>
             <p>Sản phẩm công nghệ mới nhất của Apple<br/><span style="color:#ff4800;">Có hàng từ 24.04.2015</span></p>
-		<a href="<?php echo get_bloginfo('url') . '/product-category/cham-soc-da/?filter_nhan-hieu=63' ?>" class="btn btn-info">Xem chi tiết</a>
+		<a href="<?php echo get_bloginfo('url') . '/product-category/cham-soc-da/?filter_nhan-hieu=63' ?>" class="btn btn-info button">Xem chi tiết</a>
       </div>
     </div>
     <div class="item">
@@ -22,7 +22,7 @@
        <div class="carousel-caption">
             <h3>Sukin</h3>
             <p>Mặt nạ, kem dưỡng ẩm cho da mặt, sữa rửa mặt...</p>
-		<a href="<?php echo get_bloginfo('url') . '/product-category/cham-soc-da/?filter_nhan-hieu=63' ?>" class="btn btn-info">Xem chi tiết</a>
+		<a href="<?php echo get_bloginfo('url') . '/product-category/cham-soc-da/?filter_nhan-hieu=63' ?>" class="btn btn-info button">Xem chi tiết</a>
       </div>
     </div>
     <div class="item">
@@ -30,7 +30,7 @@
       <div class="carousel-caption">
 		<h3>Neutrogena Naturals</h3>
 		<p>Sữa rửa mặt, kem dưỡng ẩm chống nết nhăn ban đêm, kem chống nắng...</p>
-		<a href="<?php echo  get_bloginfo('url') . '/product-category/cham-soc-da/?filter_nhan-hieu=61' ?>" class="btn btn-info">Xem chi tiết</a>
+		<a href="<?php echo  get_bloginfo('url') . '/product-category/cham-soc-da/?filter_nhan-hieu=61' ?>" class="btn btn-info button">Xem chi tiết</a>
       </div>
 	</div>
     <div class="item">
@@ -38,7 +38,7 @@
       <div class="carousel-caption">
 		<h3>Dòng sản phẩm son môi</h3>
 		<p>Son môi nước, son dưỡng môi, son môi khoáng chất ...</p>
-		<a href="<?php echo  get_bloginfo('url') . '/product-category/my-pham/moi/' ?>" class="btn btn-info">Xem chi tiết</a>
+		<a href="<?php echo  get_bloginfo('url') . '/product-category/my-pham/moi/' ?>" class="btn btn-info button">Xem chi tiết</a>
       </div>
     </div>
   </div>
