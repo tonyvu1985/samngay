@@ -14,7 +14,7 @@
        <div class="carousel-caption">
             <h3>Apple Watch & Macbook pro 2015</h3>
             <p>Sản phẩm công nghệ mới nhất của Apple<br/><span style="color:#ff4800;">Có hàng từ 24.04.2015</span></p>
-		<a href="<?php echo get_bloginfo('url') . '/product-category/cham-soc-da/?filter_nhan-hieu=63' ?>" class="btn btn-info button">Xem chi tiết</a>
+		<a href="<?php echo get_bloginfo('url') . '/product-category/product-category/dien-tu/' ?>" class="btn btn-info button">Xem chi tiết</a>
       </div>
     </div>
     <div class="item">
