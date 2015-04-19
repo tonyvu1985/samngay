@@ -2,6 +2,7 @@
 .fr_search_widget{margin:0 !important}
 #top .search{float:left; width:100%;}
 h1.cat, .homepage h1 {color: #fff; float:left; background: #D60059; padding:10px 15px 10px 10px; display:inline-block; font-weight:normal; font-size:16px; border-left: 5px solid #333}
+.woocommerce.columns-4{clear:both;}
 .danhmuc{float: left; background: #333; color: #fff; padding: 2px;}
 .xemtatca{display:none}
 .xemtatca a{border-radius:0;}

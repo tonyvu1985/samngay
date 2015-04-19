@@ -15,6 +15,38 @@ function get_product_category_by_id($cat_Ids) {
 		echo	'</div>';
 		echo '</div>';
 		echo do_shortcode('[product_category category="' . $term['slug']  . '" per_page="8" order="asc"]');
+
+		// get Brand by Cat
+		get_brand_by_cat($term['slug']);
+	}
+}
+
+function get_brand_by_cat($cat_slug){
+	$args = array(
+		'posts_per_page' => -1,
+		'product_cat' => $cat_slug,
+		'post_type' => 'product',
+	);
+
+	$the_query = new WP_Query($args);
+	// The Loop
+	$tam = array();
+	while ( $the_query->have_posts() ) {
+		$the_query->the_post();
+		//echo get_the_id();
+		$brands = get_the_terms(get_the_id(), 'pa_nhan-hieu');
+		//var_dump($brands);
+		foreach ($brands as $brand){
+			//echo $brand->term_id;
+			array_push($tam, $brand->term_id);	
+		}
+	}
+	$brand_col = array_unique($tam);
+	foreach($brand_col as $id){
+		$brand = get_term_by($id);
+		echo 'asd';
+		var_dump($brand);
+		exit;
 	}
 }
 
@@ -23,4 +55,20 @@ function get_product_category_by_id($cat_Ids) {
 */
 $cat_Ids = array(6, 11, 10, 245, 127, 12, 193);
 $product_category = get_product_category_by_id($cat_Ids);
+
+/*
+//$product->id = 813;
+//_thumbnail_id	814 wp_postmeta
+$terms1 = get_the_terms(813, 'pa_nhan-hieu');
+      foreach ( $terms1 as $term ) {
+       //var_dump($term);
+       print_r($term);
+      // var_dump($term->thumbnail);
+       print_r($term->object_id);
+	//echo 'tonyvu' . $term->;
+//	echo 'tonyvu' . $term->;
+//$swatch_term = new WC_Swatch_Term( 813, 253, 'pa_nhan-hieu ', false,             '700' );
+//echo $swatch_term->thumbnail_src;
+	return;
+        }*/
 ?>      
