@@ -31,19 +31,27 @@ function get_brand_by_cat($cat_slug){
 	$the_query = new WP_Query($args);
 	// The Loop
 	$tam = array();
+	$brands = array();
 	while ( $the_query->have_posts() ) {
 		$the_query->the_post();
 		$brands = get_the_terms(get_the_id(), 'pa_nhan-hieu');
 		//var_dump($brands);
-		foreach ($brands as $brand){
-			array_push($tam, $brand->term_id);	
+		if (is_array($brands)){	
+			foreach ((array)$brands as $brand){
+				array_push($tam, $brand->term_id);	
+			}
 		}
 	}
-	$brand_col = array_unique($tam);
-	foreach($brand_col as $id){
-		$brand = get_the_terms($id, 'pa_nhan-hieu');
-		foreach($brand as $b){
-			$brand_html .= "<a href='"  . get_bloginfo('url') . '/product-tag/' . $b->slug . "'>" . $b->name . "</a>" . "&nbsp &nbsp";
+	$tam = array_unique($tam);
+	$brand = array();
+	if (is_array($tam)){	
+		foreach((array)$tam as $id){
+			$brand = get_the_terms($id, 'pa_nhan-hieu');
+			if (is_array($brand)){
+				foreach((array)$brand as $b){
+					$brand_html .= "<a href='"  . get_bloginfo('url') . '/product-tag/' . $b->slug . "'>" . $b->name . "</a>" . "&nbsp &nbsp";
+				}
+			}
 		}
 	}
 	if($brand_html){
