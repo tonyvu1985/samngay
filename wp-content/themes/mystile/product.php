@@ -55,7 +55,7 @@ function get_brand_by_cat($cat_slug){
 		}
 	}
 	if($brand_html){
-		echo "<h3 class='shopbybrand'>Shop by brand &nbsp</h3>" . $brand_html . "<br/><br/>";
+		echo "<h3 class='shopbybrand'>Mua sắm theo thương hiệu &nbsp</h3>" . $brand_html . "<br/><br/>";
 	}
 }
 
