@@ -33,20 +33,21 @@ function get_brand_by_cat($cat_slug){
 	$tam = array();
 	while ( $the_query->have_posts() ) {
 		$the_query->the_post();
-		//echo get_the_id();
 		$brands = get_the_terms(get_the_id(), 'pa_nhan-hieu');
 		//var_dump($brands);
 		foreach ($brands as $brand){
-			//echo $brand->term_id;
 			array_push($tam, $brand->term_id);	
 		}
 	}
 	$brand_col = array_unique($tam);
 	foreach($brand_col as $id){
-		$brand = get_term_by($id);
-		echo 'asd';
-		var_dump($brand);
-		exit;
+		$brand = get_the_terms($id, 'pa_nhan-hieu');
+		foreach($brand as $b){
+			$brand_html .= "<a href='"  . get_bloginfo('url') . '/product-tag/' . $b->slug . "'>" . $b->name . "</a>" . "&nbsp &nbsp";
+		}
+	}
+	if($brand_html){
+		echo "<h3 class='shopbybrand'>Shop by brand &nbsp</h3>" . $brand_html . "<br/><br/>";
 	}
 }
 
