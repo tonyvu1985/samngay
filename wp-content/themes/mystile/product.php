@@ -38,21 +38,15 @@ function get_brand_by_cat($cat_slug){
 		//var_dump($brands);
 		if (is_array($brands)){	
 			foreach ((array)$brands as $brand){
-				array_push($tam, $brand->term_id);	
+				//array_push($tam, $brand->term_id);	
+				$tam[$brand->term_id] = $brand->name;	
 			}
 		}
 	}
-	$tam = array_unique($tam);
-	$brand = array();
-	if (is_array($tam)){	
-		foreach((array)$tam as $id){
-			$brand = get_the_terms($id, 'pa_nhan-hieu');
-			if (is_array($brand)){
-				foreach((array)$brand as $b){
-					$brand_html .= "<a href='"  . get_bloginfo('url') . '/product-tag/' . $b->slug . "'>" . $b->name . "</a>" . "&nbsp &nbsp";
-				}
-			}
-		}
+//	print_r($tam);
+	foreach((array)$tam as $id => $name){
+	//	echo $slug . ' - ' . $name[0] . $name[1];
+		$brand_html .= "<a href='"  . get_bloginfo('url') . '/product-category/' . $cat_slug . '/?filter_nhan-hieu=' . $id . "'>" . $name . "</a>" . "&nbsp &nbsp";
 	}
 	if($brand_html){
 		echo "<h3 class='shopbybrand'>Mua sắm theo thương hiệu &nbsp</h3>" . $brand_html . "<br/><br/>";
