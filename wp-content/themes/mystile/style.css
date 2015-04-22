@@ -2107,8 +2107,8 @@ ul.products .star-rating {
   position: absolute;
   top: 0;
   right: 0;
-  background: #ffcde2;
-  color: #555;
+  background: #333;
+  color: #fff;
   font-weight: bold;
   padding: 0 .857em;
   line-height: 4.236em;

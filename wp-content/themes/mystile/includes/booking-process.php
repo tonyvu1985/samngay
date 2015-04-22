@@ -89,7 +89,7 @@
         </div>
     </div>
 </div>
-
+<div style="clear:both;"></div>
 <style>
 .process_status_hide{opacity:0.5; filter: alpha(opacity=50);}
 .smpl-step {margin-top: 40px;}
