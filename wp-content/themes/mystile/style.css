@@ -75,7 +75,7 @@ label[for="ship-to-different-address-checkbox"] {background-color: #eee; color:#
 .usp .col-left{margin-right:15px; float:right; padding:10px 0; cursor:pointer;}
 #header .search{float:left; width:35%}
 .bgicon{padding: 0px; color: #D60059;}
-#lienhe{display: inline-block; position: fixed; top: 40%; left: 0; z-index: 100; margin-left: -255px;}
+#lienhe{display: inline-block; position: fixed; top: 40%; left: 0; z-index: 100; margin-left: -263px;}
 #lienhe .info{float:left; background: #eee; padding: 10px 10px 15px 10px; border:1px solid #ddd}
 #lienhe .tro-giup{float:left; width:43px; height:183px; background: #bbb; border-bottom:1px solid #ddd; border-top: 1px solid #ddd; border-right:1px solid #ddd; opacity:.6; filter: alpha(opacity=60);}
 #lienhe .tro-giup p{transform: rotate(-90deg); -webkit-transform: rotate(-90deg); white-space: nowrap; margin: 125px 0 0 0; cursor:pointer;}

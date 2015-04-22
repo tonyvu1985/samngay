@@ -33,7 +33,7 @@ jQuery(document).ready(function() {
 	jQuery(".lnkhelp").click(function(e){
 		e.preventDefault();
 		if(parseInt(jQuery("#lienhe").css("margin-left")) == 0){
-			jQuery("#lienhe").animate({"margin-left": '-255px'});
+			jQuery("#lienhe").animate({"margin-left": '-263px'});
 		}else{
 			jQuery("#lienhe").animate({"margin-left": '0px'});
 		}
