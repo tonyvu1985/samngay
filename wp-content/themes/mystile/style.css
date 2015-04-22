@@ -1,6 +1,7 @@
 /* TonyVu - custom CSS */
 .shopbybrand{display:inline-block; color:#aaa;}
 .fr_search_widget{margin:0 !important}
+.fr_search_widget .ctr_search input{padding: 13px 0 !important; height:10px !important; background:none !important;}
 #top .search{float:left; width:100%;}
 h1.cat, .homepage h1 {color: #fff; float:left; background: #D60059; padding:10px 15px 10px 10px; display:inline-block; font-weight:normal; font-size:16px; border-left: 5px solid #333}
 .woocommerce.columns-4{clear:both;}

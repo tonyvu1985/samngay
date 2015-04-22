@@ -40,7 +40,7 @@ INDEX
 
 @media only screen and (min-width: 768px) {
 .xemtatca{display:block}
-#top .search{width:500px;}
+#top .search{width:500px; margin-top:3px;}
 .user-info.account{background:#333;}
 .user-info.account a{color:#fff;}
   html.boxed {
