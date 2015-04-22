@@ -79,8 +79,6 @@ global $woo_options, $woocommerce;
     <?php woo_header_before(); ?>
 
 	<header id="header" class="col-full">
-		<!-- usp -->
-		<?php include_once('usp.php'); ?>
 		<hgroup>
 
 	    	 <?php
@@ -99,6 +97,7 @@ global $woo_options, $woocommerce;
 			<h3 class="nav-toggle"><a href="#navigation"><mark class="websymbols">&#178;</mark> <span><?php _e('Navigation', 'woothemes'); ?></span></a></h3>
 
 		</hgroup>
+		<?php include_once('usp.php'); ?>
 		<?php include_once('preOrder.php'); ?>
 
         <?php woo_nav_before(); ?>

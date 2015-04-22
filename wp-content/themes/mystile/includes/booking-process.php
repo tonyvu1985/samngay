@@ -36,7 +36,7 @@
 	}
 
 ?>
-<div class="container">
+<div class="col-xs-12">
     <div class="row smpl-step" style="border-bottom: 0; min-width: 500px;margin-top:0">
         <div class="col-xs-3 smpl-step-step complete">
 <!--            <div class="text-center smpl-step-num">Step 1</div>-->

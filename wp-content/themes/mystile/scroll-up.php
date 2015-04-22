@@ -42,7 +42,7 @@ jQuery(document).ready(function() {
 
 	/* Navigation Menu Fixed on Desktop (not on mobile)	*/    
 	if (jQuery(window).width() > 768) {  
-		var aboveHeight = 210;
+		var aboveHeight = 140;
 		jQuery(window).scroll(function(){
 			if (jQuery(window).scrollTop() > aboveHeight){
 				jQuery('#navigation').addClass('fixed');

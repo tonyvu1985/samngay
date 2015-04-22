@@ -91,12 +91,13 @@ if ( ! function_exists( 'wp' ) && ! empty( $_SERVER['SCRIPT_FILENAME'] ) && base
         
         <?php woo_loop_after(); ?>
 		                
-		</section><!-- /#main -->
-		
-		<?php woo_main_after(); ?>
 		<?php	// show 8 product per category 
 			include_once('product.php');
 		?>
+
+		</section><!-- /#main -->
+		
+		<?php woo_main_after(); ?>
         <?php if ( $woo_options[ 'woo_homepage_sidebar' ] == "true" ) get_sidebar(); ?>
 
     </div><!-- /#content -->

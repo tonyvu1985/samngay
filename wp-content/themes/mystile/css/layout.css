@@ -29,17 +29,18 @@ INDEX
 7. IE Fixes
 
 */
-/*-- Tonyvu CSS --------------------
-#menu-item-362 a{background:#ff8cbc; }
-#menu-item-362 a:hover{background:#D60059 !important; color:#fff !important;}*/
+/*-- Tonyvu CSS -------------------- */
 .noi_san_xuat{font-weight:bold}
 .long-footer-widget h2{color:#4a413e}
 .sotaikhoan{color:#D60059}
+@media (min-width: 1200px) {
+	.usp{display:block}
+}
 /*----------------------*/
+
 @media only screen and (min-width: 768px) {
 .xemtatca{display:block}
 #top .search{width:500px;}
-.usp{display:block}
 .user-info.account{background:#333;}
 .user-info.account a{color:#fff;}
   html.boxed {
@@ -583,7 +584,7 @@ INDEX
   }
   #header hgroup {
     float: left;
-    margin-top:10px;
+    margin-top:25px;
   }
   #header #navigation {
    /* float: right;
@@ -600,7 +601,7 @@ INDEX
   .layout-full #main,
   .col-full,
   .no-sidebar #main {
-    max-width: 75.998em;
+  /*  max-width: 75.998em;*/
     margin: 0 auto;
     width: 100%;
   }
@@ -669,7 +670,7 @@ INDEX
   ul.products li.product {
     position: relative;
     width: 22%;
-	border: 1px solid #ddd;
+    border: 1px solid #ddd;
   }
   ul.products li.product:hover {
 	border-color: #D60059;
@@ -685,11 +686,11 @@ INDEX
   }
   /* 7.2.1 Single Product */
   .single-product .images {
-    width: 48%;
+    width: 36%;
     float: left;
   }
   .single-product .summary {
-    width: 48%;
+    width: 62%;
     float: right;
   }
   .single-product .woocommerce_tabs,
