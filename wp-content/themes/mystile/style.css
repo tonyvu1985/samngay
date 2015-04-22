@@ -50,12 +50,15 @@ label[for="ship-to-different-address-checkbox"] {background-color: #eee; color:#
 .myaccount_user a{color:#D60059}
 .myaccount_user a:hover{text-decoration:underline;}
 .create-account label{margin: 0px 0px 0px 0px; padding: 0px 0px 0px 10px !important; display: inline-block !important;}
-/* bootstrap carousel */
-#carousel-samngay{margin: 0px auto 30px auto; /*max-width:1140px;*/}
+
+#carousel-samngay{display:none;}
+#carousel-samngay .thumbnail:hover{border:1px solid #D60059}
+/* bootstrap carousel 
+#carousel-samngay{margin: 0px auto 30px auto; max-width:1140px; display:none;}
 .carousel-caption{left: 40%; top: 20%; text-shadow:0 0 0; color:#3E3E3E}
 .carousel-caption h3{font-size:20px; text-transform:uppercase; font-weight:bold}
 .carousel-caption .btn{border-radius:0}
-.carousel-inner > .item{/*width: 1140px; */height: 313px;}
+.carousel-inner > .item{width: 1140px; height: 313px;}
 .carousel-control.left, .carousel-control.right{background-image:none}
 .carousel-indicators li{border:1px solid #999;}
 .carousel-indicators .active{background-color:#999;}
@@ -64,7 +67,7 @@ label[for="ship-to-different-address-checkbox"] {background-color: #eee; color:#
 .carousel-fade .carousel-inner .active.left, .carousel-inner .active.right {left: 0; opacity: 0; z-index: 1;}
 .carousel-fade .carousel-inner .next.left, .carousel-inner .prev.right {opacity: 1;}
 .carousel-fade .carousel-control {z-index: 2;}
-
+*/
 .reset_variations, #variations_clear, #pa_mau_label, #pa_huong-vi_label{display:none !important;}
 .variations-table tr td label[for=pa_mau]{width:30px;}
 .variations-table tr td label[for=pa_huong-vi]{width:70px;}

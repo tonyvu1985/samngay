@@ -1,3 +1,47 @@
+<div class="row" id="carousel-samngay">
+	<div class="col-sm-6 col-md-3"><!-- col 1 -->
+		<div class="thumbnail">
+			<img alt="Apple Watch" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/04/apple.png' ?>" data-holder-rendered="true">
+			<div class="caption">
+				<h3 id="thumbnail-label">Apple Watch & Macbook pro 2015</h3>
+				<p>Sản phẩm công nghệ mới nhất của Apple</p>
+				<a href="<?php echo get_bloginfo('url') . '/product-category/product-category/dien-tu/' ?>" class="btn btn-default">Xem ngay</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-6 col-md-3"><!-- col 2 -->
+		<div class="thumbnail">
+			<img alt="sukin" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/03/bnSukin.png' ?>" data-holder-rendered="true">
+			<div class="caption">
+				<h3 id="thumbnail-label">Sukin</h3>
+				<p>Mặt nạ, kem dưỡng ẩm cho da mặt, sữa rửa mặt...</p>
+				<a href="<?php echo get_bloginfo('url') . '/product-category/cham-soc-da/?filter_nhan-hieu=63' ?>" class="btn btn-default">Xem ngay</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-6 col-md-3"><!-- col 3 -->
+		<div class="thumbnail">
+			<img alt="Neutrogena Naturals" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/03/bnNeutrogena-Naturals.png' ?>" data-holder-rendered="true">
+			<div class="caption">
+				<h3 id="thumbnail-label">Neutrogena Naturals</h3>
+				<p>Sữa rửa mặt, kem dưỡng ẩm, kem chống nắng...</p>
+				<a href="<?php echo  get_bloginfo('url') . '/product-category/cham-soc-da/?filter_nhan-hieu=61' ?>" class="btn btn-default">Xem ngay</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-6 col-md-3"><!-- col 4 -->
+		<div class="thumbnail">
+			<img alt="Nude by nature" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/03/bnNude.png' ?>" data-holder-rendered="true">
+			<div class="caption">
+				<h3 id="thumbnail-label">Dòng sản phẩm son môi</h3>
+				<p>Son môi nước, son dưỡng môi, son môi khoáng chất ...</p>
+				<a href="<?php echo  get_bloginfo('url') . '/product-category/my-pham/moi/' ?>" class="btn btn-default">Xem ngay</a>
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- hide carousel -->
+<?php if(false) :?>
 <div id="carousel-samngay" class="carousel slide" data-ride="carousel" data-interval="6000">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -53,3 +97,4 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+<?php endif; ?>

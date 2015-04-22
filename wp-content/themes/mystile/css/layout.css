@@ -34,7 +34,7 @@ INDEX
 .long-footer-widget h2{color:#4a413e}
 .sotaikhoan{color:#D60059}
 @media (min-width: 1200px) {
-	.usp{display:block}
+	.usp, #carousel-samngay{display:block}
 }
 /*----------------------*/
 
