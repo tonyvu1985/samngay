@@ -60,7 +60,7 @@ global $woo_options, $woocommerce;
 				if ( class_exists( 'woocommerce' ) ) {
 					echo '<ul class="nav wc-nav">';
 					woocommerce_cart_link();
-					echo '<li cliass="checkout"><a href="'.esc_url($woocommerce->cart->get_checkout_url()).'">'.__('Checkout','woothemes').'</a></li>';
+					//echo '<li class="checkout"><a href="'.esc_url($woocommerce->cart->get_checkout_url()).'">'.__('Checkout','woothemes').'</a></li>';
 //					echo get_search_form();
 
 					// get the user detail after login
