@@ -14,7 +14,7 @@ function get_product_category_by_id($cat_Ids) {
 		echo		'<a class="btn btn-default" href="' . get_bloginfo('url') . '/product-category/' . $term['slug'] . '">Xem tất cả</a>';
 		echo	'</div>';
 		echo '</div>';
-		echo do_shortcode('[product_category category="' . $term['slug']  . '" per_page="8" order="asc"]');
+		echo do_shortcode('[product_category category="' . $term['slug']  . '" per_page="8" orderby="rand" order="rand"]');
 
 		// get Brand by Cat
 		get_brand_by_cat($term['slug']);
