@@ -21,17 +21,17 @@
 	</div>
 	<div class="col-sm-6 col-md-3"><!-- col 3 -->
 		<div class="thumbnail">
-			<img alt="Neutrogena Naturals" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/03/bnNeutrogena-Naturals.png' ?>" data-holder-rendered="true">
+			<img alt="Chiếc vòng tay Pandora" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/04/bnpandora.png' ?>" data-holder-rendered="true">
 			<div class="caption">
-				<h3 id="thumbnail-label">Neutrogena Naturals</h3>
-				<p>Sữa rửa mặt, kem dưỡng ẩm, kem chống nắng...</p>
-				<a href="<?php echo  get_bloginfo('url') . '/product-category/cham-soc-da/?filter_nhan-hieu=61' ?>" class="btn btn-default">Xem ngay</a>
+				<h3 id="thumbnail-label">Chiếc vòng tay Pandora</h3>
+				<p>Chiếc vòng tay hiệu Pandora với những hạt charm đủ màu sắc, hình dáng cho các teen girl</p>
+				<a href="<?php echo  get_bloginfo('url') . '/product-category/thoi-trang/' ?>" class="btn btn-default">Xem ngay</a>
 			</div>
 		</div>
 	</div>
 	<div class="col-sm-6 col-md-3"><!-- col 4 -->
 		<div class="thumbnail">
-			<img alt="Nude by nature" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/03/bnNude.png' ?>" data-holder-rendered="true">
+			<img alt="Dòng sản phẩm son môi" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/04/bnlipstick.png' ?>" data-holder-rendered="true">
 			<div class="caption">
 				<h3 id="thumbnail-label">Dòng sản phẩm son môi</h3>
 				<p>Son môi nước, son dưỡng môi, son môi khoáng chất ...</p>

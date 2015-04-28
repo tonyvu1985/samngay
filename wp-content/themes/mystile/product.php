@@ -1,7 +1,5 @@
 <?php
-/* Get Category will show in the homepage
-	my-pham, me-va-be, cham-soc-da, cham-soc-co-the, cham-soc-rang-mieng, thuoc-bo, dien-tu
-*/
+/* Get Category will show in the homepage */
 function get_product_category_by_id($cat_Ids) {
 	foreach($cat_Ids as $id){
 		$term = get_term_by('id', $id, 'product_cat', 'ARRAY_A' );
@@ -54,24 +52,9 @@ function get_brand_by_cat($cat_slug){
 }
 
 /* Get Category will show in the homepage
-        my pham:6, me va be:11, cham-soc-da:10, cham soc co the:245, cham soc rang mieng:127, thuoc bo:12, dien-tu:193
+        my pham:6, me va be:11, cham-soc-da:10, cham soc co the:245, thoi trang:279, thuoc bo:12, dien-tu:193
 */
-$cat_Ids = array(6, 11, 10, 245, 127, 12, 193);
+$cat_Ids = array(6, 11, 10, 245, 12, 279, 193);
 $product_category = get_product_category_by_id($cat_Ids);
 
-/*
-//$product->id = 813;
-//_thumbnail_id	814 wp_postmeta
-$terms1 = get_the_terms(813, 'pa_nhan-hieu');
-      foreach ( $terms1 as $term ) {
-       //var_dump($term);
-       print_r($term);
-      // var_dump($term->thumbnail);
-       print_r($term->object_id);
-	//echo 'tonyvu' . $term->;
-//	echo 'tonyvu' . $term->;
-//$swatch_term = new WC_Swatch_Term( 813, 253, 'pa_nhan-hieu ', false,             '700' );
-//echo $swatch_term->thumbnail_src;
-	return;
-        }*/
 ?>      
