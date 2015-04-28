@@ -27,14 +27,14 @@ jQuery(document).ready(function($){
 
 
 
-  	// Show/hide the main navigation
-  	jQuery('.nav-toggle').click(function() {
+  	// Show/hide the main navigation - TV: not use the nav toogle 
+  /*	jQuery('.nav-toggle').click(function() {
 	  jQuery('#navigation').slideToggle('fast', function() {
 	  	return false;
 	    // Animation complete.
 	  });
 	});
-
+*/
 	// Stop the navigation link moving to the anchor (Still need the anchor for semantic markup)
 	jQuery('.nav-toggle a').click(function(e) {
         e.preventDefault();

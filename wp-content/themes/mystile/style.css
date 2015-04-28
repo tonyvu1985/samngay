@@ -572,7 +572,7 @@ ul.nav li a {
 #navigation {
   clear: both;
   margin-bottom: 20px;
-  display: none;
+/*  display: none;*/
 }
 #navigation ul {
   list-style: none;
