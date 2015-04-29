@@ -609,6 +609,7 @@ INDEX
     width: 69.2%;
   }
   #sidebar {
+    display:block;
     margin-top: 0;
     width: 22.05%;
     font-size: .857em;
