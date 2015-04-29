@@ -24,7 +24,7 @@
 			<img alt="Chiếc vòng tay Pandora" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/04/bnpandora.png' ?>" data-holder-rendered="true">
 			<div class="caption">
 				<h3 id="thumbnail-label">Chiếc vòng tay Pandora</h3>
-				<p>Chiếc vòng tay hiệu Pandora với những hạt charm đủ màu sắc, hình dáng cho các teen girl</p>
+				<p>mẫu hạt charm đủ màu sắc, hình dáng cho các teen girl</p>
 				<a href="<?php echo  get_bloginfo('url') . '/product-category/thoi-trang/' ?>" class="btn btn-default">Xem ngay</a>
 			</div>
 		</div>
