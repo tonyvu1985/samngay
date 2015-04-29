@@ -1,13 +1,13 @@
 <div class="row" id="carousel-samngay">
 	<div class="col-sm-6 col-md-3"><!-- col 1 -->
-		<div class="thumbnail">
-			<img alt="Apple Watch" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/04/apple.png' ?>" data-holder-rendered="true">
-			<div class="caption">
-				<h3 id="thumbnail-label">Apple Watch & Macbook pro 2015</h3>
-				<p>Sản phẩm công nghệ mới nhất của Apple</p>
-				<a href="<?php echo get_bloginfo('url') . '/product-category/product-category/dien-tu/' ?>" class="btn btn-default">Xem ngay</a>
-			</div>
-		</div>
+		 <div class="thumbnail">
+                        <img alt="Neutrogena Naturals" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/03/bnNeutrogena-Naturals.png' ?>" data-holder-rendered="true">
+                        <div class="caption">
+                                <h3 id="thumbnail-label">Neutrogena Naturals</h3>
+                                <p>Sữa rửa mặt, kem dưỡng ẩm, kem chống nắng...</p>
+                                <a href="<?php echo get_bloginfo('url') . '/product-tag/neutrogena/?filter_nhan-hieu=61' ?>" class="btn btn-default">Xem ngay</a>
+                        </div>
+                </div>
 	</div>
 	<div class="col-sm-6 col-md-3"><!-- col 2 -->
 		<div class="thumbnail">
