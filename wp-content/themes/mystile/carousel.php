@@ -21,11 +21,11 @@
 	</div>
 	<div class="col-sm-6 col-md-3"><!-- col 3 -->
 		<div class="thumbnail">
-			<img alt="Chiếc vòng tay Pandora" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/04/bnpandora.png' ?>" data-holder-rendered="true">
+			<img alt="Mẹ và bé" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/05/btnMeVaBe.png' ?>" data-holder-rendered="true">
 			<div class="caption">
-				<h3 id="thumbnail-label">Chiếc vòng tay Pandora</h3>
-				<p>mẫu hạt charm đủ màu sắc, hình dáng cho các teen girl</p>
-				<a href="<?php echo  get_bloginfo('url') . '/product-category/thoi-trang/' ?>" class="btn btn-default">Xem ngay</a>
+				<h3 id="thumbnail-label">Mẹ và bé</h3>
+				<p>Sữa bột, sữa tắm, thuốc bổ cho bé</p>
+				<a href="<?php echo  get_bloginfo('url') . '/product-category/me-va-be/' ?>" class="btn btn-default">Xem ngay</a>
 			</div>
 		</div>
 	</div>
