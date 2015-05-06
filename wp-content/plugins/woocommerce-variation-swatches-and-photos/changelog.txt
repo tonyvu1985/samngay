@@ -1,4 +1,50 @@
 *** WooCommerce Variation Swatches and Photos***
+2015.03.27 - version 1.6.6
+	* Fix:  Correct handling of variations which are out of stock. 
+	* Fix:  Undefined variable warning. 
+
+2015.02.12 - version 1.6.5
+	* Fix: When using a variation with specific variations and an any variation configuration, update behavior to follow WooCommerce.  
+		The Any variation configuration should be the last item in the list rather than the first. 
+		
+2015.01.28 - version 1.6.4 
+	* Fix for showing taxonomy attributes in the drop down when the only attributes are attached to private or 
+		protected products. 
+
+2015.01.27 - version 1.6.3 
+	* Admin CSS updates for WooCommerce >= 2.3.0
+	
+2015.01.27 - version 1.6.2
+	* Added templates for various parts of the swatches output.  
+		* input-picker.php for rendering a swatch
+		* input-select.php for rendering a default select box. 
+		* table.php for rendering the wrapping table. 
+		
+2015.01.27 - version 1.6.1
+	* Added actions before and after the select input. 
+		<?php do_action( 'woocommerce_swatches_before_select', $name, $options, $this ); ?>
+		<?php do_action( 'woocommerce_swatches_after_select', $name, $options, $this ); ?>
+
+		
+2014.12.08 - version 1.6.0
+	* Fixes selecting the correct variation when clicking on the link from the cart page. 
+	
+2014.12.04 - version 1.5.9
+	* Revert adding the variations class to the wrapper table. 
+
+2014.12.01 - version 1.5.8
+	* Fixes javascript error regarding setting the label text when attributes are numeric. 
+	* Adds the variations class to the wrapping table to inherit WooCommerce CSS styles for labels. 
+	* Adds in basic css for swatch labels. 
+
+2014.11.18 - version 1.5.7
+	* Updates to resolve issues with the label not being displayed when choosing variations. 
+	* Updates to allow turning off Hard Crop on swatches image size in WooCommerce settings. 
+
+2014.11.17 - version 1.5.6
+	* Force variations to be visible in admin when managing stock and hide items from catalog is true. 
+	* Display out of stock message when using stock management and no variations are available. 
+
 2014.10.29 - version 1.5.5
 	* Update for default selections.  Fixes problem hashing a default empty value.
 	* Update to escape jquery selectors to prevent language issues. 

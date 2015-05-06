@@ -50,7 +50,9 @@ div.swatch-wrapper.disabled, div.swatch-wrapper.disabled a {
     opacity: 0.5;
 }
 
-
+div.swatch-label {
+	margin-bottom: 8px;
+}
 
 /*---------------------------------------------------------------------------------------------
         Admin Table

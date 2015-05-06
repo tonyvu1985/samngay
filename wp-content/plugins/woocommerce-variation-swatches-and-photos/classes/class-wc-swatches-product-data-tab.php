@@ -14,7 +14,9 @@ class WC_Swatches_Product_Data_Tab extends WC_EX_Product_Data_Tab_Swatches {
 	public function render_product_tab_content() {
 		global $woocommerce, $post;
 		global $_wp_additional_image_sizes;
-
+		
+		add_filter('woocommerce_variation_is_visible', array($this, 'return_true'));
+		
 		$post_id = $post->ID;
 
 		if ( function_exists( 'get_product' ) ) {
@@ -70,7 +72,9 @@ class WC_Swatches_Product_Data_Tab extends WC_EX_Product_Data_Tab_Swatches {
 				$woocommerce_taxonomy_infos[WC_Swatches_Compatibility::wc_attribute_taxonomy_name( $tax->attribute_name )] = $tax;
 			}
 			$tax = null;
+			
 			$attributes = $product->get_variation_attributes(); //Attributes configured on this product already.
+			
 			if ( $attributes && count( $attributes ) ) :
 				$attribute_names = array_keys( $attributes );
 				foreach ( $attribute_names as $name ) :
@@ -381,9 +385,11 @@ class WC_Swatches_Product_Data_Tab extends WC_EX_Product_Data_Tab_Swatches {
 		<?php
 		echo '</div>';
 
-
+		
 		$this->do_javascript();
 		parent::render_product_tab_content();
+		
+		remove_filter('woocommerce_variation_is_visible', array($this, 'return_true'));
 	}
 
 	private function do_javascript() {
@@ -480,6 +486,11 @@ class WC_Swatches_Product_Data_Tab extends WC_EX_Product_Data_Tab_Swatches {
 		}
 
 		update_post_meta( $post_id, '_swatch_type', $swatch_type );
+	}
+	
+	
+	public function return_true(){
+		return true;
 	}
 
 }

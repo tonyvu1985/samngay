@@ -1,5 +1,10 @@
 <?php
 
+function woocommerce_swatches_get_template($template_name, $args = array()) {
+	global $woocommerce_swatches;
+	return wc_get_template($template_name, $args, 'woocommerce-swatches/', $woocommerce_swatches->plugin_dir() . '/templates/');
+}
+
 function woocommerce_swatches_get_variation_form_args() {
 	global $woocommerce, $product, $post;
 
@@ -38,8 +43,8 @@ function woocommerce_swatches_get_variation_form_args() {
 			if ( get_post_status( $variation->get_variation_id() ) != 'publish' )
 				continue; // Disabled
 
-			if ( !$variation->is_purchasable() ) {
-				continue; // Visible setting - may be hidden if out of stock
+			if ( empty( $variation->variation_id ) || ( 'yes' === get_option( 'woocommerce_hide_out_of_stock_items' ) && ! $variation->is_in_stock() ) ) {
+				continue;
 			}
 
 			$variation_attributes = $variation->get_variation_attributes();

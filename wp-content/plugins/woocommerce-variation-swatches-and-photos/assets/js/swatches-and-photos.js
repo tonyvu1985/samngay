@@ -1,7 +1,7 @@
 function wc_escapeStr(str) 
 {
     if (str)
-        return str.replace(/([ #;?%&,.+*~\':"!^$[\]()=>|\/@])/g,'\\$1');      
+        return str.replace(/([ #;?%&,.+*~\':"!^$[\]()=>|\/@])/g,'\\$1');
 
     return str;
 }
@@ -148,6 +148,7 @@ jQuery(document).ready(function($) {
 
 				if (result) {
 					found = product_variations[p];
+					break;
 				}
 			}
 		}
@@ -212,7 +213,6 @@ jQuery(document).ready(function($) {
 		var variation_link = variation.image_link;
 		var variation_title = variation.image_title;
 
-
 		if (!o_src) {
 			$(img).attr('data-o_src', $(img).attr('src'));
 		}
@@ -256,8 +256,8 @@ jQuery(document).ready(function($) {
 				var select = $the_option.closest('div.select');
 				select.data('value', '');
 
-				var label_id = '#' + $(select).attr('id') + '_label';
-				var $label = $(wc_escapeStr( label_id ));
+				var label_id = '#' + wc_escapeStr($(select).attr('id')) + '_label';
+				var $label = $(label_id );
 				if ($label) {
 					$label.html("&nbsp;");
 				}
@@ -271,10 +271,11 @@ jQuery(document).ready(function($) {
 				var val = $the_option.data('value');
 				select.data('value', val );
 				
-				var label_id = '#' + $(select).attr('id') + '_label';
-				var $label = $(wc_escapeStr( label_id ) );
+				var label_id = '#' + wc_escapeStr($(select).attr('id')) + '_label';
+				var $label = $( label_id  );
 				if ($label) {
-					$label.text($the_option.data('name'));
+					var t = $the_option.data('name').toString();
+					$label.text( t.replace("\\", "") );
 				}
 
 				$(this).parents('div.select').trigger('change', []);
@@ -459,7 +460,7 @@ function variation_calculator(keys, possibile, possibile_flat, all_set_callback,
 		for (var key in this.variation_keys) {
 			this.variations_current[ key ] = {};
 			for (var av = 0; av < this.variation_keys[key].length; av++) {
-				this.variations_current[ key ][ this.variation_keys[key][av] ] = 0;
+				this.variations_current[ key.toString() ][ this.variation_keys[key][av].toString() ] = 0;
 			}
 		}
 	};
