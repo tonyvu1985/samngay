@@ -138,23 +138,25 @@ class WC_Dynamic_Pricing_Simple_Category extends WC_Dynamic_Pricing_Simple_Base 
 
 	private function get_adjusted_price( $rule, $price ) {
 		$result = false;
+
+		$amount = apply_filters( 'woocommerce_dynamic_pricing_get_rule_amount', $rule['amount'], $rule, null, $this );
 		$num_decimals = apply_filters( 'woocommerce_dynamic_pricing_get_decimals', (int) get_option( 'woocommerce_price_num_decimals' ) );
 
 		switch ( $rule['type'] ) {
 			case 'price_discount':
 			case 'fixed_product':
-				$adjusted = floatval( $price ) - floatval( $rule['amount'] );
+				$adjusted = floatval( $price ) - floatval( $amount );
 				$result = $adjusted >= 0 ? $adjusted : 0;
 				break;
 			case 'percentage_discount':
 			case 'percent_product':
-				if ( $rule['amount'] > 1 ) {
-					$rule['amount'] = $rule['amount'] / 100;
+				if ( $amount > 1 ) {
+					$amount = $amount / 100;
 				}
-				$result = round( floatval( $price ) - ( floatval( $rule['amount'] ) * $price), (int) $num_decimals );
+				$result = round( floatval( $price ) - ( floatval( $amount ) * $price), (int) $num_decimals );
 				break;
 			case 'fixed_price':
-				$result = round( $rule['amount'], (int) $num_decimals );
+				$result = round( $amount, (int) $num_decimals );
 				break;
 			default:
 				$result = false;
@@ -208,16 +210,16 @@ class WC_Dynamic_Pricing_Simple_Category extends WC_Dynamic_Pricing_Simple_Base 
 
 		if ( $rulesets && count( $rulesets ) ) {
 			foreach ( $rulesets as $set_id => $pricing_rule_set ) {
-				if (!isset($pricing_rule_set['mode']) || (isset($pricing_rule_set['mode']) && $pricing_rule_set['mode'] != 'block')) {
+				if ( !isset( $pricing_rule_set['mode'] ) || (isset( $pricing_rule_set['mode'] ) && $pricing_rule_set['mode'] != 'block') ) {
 					$process_discounts = apply_filters( 'woocommerce_dynamic_pricing_process_product_discounts', true, $_product, 'simple_category', $this );
 					if ( $process_discounts ) {
 						if ( $this->is_applied_to_product( $_product, $pricing_rule_set['collector']['args']['cats'][0] ) ) {
 							$rule = array_shift( $pricing_rule_set['rules'] );
-							
-							if (!isset($rule['from'])){
+
+							if ( !isset( $rule['from'] ) ) {
 								$rule['from'] = 0;
 							}
-							
+
 							if ( $rule['from'] == '0' ) {
 								$temp = $this->get_adjusted_price( $rule, $working_price );
 
