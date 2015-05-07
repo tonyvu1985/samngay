@@ -74,8 +74,7 @@ label[for="ship-to-different-address-checkbox"] {background-color: #eee; color:#
 .carousel-fade .carousel-control {z-index: 2;}
 */
 .reset_variations, #variations_clear, #pa_mau_label, #pa_huong-vi_label{display:none !important;}
-.variations-table tr td label[for=pa_mau]{width:30px;}
-.variations-table tr td label[for=pa_huong-vi]{width:70px;}
+.variations-table tr td label[for=pa_mau], .variations-table tr td label[for=pa_huong-vi]{color:#333; font-weight:bold; font-size:15px;}
 .variations label{color:#D60059; font-size: 14px; margin-top: 17px;}
 .usp{margin:20px 0; display:none;}
 .usp i{float:left;}
