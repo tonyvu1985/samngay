@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce v2.3.6\n"
+"Project-Id-Version: WooCommerce v2.3.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-04-09 07:13:22+0000\n"
+"PO-Revision-Date: 2015-05-07 04:35:51+0000\n"
 "Last-Translator: admin <vuductrung2003@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -5976,13 +5976,13 @@ msgstr ""
 msgid "Backordered"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:1653
+#: includes/abstracts/abstract-wc-order.php:1676
 #, php-format
 #@ woocommerce
 msgid "&nbsp;<small>%svia %s</small>"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:1658
+#: includes/abstracts/abstract-wc-order.php:1681
 #: includes/abstracts/abstract-wc-product.php:968
 #: includes/abstracts/abstract-wc-product.php:974
 #: includes/class-wc-cart.php:1534
@@ -5992,17 +5992,17 @@ msgstr ""
 msgid "Free!"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:1728
+#: includes/abstracts/abstract-wc-order.php:1751
 #@ woocommerce
 msgid "Discount:"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:1735
+#: includes/abstracts/abstract-wc-order.php:1758
 #@ woocommerce
 msgid "Shipping:"
 msgstr "Vận chuyển:"
 
-#: includes/abstracts/abstract-wc-order.php:1788
+#: includes/abstracts/abstract-wc-order.php:1811
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:278
 #: includes/shortcodes/class-wc-shortcode-checkout.php:144
 #: templates/checkout/thankyou.php:53
@@ -6010,7 +6010,7 @@ msgstr "Vận chuyển:"
 msgid "Payment Method:"
 msgstr "Phương thức thanh toán:"
 
-#: includes/abstracts/abstract-wc-order.php:1814
+#: includes/abstracts/abstract-wc-order.php:1837
 #: includes/wc-cart-functions.php:247
 #: templates/order/order-details.php:126
 #: templates/order/order-details.php:130
@@ -6020,8 +6020,8 @@ msgid "(Includes %s)"
 msgstr ""
 
 #. translators: plugin header field 'Name'
-#: includes/abstracts/abstract-wc-order.php:2065
-#: includes/abstracts/abstract-wc-order.php:2066
+#: includes/abstracts/abstract-wc-order.php:2088
+#: includes/abstracts/abstract-wc-order.php:2089
 #: includes/admin/class-wc-admin-assets.php:80
 #: includes/admin/class-wc-admin-menus.php:55
 #: includes/admin/meta-boxes/class-wc-meta-box-order-notes.php:55
@@ -6033,19 +6033,19 @@ msgstr ""
 msgid "WooCommerce"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:2113
+#: includes/abstracts/abstract-wc-order.php:2136
 #, php-format
 #@ woocommerce
 msgid "Order status changed from %s to %s."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:2375
+#: includes/abstracts/abstract-wc-order.php:2398
 #, php-format
 #@ woocommerce
 msgid "Item's #%s variation #%s stock reduced from %s to %s."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:2377
+#: includes/abstracts/abstract-wc-order.php:2400
 #: includes/class-wc-ajax.php:1201
 #: includes/class-wc-ajax.php:1202
 #, php-format
@@ -6053,7 +6053,7 @@ msgstr ""
 msgid "Item #%s stock reduced from %s to %s."
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:2389
+#: includes/abstracts/abstract-wc-order.php:2412
 #@ woocommerce
 msgid "Order item stock reduced successfully."
 msgstr ""
@@ -6496,7 +6496,7 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:233
 #: includes/admin/class-wc-admin-post-types.php:122
-#: includes/admin/class-wc-admin-post-types.php:1956
+#: includes/admin/class-wc-admin-post-types.php:1964
 #: includes/admin/views/html-bulk-edit-product.php:197
 #: includes/admin/views/html-quick-edit-product.php:155
 #@ woocommerce
@@ -6679,7 +6679,7 @@ msgstr ""
 #: includes/admin/class-wc-admin-attributes.php:366
 #: includes/admin/class-wc-admin-post-types.php:212
 #: includes/admin/class-wc-admin-post-types.php:368
-#: includes/admin/class-wc-admin-post-types.php:1960
+#: includes/admin/class-wc-admin-post-types.php:1968
 #: includes/admin/class-wc-admin-webhooks-table-list.php:99
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:232
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:312
@@ -7168,8 +7168,8 @@ msgstr ""
 #: includes/admin/class-wc-admin-permalink-settings.php:191
 #: includes/class-wc-post-types.php:227
 #: includes/updates/woocommerce-update-2.0.php:55
-#: includes/wc-core-functions.php:606
-#: includes/wc-core-functions.php:641
+#: includes/wc-core-functions.php:611
+#: includes/wc-core-functions.php:646
 #@ woocommerce
 msgctxt "slug"
 msgid "product"
@@ -7664,63 +7664,63 @@ msgstr ""
 msgid "Search for a customer&hellip;"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1675
+#: includes/admin/class-wc-admin-post-types.php:1683
 #, php-format
 #@ woocommerce
 msgid "Product updated. <a href=\"%s\">View Product</a>"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1676
-#: includes/admin/class-wc-admin-post-types.php:1691
-#: includes/admin/class-wc-admin-post-types.php:1707
+#: includes/admin/class-wc-admin-post-types.php:1684
+#: includes/admin/class-wc-admin-post-types.php:1699
+#: includes/admin/class-wc-admin-post-types.php:1715
 #@ woocommerce
 msgid "Custom field updated."
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1677
-#: includes/admin/class-wc-admin-post-types.php:1692
-#: includes/admin/class-wc-admin-post-types.php:1708
+#: includes/admin/class-wc-admin-post-types.php:1685
+#: includes/admin/class-wc-admin-post-types.php:1700
+#: includes/admin/class-wc-admin-post-types.php:1716
 #@ woocommerce
 msgid "Custom field deleted."
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1678
+#: includes/admin/class-wc-admin-post-types.php:1686
 #@ woocommerce
 msgid "Product updated."
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1679
+#: includes/admin/class-wc-admin-post-types.php:1687
 #, php-format
 #@ woocommerce
 msgid "Product restored to revision from %s"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1680
+#: includes/admin/class-wc-admin-post-types.php:1688
 #, php-format
 #@ woocommerce
 msgid "Product published. <a href=\"%s\">View Product</a>"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1681
+#: includes/admin/class-wc-admin-post-types.php:1689
 #@ woocommerce
 msgid "Product saved."
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1682
+#: includes/admin/class-wc-admin-post-types.php:1690
 #, php-format
 #@ woocommerce
 msgid "Product submitted. <a target=\"_blank\" href=\"%s\">Preview Product</a>"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1683
+#: includes/admin/class-wc-admin-post-types.php:1691
 #, php-format
 #@ woocommerce
 msgid "Product scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview Product</a>"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1684
-#: includes/admin/class-wc-admin-post-types.php:1699
-#: includes/admin/class-wc-admin-post-types.php:1715
+#: includes/admin/class-wc-admin-post-types.php:1692
+#: includes/admin/class-wc-admin-post-types.php:1707
+#: includes/admin/class-wc-admin-post-types.php:1723
 #: includes/admin/settings/views/html-webhook-log.php:10
 #: includes/admin/settings/views/html-webhooks-edit.php:126
 #: includes/admin/settings/views/html-webhooks-edit.php:135
@@ -7729,166 +7729,166 @@ msgstr ""
 msgid "M j, Y @ G:i"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1685
+#: includes/admin/class-wc-admin-post-types.php:1693
 #, php-format
 #@ woocommerce
 msgid "Product draft updated. <a target=\"_blank\" href=\"%s\">Preview Product</a>"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1690
-#: includes/admin/class-wc-admin-post-types.php:1693
-#: includes/admin/class-wc-admin-post-types.php:1695
+#: includes/admin/class-wc-admin-post-types.php:1698
+#: includes/admin/class-wc-admin-post-types.php:1701
+#: includes/admin/class-wc-admin-post-types.php:1703
 #@ woocommerce
 msgid "Order updated."
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1694
+#: includes/admin/class-wc-admin-post-types.php:1702
 #, php-format
 #@ woocommerce
 msgid "Order restored to revision from %s"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1696
+#: includes/admin/class-wc-admin-post-types.php:1704
 #@ woocommerce
 msgid "Order saved."
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1697
+#: includes/admin/class-wc-admin-post-types.php:1705
 #@ woocommerce
 msgid "Order submitted."
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1698
+#: includes/admin/class-wc-admin-post-types.php:1706
 #, php-format
 #@ woocommerce
 msgid "Order scheduled for: <strong>%1$s</strong>."
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1700
+#: includes/admin/class-wc-admin-post-types.php:1708
 #@ woocommerce
 msgid "Order draft updated."
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1701
+#: includes/admin/class-wc-admin-post-types.php:1709
 #@ woocommerce
 msgid "Order updated and email sent."
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1706
-#: includes/admin/class-wc-admin-post-types.php:1709
-#: includes/admin/class-wc-admin-post-types.php:1711
+#: includes/admin/class-wc-admin-post-types.php:1714
+#: includes/admin/class-wc-admin-post-types.php:1717
+#: includes/admin/class-wc-admin-post-types.php:1719
 #@ woocommerce
 msgid "Coupon updated."
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1710
+#: includes/admin/class-wc-admin-post-types.php:1718
 #, php-format
 #@ woocommerce
 msgid "Coupon restored to revision from %s"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1712
+#: includes/admin/class-wc-admin-post-types.php:1720
 #@ woocommerce
 msgid "Coupon saved."
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1713
+#: includes/admin/class-wc-admin-post-types.php:1721
 #@ woocommerce
 msgid "Coupon submitted."
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1714
+#: includes/admin/class-wc-admin-post-types.php:1722
 #, php-format
 #@ woocommerce
 msgid "Coupon scheduled for: <strong>%1$s</strong>."
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1716
+#: includes/admin/class-wc-admin-post-types.php:1724
 #@ woocommerce
 msgid "Coupon draft updated."
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1889
+#: includes/admin/class-wc-admin-post-types.php:1897
 #@ woocommerce
 msgid "Product name"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1892
+#: includes/admin/class-wc-admin-post-types.php:1900
 #: templates/cart/cart.php:119
 #: templates/checkout/form-coupon.php:25
 #@ woocommerce
 msgid "Coupon code"
 msgstr "Mã giảm giá"
 
-#: includes/admin/class-wc-admin-post-types.php:1907
+#: includes/admin/class-wc-admin-post-types.php:1915
 #@ woocommerce
 msgid "Description (optional)"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1924
+#: includes/admin/class-wc-admin-post-types.php:1932
 #, php-format
 #@ woocommerce
 msgid "Insert into %s"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1925
+#: includes/admin/class-wc-admin-post-types.php:1933
 #, php-format
 #@ woocommerce
 msgid "Uploaded to this %s"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1945
+#: includes/admin/class-wc-admin-post-types.php:1953
 #@ woocommerce
 msgid "Catalog/search"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1946
+#: includes/admin/class-wc-admin-post-types.php:1954
 #: includes/admin/views/html-bulk-edit-product.php:185
 #: includes/admin/views/html-quick-edit-product.php:142
 #@ woocommerce
 msgid "Catalog"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1947
+#: includes/admin/class-wc-admin-post-types.php:1955
 #: includes/admin/views/html-bulk-edit-product.php:186
 #: includes/admin/views/html-quick-edit-product.php:143
 #@ woocommerce
 msgid "Search"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1948
+#: includes/admin/class-wc-admin-post-types.php:1956
 #: includes/admin/views/html-bulk-edit-product.php:187
 #: includes/admin/views/html-quick-edit-product.php:144
 #@ woocommerce
 msgid "Hidden"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1952
+#: includes/admin/class-wc-admin-post-types.php:1960
 #@ woocommerce
 msgid "Catalog visibility:"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1968
+#: includes/admin/class-wc-admin-post-types.php:1976
 #@ woocommerce
 msgid "Define the loops this product should be visible in. The product will still be accessible directly."
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1974
+#: includes/admin/class-wc-admin-post-types.php:1982
 #@ woocommerce
 msgid "Enable this option to feature this product."
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1976
+#: includes/admin/class-wc-admin-post-types.php:1984
 #@ woocommerce
 msgid "Featured Product"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1979
+#: includes/admin/class-wc-admin-post-types.php:1987
 #@ woocommerce
 msgid "OK"
 msgstr ""
 
-#: includes/admin/class-wc-admin-post-types.php:1980
+#: includes/admin/class-wc-admin-post-types.php:1988
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:175
 #: includes/admin/meta-boxes/views/html-order-items.php:243
 #: includes/admin/meta-boxes/views/html-order-items.php:289
@@ -7957,8 +7957,8 @@ msgstr ""
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:116
 #: includes/class-wc-countries.php:588
 #: includes/class-wc-countries.php:589
+#: includes/class-wc-countries.php:865
 #: includes/class-wc-countries.php:866
-#: includes/class-wc-countries.php:867
 #@ woocommerce
 msgid "Postcode"
 msgstr "Mã bưu điện"
@@ -8941,7 +8941,7 @@ msgid "Check this box if the coupon should not apply to items on sale. Per-item 
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:100
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:116
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:118
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:478
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:493
 #: includes/admin/meta-boxes/views/html-order-items.php:305
@@ -8950,110 +8950,110 @@ msgstr ""
 msgid "Search for a product&hellip;"
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:110
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:112
 #@ woocommerce
 msgid "Products which need to be in the cart to use this coupon or, for \"Product Discounts\", which products are discounted."
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:115
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:117
 #@ woocommerce
 msgid "Exclude products"
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:126
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:130
 #@ woocommerce
 msgid "Products which must not be in the cart to use this coupon or, for \"Product Discounts\", which products are not discounted."
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:133
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:137
 #@ woocommerce
 msgid "Product categories"
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:134
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:138
 #@ woocommerce
 msgid "Any category"
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:143
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:147
 #@ woocommerce
 msgid "A product must be in this category for the coupon to remain valid or, for \"Product Discounts\", products in these categories will be discounted."
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:148
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:152
 #@ woocommerce
 msgid "Exclude categories"
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:149
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:153
 #@ woocommerce
 msgid "No categories"
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:158
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:162
 #@ woocommerce
 msgid "Product must not be in this category for the coupon to remain valid or, for \"Product Discounts\", products in these categories will not be discounted."
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:164
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:168
 #@ woocommerce
 msgid "Email restrictions"
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:164
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:168
 #@ woocommerce
 msgid "No restrictions"
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:164
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:168
 #@ woocommerce
 msgid "List of allowed emails to check against the customer's billing email when an order is placed. Separate email addresses with commas."
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:178
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:182
 #@ woocommerce
 msgid "Usage limit per coupon"
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:178
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:190
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:182
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:194
 #@ woocommerce
 msgctxt "placeholder"
 msgid "Unlimited usage"
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:178
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:182
 #@ woocommerce
 msgid "How many times this coupon can be used before it is void."
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:184
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:188
 #@ woocommerce
 msgid "Limit usage to X items"
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:184
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:188
 #@ woocommerce
 msgctxt "placeholder"
 msgid "Apply to all qualifying items in cart"
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:184
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:188
 #@ woocommerce
 msgid "The maximum number of individual items this coupon can apply to when using product discounts. Leave blank to apply to all qualifying items in cart."
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:190
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:194
 #@ woocommerce
 msgid "Usage limit per user"
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:190
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:194
 #@ woocommerce
 msgid "How many times this coupon can be used by an invidual user. Uses billing email for guests, and user ID for logged in users."
 msgstr ""
 
-#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:227
+#: includes/admin/meta-boxes/class-wc-meta-box-coupon-data.php:231
 #@ woocommerce
 msgid "Coupon code already exists - customers will use the latest coupon with this code."
 msgstr ""
@@ -9101,7 +9101,7 @@ msgid "Last Name"
 msgstr "Tên"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:86
-#: includes/class-wc-countries.php:963
+#: includes/class-wc-countries.php:962
 #@ woocommerce
 msgid "Phone"
 msgstr "Số điện thoại"
@@ -9961,7 +9961,7 @@ msgid "Product SKU must be unique."
 msgstr ""
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1336
-#: includes/api/class-wc-api-products.php:1142
+#: includes/api/class-wc-api-products.php:1136
 #, php-format
 #@ woocommerce
 msgid "Variation #%s of %s"
@@ -14115,30 +14115,30 @@ msgstr ""
 msgid "Invalid product type - the product type must be any of these: %s"
 msgstr ""
 
-#: includes/api/class-wc-api-products.php:426
-#: includes/api/class-wc-api-products.php:462
+#: includes/api/class-wc-api-products.php:420
+#: includes/api/class-wc-api-products.php:456
 #@ woocommerce
 msgid "You do not have permission to read product categories"
 msgstr ""
 
-#: includes/api/class-wc-api-products.php:457
+#: includes/api/class-wc-api-products.php:451
 #@ woocommerce
 msgid "Invalid product category ID"
 msgstr ""
 
-#: includes/api/class-wc-api-products.php:468
+#: includes/api/class-wc-api-products.php:462
 #@ woocommerce
 msgid "A product category with the provided ID could not be found"
 msgstr ""
 
-#: includes/api/class-wc-api-products.php:731
-#: includes/api/class-wc-api-products.php:1189
+#: includes/api/class-wc-api-products.php:725
+#: includes/api/class-wc-api-products.php:1183
 #@ woocommerce
 msgid "The SKU already exists on another product"
 msgstr ""
 
-#: includes/api/class-wc-api-products.php:1614
-#: includes/api/class-wc-api-products.php:1615
+#: includes/api/class-wc-api-products.php:1611
+#: includes/api/class-wc-api-products.php:1612
 #: includes/api/v1/class-wc-api-products.php:461
 #: includes/api/v1/class-wc-api-products.php:462
 #: includes/wc-product-functions.php:272
@@ -14147,24 +14147,24 @@ msgstr ""
 msgid "Placeholder"
 msgstr ""
 
-#: includes/api/class-wc-api-products.php:1689
+#: includes/api/class-wc-api-products.php:1686
 #, php-format
 #@ woocommerce
 msgid "Invalid URL %s"
 msgstr ""
 
-#: includes/api/class-wc-api-products.php:1701
+#: includes/api/class-wc-api-products.php:1698
 #, php-format
 #@ woocommerce
 msgid "Error getting remote image %s"
 msgstr ""
 
-#: includes/api/class-wc-api-products.php:1730
+#: includes/api/class-wc-api-products.php:1727
 #@ woocommerce
 msgid "Zero size file downloaded"
 msgstr ""
 
-#: includes/api/class-wc-api-products.php:1864
+#: includes/api/class-wc-api-products.php:1861
 #@ woocommerce
 msgid "Invalid product SKU"
 msgstr ""
@@ -14409,36 +14409,36 @@ msgstr ""
 msgid "In order for <strong>database caching</strong> to work with WooCommerce you must add <code>_wc_session_</code> to the \"Ignored Query Strings\" option in W3 Total Cache settings <a href=\"%s\">here</a>."
 msgstr ""
 
-#: includes/class-wc-cart.php:236
+#: includes/class-wc-cart.php:237
 #, php-format
 #@ woocommerce
 msgid "%s has been removed from your cart because it can no longer be purchased. Please contact us if you need assistance."
 msgstr ""
 
-#: includes/class-wc-cart.php:430
+#: includes/class-wc-cart.php:431
 #@ woocommerce
 msgid "An item which is no longer available was removed from your cart."
 msgstr ""
 
-#: includes/class-wc-cart.php:456
+#: includes/class-wc-cart.php:457
 #, php-format
 #@ woocommerce
 msgid "Sorry, \"%s\" is not in stock. Please edit your cart and try again. We apologise for any inconvenience caused."
 msgstr ""
 
-#: includes/class-wc-cart.php:470
+#: includes/class-wc-cart.php:471
 #, php-format
 #@ woocommerce
 msgid "Sorry, we do not have enough \"%s\" in stock to fulfill your order (%s in stock). Please edit your cart and try again. We apologise for any inconvenience caused."
 msgstr ""
 
-#: includes/class-wc-cart.php:505
+#: includes/class-wc-cart.php:506
 #, php-format
 #@ woocommerce
 msgid "Sorry, we do not have enough \"%s\" in stock to fulfill your order right now. Please try again in %d minutes or edit your cart and try again. We apologise for any inconvenience caused."
 msgstr ""
 
-#: includes/class-wc-cart.php:684
+#: includes/class-wc-cart.php:685
 #@ woocommerce
 msgid "Get cart should not be called before the wp_loaded action."
 msgstr ""
@@ -14523,76 +14523,76 @@ msgctxt "placeholder"
 msgid "Notes about your order, e.g. special notes for delivery."
 msgstr "Ghi chú về đơn hàng, ví dụ: lưu ý khi giao hàng."
 
-#: includes/class-wc-checkout.php:202
-#: includes/class-wc-checkout.php:213
-#: includes/class-wc-checkout.php:238
-#: includes/class-wc-checkout.php:250
-#: includes/class-wc-checkout.php:263
-#: includes/class-wc-checkout.php:274
-#: includes/class-wc-checkout.php:281
+#: includes/class-wc-checkout.php:203
+#: includes/class-wc-checkout.php:214
+#: includes/class-wc-checkout.php:239
+#: includes/class-wc-checkout.php:251
+#: includes/class-wc-checkout.php:264
+#: includes/class-wc-checkout.php:275
+#: includes/class-wc-checkout.php:282
 #, php-format
 #@ woocommerce
 msgid "Error %d: Unable to create order. Please try again."
 msgstr ""
 
-#: includes/class-wc-checkout.php:353
+#: includes/class-wc-checkout.php:354
 #@ woocommerce
 msgid "We were unable to process your order, please try again."
 msgstr ""
 
-#: includes/class-wc-checkout.php:366
+#: includes/class-wc-checkout.php:367
 #, php-format
 #@ woocommerce
 msgid "Sorry, your session has expired. <a href=\"%s\" class=\"wc-backward\">Return to homepage</a>"
 msgstr ""
 
-#: includes/class-wc-checkout.php:446
+#: includes/class-wc-checkout.php:447
 #: includes/class-wc-form-handler.php:85
 #@ woocommerce
 msgid "is a required field."
 msgstr "là ô bắt buộc"
 
-#: includes/class-wc-checkout.php:459
+#: includes/class-wc-checkout.php:460
 #: includes/class-wc-form-handler.php:98
 #: includes/shortcodes/class-wc-shortcode-cart.php:27
 #@ woocommerce
 msgid "Please enter a valid postcode/ZIP."
 msgstr ""
 
-#: includes/class-wc-checkout.php:468
+#: includes/class-wc-checkout.php:469
 #: includes/class-wc-form-handler.php:107
 #@ woocommerce
 msgid "is not a valid phone number."
 msgstr "không phải là số điện thoại hợp lệ."
 
-#: includes/class-wc-checkout.php:474
+#: includes/class-wc-checkout.php:475
 #: includes/class-wc-form-handler.php:114
 #@ woocommerce
 msgid "is not a valid email address."
 msgstr "không phải là địa chỉ email hợp lệ."
 
-#: includes/class-wc-checkout.php:492
+#: includes/class-wc-checkout.php:493
 #@ woocommerce
 msgid "is not valid. Please enter one of the following:"
 msgstr "không hợp lệ. Vui lòng nhập một trong số sau:"
 
-#: includes/class-wc-checkout.php:548
+#: includes/class-wc-checkout.php:549
 #@ woocommerce
 msgid "You must accept our Terms &amp; Conditions."
 msgstr "Bạn phải đồng ý với các Điều khoản &amp; Quy định."
 
-#: includes/class-wc-checkout.php:554
+#: includes/class-wc-checkout.php:555
 #, php-format
 #@ woocommerce
 msgid "Unfortunately <strong>we do not ship %s</strong>. Please enter an alternative shipping address."
 msgstr ""
 
-#: includes/class-wc-checkout.php:563
+#: includes/class-wc-checkout.php:564
 #@ woocommerce
 msgid "Invalid shipping method."
 msgstr "Phương thức giao hàng không hợp lệ."
 
-#: includes/class-wc-checkout.php:575
+#: includes/class-wc-checkout.php:576
 #@ woocommerce
 msgid "Invalid payment method."
 msgstr "Phương thức thanh toán không hợp lệ."
@@ -14666,13 +14666,12 @@ msgid "Town / City"
 msgstr "Tỉnh / Thành phố"
 
 #: includes/class-wc-countries.php:522
-#: includes/class-wc-countries.php:523
 #@ woocommerce
 msgid "State / County"
 msgstr ""
 
+#: includes/class-wc-countries.php:528
 #: includes/class-wc-countries.php:529
-#: includes/class-wc-countries.php:530
 #: templates/cart/shipping-calculator.php:82
 #@ woocommerce
 msgid "Postcode / Zip"
@@ -14685,182 +14684,163 @@ msgid "Suburb"
 msgstr "Tỉnh/Thành phố"
 
 #: includes/class-wc-countries.php:592
-#: includes/class-wc-countries.php:593
-#: includes/class-wc-countries.php:860
-#: includes/class-wc-countries.php:861
+#: includes/class-wc-countries.php:859
 #@ woocommerce
 msgid "State"
 msgstr "Tiểu bang"
 
 #: includes/class-wc-countries.php:601
-#: includes/class-wc-countries.php:602
-#: includes/class-wc-countries.php:780
-#: includes/class-wc-countries.php:781
+#: includes/class-wc-countries.php:779
 #@ woocommerce
 msgid "District"
 msgstr ""
 
 #: includes/class-wc-countries.php:609
-#: includes/class-wc-countries.php:610
 #: includes/class-wc-countries.php:632
-#: includes/class-wc-countries.php:633
-#: includes/class-wc-countries.php:659
-#: includes/class-wc-countries.php:660
-#: includes/class-wc-countries.php:724
-#: includes/class-wc-countries.php:725
-#: includes/class-wc-countries.php:744
-#: includes/class-wc-countries.php:745
-#: includes/class-wc-countries.php:762
-#: includes/class-wc-countries.php:763
-#: includes/class-wc-countries.php:824
-#: includes/class-wc-countries.php:825
-#: includes/class-wc-countries.php:850
-#: includes/class-wc-countries.php:851
-#: includes/class-wc-countries.php:897
-#: includes/class-wc-countries.php:898
+#: includes/class-wc-countries.php:658
+#: includes/class-wc-countries.php:723
+#: includes/class-wc-countries.php:743
+#: includes/class-wc-countries.php:761
+#: includes/class-wc-countries.php:823
+#: includes/class-wc-countries.php:849
+#: includes/class-wc-countries.php:896
 #@ woocommerce
 msgid "Province"
 msgstr ""
 
 #: includes/class-wc-countries.php:639
-#: includes/class-wc-countries.php:640
 #@ woocommerce
 msgid "Canton"
 msgstr ""
 
-#: includes/class-wc-countries.php:653
-#: includes/class-wc-countries.php:654
-#: includes/class-wc-countries.php:712
-#: includes/class-wc-countries.php:713
+#: includes/class-wc-countries.php:652
+#: includes/class-wc-countries.php:711
 #@ woocommerce
 msgid "Region"
 msgstr ""
 
+#: includes/class-wc-countries.php:707
 #: includes/class-wc-countries.php:708
-#: includes/class-wc-countries.php:709
 #@ woocommerce
 msgid "Town / District"
 msgstr "Quận / Huyện"
 
-#: includes/class-wc-countries.php:718
-#: includes/class-wc-countries.php:719
-#: includes/class-wc-countries.php:870
-#: includes/class-wc-countries.php:871
+#: includes/class-wc-countries.php:717
+#: includes/class-wc-countries.php:869
 #@ woocommerce
 msgid "County"
 msgstr ""
 
-#: includes/class-wc-countries.php:750
+#: includes/class-wc-countries.php:749
 #@ woocommerce
 msgid "Prefecture"
 msgstr ""
 
-#: includes/class-wc-countries.php:831
-#: includes/class-wc-countries.php:832
+#: includes/class-wc-countries.php:830
 #@ woocommerce
 msgid "Municipality"
 msgstr ""
 
+#: includes/class-wc-countries.php:855
 #: includes/class-wc-countries.php:856
-#: includes/class-wc-countries.php:857
 #@ woocommerce
 msgid "Zip"
 msgstr ""
 
-#: includes/class-wc-countries.php:956
+#: includes/class-wc-countries.php:955
 #@ woocommerce
 msgid "Email Address"
 msgstr "Địa chỉ email"
 
-#: includes/class-wc-coupon.php:685
+#: includes/class-wc-coupon.php:682
 #@ woocommerce
 msgid "Coupon code applied successfully."
 msgstr "Mã khuyến mại đã được áp dụng thành công."
 
-#: includes/class-wc-coupon.php:688
+#: includes/class-wc-coupon.php:685
 #@ woocommerce
 msgid "Coupon code removed successfully."
 msgstr "Mã khuyến mại đã được xóa thành công."
 
-#: includes/class-wc-coupon.php:706
+#: includes/class-wc-coupon.php:703
 #@ woocommerce
 msgid "Coupon is not valid."
 msgstr "Mã khuyến mại không hợp lệ."
 
-#: includes/class-wc-coupon.php:709
-#: includes/class-wc-coupon.php:792
+#: includes/class-wc-coupon.php:706
+#: includes/class-wc-coupon.php:789
 #@ woocommerce
 msgid "Coupon does not exist!"
 msgstr "Mã khuyến mại không tồn tại!"
 
-#: includes/class-wc-coupon.php:712
+#: includes/class-wc-coupon.php:709
 #, php-format
 #@ woocommerce
 msgid "Sorry, it seems the coupon \"%s\" is invalid - it has now been removed from your order."
 msgstr ""
 
-#: includes/class-wc-coupon.php:715
+#: includes/class-wc-coupon.php:712
 #, php-format
 #@ woocommerce
 msgid "Sorry, it seems the coupon \"%s\" is not yours - it has now been removed from your order."
 msgstr ""
 
-#: includes/class-wc-coupon.php:718
+#: includes/class-wc-coupon.php:715
 #@ woocommerce
 msgid "Coupon code already applied!"
 msgstr "Mã khuyến mại đã được áp dụng rồi!"
 
-#: includes/class-wc-coupon.php:721
+#: includes/class-wc-coupon.php:718
 #, php-format
 #@ woocommerce
 msgid "Sorry, coupon \"%s\" has already been applied and cannot be used in conjunction with other coupons."
 msgstr ""
 
-#: includes/class-wc-coupon.php:724
+#: includes/class-wc-coupon.php:721
 #@ woocommerce
 msgid "Coupon usage limit has been reached."
 msgstr ""
 
-#: includes/class-wc-coupon.php:727
+#: includes/class-wc-coupon.php:724
 #@ woocommerce
 msgid "This coupon has expired."
 msgstr "Mã khuyến mại này đã hết hạn."
 
-#: includes/class-wc-coupon.php:730
+#: includes/class-wc-coupon.php:727
 #, php-format
 #@ woocommerce
 msgid "The minimum spend for this coupon is %s."
 msgstr ""
 
-#: includes/class-wc-coupon.php:733
+#: includes/class-wc-coupon.php:730
 #, php-format
 #@ woocommerce
 msgid "The maximum spend for this coupon is %s."
 msgstr ""
 
-#: includes/class-wc-coupon.php:736
+#: includes/class-wc-coupon.php:733
 #@ woocommerce
 msgid "Sorry, this coupon is not applicable to your cart contents."
 msgstr ""
 
-#: includes/class-wc-coupon.php:749
+#: includes/class-wc-coupon.php:746
 #, php-format
 #@ woocommerce
 msgid "Sorry, this coupon is not applicable to the products: %s."
 msgstr ""
 
-#: includes/class-wc-coupon.php:769
+#: includes/class-wc-coupon.php:766
 #, php-format
 #@ woocommerce
 msgid "Sorry, this coupon is not applicable to the categories: %s."
 msgstr ""
 
-#: includes/class-wc-coupon.php:772
+#: includes/class-wc-coupon.php:769
 #@ woocommerce
 msgid "Sorry, this coupon is not valid for sale items."
 msgstr ""
 
-#: includes/class-wc-coupon.php:795
+#: includes/class-wc-coupon.php:792
 #@ woocommerce
 msgid "Please enter a coupon code."
 msgstr ""
@@ -16414,43 +16394,43 @@ msgstr ""
 msgid "This controls the description which the user sees during checkout."
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:26
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:32
 #@ woocommerce
 msgid "Proceed to PayPal"
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:27
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:33
 #: includes/gateways/paypal/includes/settings-paypal.php:21
 #@ woocommerce
 msgid "PayPal"
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:28
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:34
 #@ woocommerce
 msgid "PayPal standard works by sending customers to PayPal where they can enter their payment information."
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:85
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:93
 #@ woocommerce
 msgid "PayPal Acceptance Mark"
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:88
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:96
 #@ woocommerce
 msgid "What is PayPal?"
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:195
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:203
 #@ woocommerce
 msgid "Gateway Disabled"
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:195
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:203
 #@ woocommerce
 msgid "PayPal does not support your store currency."
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:283
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:291
 #, php-format
 #@ woocommerce
 msgid "Refunded %s - Refund ID: %s"
@@ -16723,88 +16703,88 @@ msgid "API Signature"
 msgstr ""
 
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:90
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:174
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:169
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:317
 #@ woocommerce
 msgid "Please make sure your card details have been entered correctly and that your browser supports JavaScript."
 msgstr ""
 
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:93
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:177
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:172
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:320
 #@ woocommerce
 msgid "Developers: Please make sure that you're including jQuery and there are no JavaScript errors on the page."
 msgstr ""
 
 #: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:113
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:197
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:192
 #@ woocommerce
 msgid "Error creating user in Simplify Commerce."
 msgstr ""
 
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:168
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:274
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:163
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:272
 #@ woocommerce
 msgid "Sorry, the minimum allowed order total is 0.50 to use this payment method."
 msgstr ""
 
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:271
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:277
 #, php-format
 #@ woocommerce
 msgid "%s - Subscription for \"%s\""
 msgstr ""
 
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:271
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:391
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:277
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:393
 #, php-format
 #@ woocommerce
 msgid "(Order #%s)"
 msgstr ""
 
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:280
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:396
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:282
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:398
 #@ woocommerce
 msgid "Customer not found"
 msgstr ""
 
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:320
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:419
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:322
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:421
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:486
 #, php-format
 #@ woocommerce
 msgid "Simplify payment approved (ID: %s, Auth Code: %s)"
 msgstr ""
 
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:324
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:326
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:349
 #@ woocommerce
 msgid "Simplify payment declined"
 msgstr ""
 
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:326
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:328
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:351
 #@ woocommerce
 msgid "Payment was declined - please try another card."
 msgstr ""
 
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:391
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:393
 #, php-format
 #@ woocommerce
 msgid "%s - Pre-order for \"%s\""
 msgstr ""
 
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:421
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:423
 #@ woocommerce
 msgid "Payment was declined - the customer need to try another card."
 msgstr ""
 
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:424
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:426
 #, php-format
 #@ woocommerce
 msgid "Simplify Transaction Failed (%s)"
 msgstr ""
 
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:468
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:470
 #: includes/gateways/simplify-commerce/class-wc-gateway-simplify-commerce.php:458
 #@ woocommerce
 msgid "Payment was declined by Simplify Commerce."
@@ -17402,7 +17382,7 @@ msgstr "Mã đơn hàng:"
 msgid "Date:"
 msgstr "Ngày:"
 
-#: includes/abstracts/abstract-wc-order.php:1794
+#: includes/abstracts/abstract-wc-order.php:1817
 #: includes/shortcodes/class-wc-shortcode-checkout.php:139
 #: templates/checkout/thankyou.php:48
 #@ woocommerce
@@ -17508,256 +17488,256 @@ msgstr ""
 msgid "[Remove]"
 msgstr ""
 
-#: includes/wc-core-functions.php:76
+#: includes/wc-core-functions.php:78
 #, php-format
 #@ woocommerce
 msgid "Order &ndash; %s"
 msgstr ""
 
-#: includes/wc-core-functions.php:76
-#: includes/wc-order-functions.php:614
+#: includes/wc-core-functions.php:78
+#: includes/wc-order-functions.php:615
 #, php-format
 #@ woocommerce
 msgctxt "Order date parsed by strftime"
 msgid "%b %d, %Y @ %I:%M %p"
 msgstr ""
 
-#: includes/wc-core-functions.php:81
+#: includes/wc-core-functions.php:84
 #@ woocommerce
 msgid "Invalid order status"
 msgstr ""
 
-#: includes/wc-core-functions.php:124
+#: includes/wc-core-functions.php:129
 #@ woocommerce
 msgid "Invalid order ID"
 msgstr ""
 
-#: includes/wc-core-functions.php:254
+#: includes/wc-core-functions.php:259
 #@ woocommerce
 msgid "United Arab Emirates Dirham"
 msgstr ""
 
-#: includes/wc-core-functions.php:255
+#: includes/wc-core-functions.php:260
 #@ woocommerce
 msgid "Australian Dollars"
 msgstr ""
 
-#: includes/wc-core-functions.php:256
+#: includes/wc-core-functions.php:261
 #@ woocommerce
 msgid "Bangladeshi Taka"
 msgstr ""
 
-#: includes/wc-core-functions.php:257
+#: includes/wc-core-functions.php:262
 #@ woocommerce
 msgid "Brazilian Real"
 msgstr ""
 
-#: includes/wc-core-functions.php:258
+#: includes/wc-core-functions.php:263
 #@ woocommerce
 msgid "Bulgarian Lev"
 msgstr ""
 
-#: includes/wc-core-functions.php:259
+#: includes/wc-core-functions.php:264
 #@ woocommerce
 msgid "Canadian Dollars"
 msgstr ""
 
-#: includes/wc-core-functions.php:260
+#: includes/wc-core-functions.php:265
 #@ woocommerce
 msgid "Chilean Peso"
 msgstr ""
 
-#: includes/wc-core-functions.php:261
+#: includes/wc-core-functions.php:266
 #@ woocommerce
 msgid "Chinese Yuan"
 msgstr ""
 
-#: includes/wc-core-functions.php:262
+#: includes/wc-core-functions.php:267
 #@ woocommerce
 msgid "Colombian Peso"
 msgstr ""
 
-#: includes/wc-core-functions.php:263
+#: includes/wc-core-functions.php:268
 #@ woocommerce
 msgid "Czech Koruna"
 msgstr ""
 
-#: includes/wc-core-functions.php:264
+#: includes/wc-core-functions.php:269
 #@ woocommerce
 msgid "Danish Krone"
 msgstr ""
 
-#: includes/wc-core-functions.php:265
+#: includes/wc-core-functions.php:270
 #@ woocommerce
 msgid "Dominican Peso"
 msgstr ""
 
-#: includes/wc-core-functions.php:266
+#: includes/wc-core-functions.php:271
 #@ woocommerce
 msgid "Euros"
 msgstr ""
 
-#: includes/wc-core-functions.php:267
+#: includes/wc-core-functions.php:272
 #@ woocommerce
 msgid "Hong Kong Dollar"
 msgstr ""
 
-#: includes/wc-core-functions.php:268
+#: includes/wc-core-functions.php:273
 #@ woocommerce
 msgid "Croatia kuna"
 msgstr ""
 
-#: includes/wc-core-functions.php:269
+#: includes/wc-core-functions.php:274
 #@ woocommerce
 msgid "Hungarian Forint"
 msgstr ""
 
-#: includes/wc-core-functions.php:270
+#: includes/wc-core-functions.php:275
 #@ woocommerce
 msgid "Icelandic krona"
 msgstr ""
 
-#: includes/wc-core-functions.php:271
+#: includes/wc-core-functions.php:276
 #@ woocommerce
 msgid "Indonesia Rupiah"
 msgstr ""
 
-#: includes/wc-core-functions.php:272
+#: includes/wc-core-functions.php:277
 #@ woocommerce
 msgid "Indian Rupee"
 msgstr ""
 
-#: includes/wc-core-functions.php:273
+#: includes/wc-core-functions.php:278
 #@ woocommerce
 msgid "Nepali Rupee"
 msgstr ""
 
-#: includes/wc-core-functions.php:274
+#: includes/wc-core-functions.php:279
 #@ woocommerce
 msgid "Israeli Shekel"
 msgstr ""
 
-#: includes/wc-core-functions.php:275
+#: includes/wc-core-functions.php:280
 #@ woocommerce
 msgid "Japanese Yen"
 msgstr ""
 
-#: includes/wc-core-functions.php:276
+#: includes/wc-core-functions.php:281
 #@ woocommerce
 msgid "Lao Kip"
 msgstr ""
 
-#: includes/wc-core-functions.php:277
+#: includes/wc-core-functions.php:282
 #@ woocommerce
 msgid "South Korean Won"
 msgstr ""
 
-#: includes/wc-core-functions.php:278
+#: includes/wc-core-functions.php:283
 #@ woocommerce
 msgid "Malaysian Ringgits"
 msgstr ""
 
-#: includes/wc-core-functions.php:279
+#: includes/wc-core-functions.php:284
 #@ woocommerce
 msgid "Mexican Peso"
 msgstr ""
 
-#: includes/wc-core-functions.php:280
+#: includes/wc-core-functions.php:285
 #@ woocommerce
 msgid "Nigerian Naira"
 msgstr ""
 
-#: includes/wc-core-functions.php:281
+#: includes/wc-core-functions.php:286
 #@ woocommerce
 msgid "Norwegian Krone"
 msgstr ""
 
-#: includes/wc-core-functions.php:282
+#: includes/wc-core-functions.php:287
 #@ woocommerce
 msgid "New Zealand Dollar"
 msgstr ""
 
-#: includes/wc-core-functions.php:283
+#: includes/wc-core-functions.php:288
 #@ woocommerce
 msgid "Paraguayan Guaraní"
 msgstr ""
 
-#: includes/wc-core-functions.php:284
+#: includes/wc-core-functions.php:289
 #@ woocommerce
 msgid "Philippine Pesos"
 msgstr ""
 
-#: includes/wc-core-functions.php:285
+#: includes/wc-core-functions.php:290
 #@ woocommerce
 msgid "Polish Zloty"
 msgstr ""
 
-#: includes/wc-core-functions.php:286
+#: includes/wc-core-functions.php:291
 #@ woocommerce
 msgid "Pounds Sterling"
 msgstr ""
 
-#: includes/wc-core-functions.php:287
+#: includes/wc-core-functions.php:292
 #@ woocommerce
 msgid "Romanian Leu"
 msgstr ""
 
-#: includes/wc-core-functions.php:288
+#: includes/wc-core-functions.php:293
 #@ woocommerce
 msgid "Russian Ruble"
 msgstr ""
 
-#: includes/wc-core-functions.php:289
+#: includes/wc-core-functions.php:294
 #@ woocommerce
 msgid "Singapore Dollar"
 msgstr ""
 
-#: includes/wc-core-functions.php:290
+#: includes/wc-core-functions.php:295
 #@ woocommerce
 msgid "South African rand"
 msgstr ""
 
-#: includes/wc-core-functions.php:291
+#: includes/wc-core-functions.php:296
 #@ woocommerce
 msgid "Swedish Krona"
 msgstr ""
 
-#: includes/wc-core-functions.php:292
+#: includes/wc-core-functions.php:297
 #@ woocommerce
 msgid "Swiss Franc"
 msgstr ""
 
-#: includes/wc-core-functions.php:293
+#: includes/wc-core-functions.php:298
 #@ woocommerce
 msgid "Taiwan New Dollars"
 msgstr ""
 
-#: includes/wc-core-functions.php:294
+#: includes/wc-core-functions.php:299
 #@ woocommerce
 msgid "Thai Baht"
 msgstr ""
 
-#: includes/wc-core-functions.php:295
+#: includes/wc-core-functions.php:300
 #@ woocommerce
 msgid "Turkish Lira"
 msgstr ""
 
-#: includes/wc-core-functions.php:296
+#: includes/wc-core-functions.php:301
 #@ woocommerce
 msgid "Ukrainian Hryvnia"
 msgstr ""
 
-#: includes/wc-core-functions.php:297
+#: includes/wc-core-functions.php:302
 #@ woocommerce
 msgid "US Dollars"
 msgstr ""
 
-#: includes/wc-core-functions.php:298
+#: includes/wc-core-functions.php:303
 #@ woocommerce
 msgid "Vietnamese Dong"
 msgstr ""
 
-#: includes/wc-core-functions.php:299
+#: includes/wc-core-functions.php:304
 #@ woocommerce
 msgid "Egyptian Pound"
 msgstr ""
@@ -17821,19 +17801,19 @@ msgstr ""
 msgid "Unpaid order cancelled - time limit reached."
 msgstr ""
 
-#: includes/wc-order-functions.php:614
+#: includes/wc-order-functions.php:615
 #, php-format
 #@ woocommerce
 msgid "Refund &ndash; %s"
 msgstr ""
 
-#: includes/wc-page-functions.php:106
+#: includes/wc-page-functions.php:112
 #@ woocommerce
 msgctxt "edit-address-slug"
 msgid "billing"
 msgstr ""
 
-#: includes/wc-page-functions.php:107
+#: includes/wc-page-functions.php:113
 #@ woocommerce
 msgctxt "edit-address-slug"
 msgid "shipping"
@@ -19273,7 +19253,7 @@ msgstr ""
 msgid "http://woothemes.com"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-order.php:1721
+#: includes/abstracts/abstract-wc-order.php:1744
 #@ woocommerce
 msgid "Subtotal:"
 msgstr ""
@@ -19425,7 +19405,7 @@ msgid_plural "%s are required fields"
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:310
+#: includes/gateways/simplify-commerce/class-wc-addons-gateway-simplify-commerce.php:312
 #, php-format
 #@ woocommerce
 msgid "Simplify payment error: %s"
@@ -19459,6 +19439,6 @@ msgstr ""
 #. translators: plugin header field 'Version'
 #: woocommerce.php:0
 #@ woocommerce
-msgid "2.3.6"
+msgid "2.3.8"
 msgstr ""
 
