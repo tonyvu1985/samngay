@@ -2027,6 +2027,7 @@ ul.products li.product {
 ul.products li.product h3 {
 /*  margin-bottom: 0;*/
 	padding:0 6px;
+	color:#555;
 }
 ul.products li.product a:hover h3 {
   color: #CC0066;
