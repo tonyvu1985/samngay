@@ -47,7 +47,7 @@ function get_brand_by_cat($cat_slug){
 		$brand_html .= "<a href='"  . get_bloginfo('url') . '/product-category/' . $cat_slug . '/?filter_nhan-hieu=' . $id . "'>" . $name . "</a>" . "&nbsp &nbsp";
 	}
 	if($brand_html){
-		echo "<h3 class='shopbybrand'>Mua sắm theo thương hiệu &nbsp</h3>" . $brand_html . "<br/><br/>";
+		echo "<h3 class='shopbybrand'><i class='icon-heart-empty'></i> Mua sắm theo thương hiệu &nbsp</h3>" . $brand_html . "<br/><br/>";
 	}
 }
 
