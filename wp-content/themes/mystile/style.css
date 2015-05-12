@@ -1,5 +1,5 @@
 /* TonyVu - custom CSS */
-.salepercent{background: #333; color: #fff; margin-right: 10px; padding: 5px;}
+.salepercent{background: #333; color: #fff; margin: 0 10px 10px 0px; padding: 5px 0px 5px 10px;}
 .cart-detail{width:350px; position: fixed; z-index: 101; border: 1px solid #ddd; right: 2%; top:43px; background: #fff; box-shadow: 1px 1px 1px #eee; display:none;}
 .cart-detail .icon-remove{margin-right:10px; cursor:pointer;}
 .cart-detail .heading{font-size:16px; margin-left:10px; margin-bottom:0;}

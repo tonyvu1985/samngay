@@ -1,11 +1,11 @@
 <div class="row" id="carousel-samngay">
 	<div class="col-sm-6 col-md-3"><!-- col 1 -->
 		 <div class="thumbnail">
-                        <img alt="Neutrogena Naturals" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/03/bnNeutrogena-Naturals.png' ?>" data-holder-rendered="true">
+                        <img alt="sản phẩm chăm sóc tóc" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/05/bnHairCare.png' ?>" data-holder-rendered="true">
                         <div class="caption">
-                                <h3 id="thumbnail-label">Neutrogena Naturals</h3>
-                                <p>Sữa rửa mặt, kem dưỡng ẩm, kem chống nắng...</p>
-                                <a href="<?php echo get_bloginfo('url') . '/product-tag/neutrogena/?filter_nhan-hieu=61' ?>" class="btn btn-default">Xem ngay</a>
+				<p class="salepercent">-30% OFF đến 4 giờ chiều 13.05.15</p>
+                                <h3 id="thumbnail-label">Dầu gội và kem dưỡng tóc ...</h3>
+                                <a href="<?php echo get_bloginfo('url') . '/product-category/cham-soc-toc/' ?>" class="btn btn-default">Xem ngay</a>
                         </div>
                 </div>
 	</div>
