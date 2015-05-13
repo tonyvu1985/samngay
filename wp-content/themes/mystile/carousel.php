@@ -3,8 +3,8 @@
 		 <div class="thumbnail">
                         <img alt="sản phẩm chăm sóc tóc" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/05/bnHairCare.png' ?>" data-holder-rendered="true">
                         <div class="caption">
-				<p class="salepercent">-30% OFF đến 4 giờ chiều 13.05.15</p>
-                                <h3 id="thumbnail-label">Dầu gội và kem dưỡng tóc ...</h3>
+                                <h3 id="thumbnail-label">Sản phẩm dưỡng tóc</h3>
+				<p>Dầu gội và kem dưỡng tóc ...</p>
                                 <a href="<?php echo get_bloginfo('url') . '/product-category/cham-soc-toc/' ?>" class="btn btn-default">Xem ngay</a>
                         </div>
                 </div>
