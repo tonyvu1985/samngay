@@ -106,6 +106,7 @@ class WC_Swatch_Term {
 
         $out = '<div class="select-option swatch-wrapper" data-name="' . esc_js( esc_attr($this->term_label) ) . '" data-value="' . md5( $this->term_slug ) . '" ' . ($this->selected ? 'data-default="true"' : '') . '>';
         $out .= apply_filters('woocommerce_swatches_picker_html', $picker, $this);
+        $out .= '<p class="swatch-label">' .   esc_js( esc_attr($this->term_label)) . '</p>';
         $out .= '</div>';
 
         return $out;
