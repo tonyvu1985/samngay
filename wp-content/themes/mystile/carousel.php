@@ -35,7 +35,7 @@
 			<div class="caption">
 				<h3 id="thumbnail-label">Face of Australia</h3>
 				<p>Dòng sản phẩm Face of Australia ...</p>
-				<a href="<?php echo  get_bloginfo('url') . '/product-category/my-pham/moi/?filter_nhan-hieu=157' ?>" class="btn btn-default">Xem ngay</a>
+				<a href="<?php echo  get_bloginfo('url') . '/product-category/my-pham/?filter_nhan-hieu=157' ?>" class="btn btn-default">Xem ngay</a>
 			</div>
 		</div>
 	</div>
