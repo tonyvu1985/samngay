@@ -33,9 +33,9 @@
 		<div class="thumbnail">
 			<img alt="Dòng sản phẩm son môi" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/04/bnlipstick.png' ?>" data-holder-rendered="true">
 			<div class="caption">
-				<h3 id="thumbnail-label">Dòng sản phẩm son môi</h3>
-				<p>Son môi nước, son dưỡng môi, son môi khoáng chất ...</p>
-				<a href="<?php echo  get_bloginfo('url') . '/product-category/my-pham/moi/' ?>" class="btn btn-default">Xem ngay</a>
+				<h3 id="thumbnail-label">Face of Australia</h3>
+				<p>Dòng sản phẩm Face of Australia ...</p>
+				<a href="<?php echo  get_bloginfo('url') . '/product-category/my-pham/moi/?filter_nhan-hieu=157' ?>" class="btn btn-default">Xem ngay</a>
 			</div>
 		</div>
 	</div>
