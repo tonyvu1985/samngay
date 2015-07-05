@@ -1,11 +1,11 @@
 <div class="row" id="carousel-samngay">
 	<div class="col-sm-6 col-md-3"><!-- col 1 -->
 		 <div class="thumbnail">
-                        <img alt="sản phẩm chăm sóc tóc" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/05/bnHairCare.png' ?>" data-holder-rendered="true">
+                        <img alt="sản phẩm chăm sóc da" src="<?php echo get_bloginfo('url') . '/wp-content/uploads/2015/07/bnElucent.png' ?>" data-holder-rendered="true">
                         <div class="caption">
-                                <h3 id="thumbnail-label">Sản phẩm dưỡng tóc</h3>
-				<p>Dầu gội và kem dưỡng tóc ...</p>
-                                <a href="<?php echo get_bloginfo('url') . '/product-category/cham-soc-toc/' ?>" class="btn btn-default">Xem ngay</a>
+                                <h3 id="thumbnail-label">Sản phẩm chăm sóc da</h3>
+				<p>Kem dưỡng da cháy nắng, chống lão hóa...</p>
+                                <a href="<?php echo get_bloginfo('url') . '/product-category/cham-soc-da/?filter_nhan-hieu=392' ?>" class="btn btn-default">Xem ngay</a>
                         </div>
                 </div>
 	</div>
